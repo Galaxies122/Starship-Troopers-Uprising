@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+<!-- Afflictions -->
+<afflictionname.internaldamage>Internal damage</afflictionname.internaldamage>
+<afflictiondescription.internaldamage>There are signs of burst blood vessels and of organ damage.</afflictiondescription.internaldamage>
+<afflictioncauseofdeath.internaldamage>Died of internal injuries.</afflictioncauseofdeath.internaldamage>
+<afflictioncauseofdeathself.internaldamage>You have succumbed to your internal injuries.</afflictioncauseofdeathself.internaldamage>
+<afflictionname.bleeding>Bleeding</afflictionname.bleeding>
+<afflictiondescription.bleeding>Blood pours freely from this ragged and particularly nasty open wound.</afflictiondescription.bleeding>
+<afflictioncauseofdeath.bleeding>Bled to death.</afflictioncauseofdeath.bleeding>
+<afflictioncauseofdeathself.bleeding>You have bled to death.</afflictioncauseofdeathself.bleeding>
+<afflictionname.burn>Burn</afflictionname.burn>
+<afflictiondescription.burn>The area is blistered and red, and skin is already beginning to peel away in sheets.</afflictiondescription.burn>
+<afflictioncauseofdeath.burn>Burned to death.</afflictioncauseofdeath.burn>
+<afflictioncauseofdeathself.burn>You have burned to death.</afflictioncauseofdeathself.burn>
+<afflictionname.oxygenlow>Oxygen low</afflictionname.oxygenlow>
+<afflictiondescription.oxygenlow>The skin is pale and clammy, and the lips turning blue.</afflictiondescription.oxygenlow>
+<afflictioncauseofdeath.oxygenlow>Suffocated.</afflictioncauseofdeath.oxygenlow>
+<afflictioncauseofdeathself.oxygenlow>You have suffocated.</afflictioncauseofdeathself.oxygenlow>
+<afflictionname.bloodloss>Blood loss</afflictionname.bloodloss>
+<afflictiondescription.bloodloss>The patient is pale and cold. Their heart beats in an alarmingly rapid fashion.</afflictiondescription.bloodloss>
+<afflictioncauseofdeath.bloodloss>Bled to death.</afflictioncauseofdeath.bloodloss>
+<afflictioncauseofdeathself.bloodloss>You have bled to death.</afflictioncauseofdeathself.bloodloss>
+<afflictionname.stun>Stun</afflictionname.stun>
+<afflictiondescription.stun>The patient is dazed and unresponsive.</afflictiondescription.stun>
+<afflictionname.pressure>Barotrauma</afflictionname.pressure>
+<afflictiondescription.pressure>Multiple fist-sized holes have been punched through the patient's body. There is obvious massive organ damage.</afflictiondescription.pressure>
+<afflictioncauseofdeath.pressure>Penetrated by micrometeors.</afflictioncauseofdeath.pressure>
+<afflictioncauseofdeathself.pressure>You have been penetrated by micrometeors.</afflictioncauseofdeathself.pressure>
+<afflictionname.huskinfection>Unknown infection</afflictionname.huskinfection>
+<afflictiondescription.huskinfection>Something dark and unpleasant moves in the mouth. They are rendered completely mute, save for occasional clicking sounds apparently emanating from deep within the throat.</afflictiondescription.huskinfection>
+<afflictioncauseofdeath.huskinfection>Taken over by an arachnid gestation.</afflictioncauseofdeath.huskinfection>
+<afflictioncauseofdeathself.huskinfection>You have been taken over by the arachnid gestation in your stomach.</afflictioncauseofdeathself.huskinfection>
+<afflictionname.psychosis>Psychosis</afflictionname.psychosis>
+<afflictiondescription.psychosis>The patient rants and mutters in an agitated fashion, a steady commentary of unseen events.</afflictiondescription.psychosis>
+<afflictionname.drunk>Drunk</afflictionname.drunk>
+<afflictiondescription.drunk>The smell of alcohol rises from them like a vapor, their speech slurs a little, and their eyes fail to focus.</afflictiondescription.drunk>
+<afflictioncauseofdeath.drunk>Died of alcohol poisoning.</afflictioncauseofdeath.drunk>
+<afflictioncauseofdeathself.drunk>You have died of alcohol poisoning.</afflictioncauseofdeathself.drunk>
+<afflictionname.opiatewithdrawal>Opiate withdrawal</afflictionname.opiatewithdrawal>
+<afflictiondescription.opiatewithdrawal>Agitation and a tremor are obvious, as are the signs of nausea.</afflictiondescription.opiatewithdrawal>
+<afflictioncauseofdeath.opiatewithdrawal>Died of opiate withdrawal.</afflictioncauseofdeath.opiatewithdrawal>
+<afflictioncauseofdeathself.opiatewithdrawal>You have died of opiate withdrawal.</afflictioncauseofdeathself.opiatewithdrawal>
+<afflictionname.opiateoverdose>Opiate overdose</afflictionname.opiateoverdose>
+<afflictiondescription.opiateoverdose>The patient has pinpoint pupils and icy cold skin. They struggle to breathe and swallow.</afflictiondescription.opiateoverdose>
+<afflictioncauseofdeath.opiateoverdose>Died of opiate overdose.</afflictioncauseofdeath.opiateoverdose>
+<afflictioncauseofdeathself.opiateoverdose>You have died of opiate overdose.</afflictioncauseofdeathself.opiateoverdose>
+<afflictionname.opiateaddiction>Opiate addiction</afflictionname.opiateaddiction>
+<afflictiondescription.opiateaddiction>The patient is happy enough...so long as they get what they need.</afflictiondescription.opiateaddiction>
+<afflictionname.gunshotwound>Gunshot wound</afflictionname.gunshotwound>
+<afflictiondescription.gunshotwound>The entry site is a small, dark, bruised hole oozing a little blood. The exit wound, however, is a large ragged mess of exposed tissue, and it's pouring blood.</afflictiondescription.gunshotwound>
+<afflictioncauseofdeath.gunshotwound>Shot to death.</afflictioncauseofdeath.gunshotwound>
+<afflictioncauseofdeathself.gunshotwound>You have died of gunshot wounds.</afflictioncauseofdeathself.gunshotwound>
+<afflictionname.morbusinepoisoning>Morbusine poisoning</afflictionname.morbusinepoisoning>
+<afflictiondescription.morbusinepoisoning>The patient can't breathe at all, and their heart rate is slowing rapidly.</afflictiondescription.morbusinepoisoning>
+<afflictioncauseofdeath.morbusinepoisoning>Died of morbusine poisoning.</afflictioncauseofdeath.morbusinepoisoning>
+<afflictioncauseofdeathself.morbusinepoisoning>You have died of morbusine poisoning.</afflictioncauseofdeathself.morbusinepoisoning>
+<afflictionname.sufforinpoisoning>Sufforin poisoning</afflictionname.sufforinpoisoning>
+
+<afflictioncauseofdeath.sufforinpoisoning>Died of sufforin poisoning.</afflictioncauseofdeath.sufforinpoisoning>
+<afflictioncauseofdeathself.sufforinpoisoning>You have died of sufforin poisoning.</afflictioncauseofdeathself.sufforinpoisoning>
+<afflictionname.cyanidepoisoning>Cyanide poisoning</afflictionname.cyanidepoisoning>
+
+<afflictioncauseofdeath.cyanidepoisoning>Died of cyanide poisoning.</afflictioncauseofdeath.cyanidepoisoning>
+<afflictioncauseofdeathself.cyanidepoisoning>You have died of cyanide poisoning.</afflictioncauseofdeathself.cyanidepoisoning>
+<afflictionname.blunttrauma>Blunt force trauma</afflictionname.blunttrauma>
+<afflictiondescription.blunttrauma>The area is an ugly shade of purple, and apparently very painful to touch. You suspect a bone might be broken.</afflictiondescription.blunttrauma>
+<afflictioncauseofdeath.blunttrauma>Died of blunt force trauma.</afflictioncauseofdeath.blunttrauma>
+<afflictioncauseofdeathself.blunttrauma>You have succumbed to injuries from blunt force trauma.</afflictioncauseofdeathself.blunttrauma>
+<afflictionname.lacerations>Lacerations</afflictionname.lacerations>
+<afflictiondescription.lacerations>The skin is pierced and there are deep, bleeding wounds.</afflictiondescription.lacerations>
+<afflictioncauseofdeath.lacerations>Died of lacerations.</afflictioncauseofdeath.lacerations>
+<afflictioncauseofdeathself.lacerations>You have succumbed to your wounds.</afflictioncauseofdeathself.lacerations>
+<afflictionname.bitewounds>Bite wounds</afflictionname.bitewounds>
+<afflictiondescription.bitewounds>There is extensive damage to soft tissue in the area and there are asymmetrical, bleeding wounds.</afflictiondescription.bitewounds>
+<afflictioncauseofdeath.bitewounds>Mauled to death.</afflictioncauseofdeath.bitewounds>
+<afflictioncauseofdeathself.bitewounds>You have been mauled to death.</afflictioncauseofdeathself.bitewounds>
+<afflictionname.radiationsickness>Radiation sickness</afflictionname.radiationsickness>
+<afflictiondescription.radiationsickness>The patient's skin is red and blistering.</afflictiondescription.radiationsickness>
+<afflictionname.deliriuminepoisoning>Deliriumine poisoning</afflictionname.deliriuminepoisoning>
+<afflictiondescription.deliriuminepoisoning>The patient seems agitated, with small but noticeable nervous twitches in their face and hands.</afflictiondescription.deliriuminepoisoning>
+<afflictionname.paralysis>Paralysis</afflictionname.paralysis>
+<afflictiondescription.paralysis>The patient has trouble moving.</afflictiondescription.paralysis>
+<afflictionname.organdamage>Organ damage</afflictionname.organdamage>
+<afflictiondescription.organdamage>The patient is suffering from sharp pain in their internal organs. There is no visible damage to the epidermis.</afflictiondescription.organdamage>
+<afflictioncauseofdeath.organdamage>Perished as a result of internal organ failure.</afflictioncauseofdeath.organdamage>
+<afflictioncauseofdeathself.organdamage>You have perished as a result of internal organ failure.</afflictioncauseofdeathself.organdamage>
+<afflictionname.explosiondamage>Deep tissue injury</afflictionname.explosiondamage>
+<afflictiondescription.explosiondamage>The area is colored purple. The tissue underneath feels different than the surrounding skin.</afflictiondescription.explosiondamage>
+<afflictioncauseofdeath.explosiondamage>Succumbed to deep tissue injuries.</afflictioncauseofdeath.explosiondamage>
+<afflictioncauseofdeathself.explosiondamage>You have succumbed to your deep tissue injuries.</afflictioncauseofdeathself.explosiondamage>
+<afflictionname.captainbuff>Cool and collected</afflictionname.captainbuff>
+<afflictionname.nausea>Nausea</afflictionname.nausea>
+<afflictiondescription.nausea>The skin is clammy and the patient is vomiting periodically.</afflictiondescription.nausea>
+<afflictioncauseofdeath.nausea>Choked on vomit.</afflictioncauseofdeath.nausea>
+<afflictioncauseofdeathself.nausea>You have choked on your own vomit.</afflictioncauseofdeathself.nausea>
+<afflictionname.watchersgaze>Watcher's Gaze</afflictionname.watchersgaze>
+<afflictiondescription.watchersgaze>Seeming confused and slightly terrified, the patient doesn't look good. Could it be a mental breakdown? A stress reaction? There's not much you can do about it.</afflictiondescription.watchersgaze>
+<afflictioncauseofdeath.watchersgaze>Stared to death by a Watcher.</afflictioncauseofdeath.watchersgaze>
+<afflictioncauseofdeathself.watchersgaze>Stared to death by a Watcher.</afflictioncauseofdeathself.watchersgaze>
+<afflictionname.hallucinating>Hallucinating</afflictionname.hallucinating>
+<afflictionname.reaperstax>Reaper's Tax</afflictionname.reaperstax>
+<afflictiondescription.reaperstax>The patient is tormented by painful visions of death and rebirth. Memories of past lives or just a stress reaction...? Consulting a medical doctor at an outpost is advised.</afflictiondescription.reaperstax>
+<afflictioncauseofdeath.reaperstax>The Reaper took his toll.</afflictioncauseofdeath.reaperstax>
+<afflictioncauseofdeathself.reaperstax>The Reaper took his toll.</afflictioncauseofdeathself.reaperstax>
+<afflictionname.concussion>Concussion</afflictionname.concussion>
+<afflictiondescription.concussion>The patient seems disoriented and has trouble focusing their eyes.</afflictiondescription.concussion>
+<afflictionname.disguised>Disguised</afflictionname.disguised>
+<afflictiondescription.disguised>As long as you keep covering your face, others might not be able to tell who you are...</afflictiondescription.disguised>
+<afflictiondescription.hallucinating>The things you hear and see appear so real! But are they?</afflictiondescription.hallucinating>
+<afflictiontype.damage>Damage</afflictiontype.damage>
+<afflictiondescription.internaldamage.low>No injuries are visible externally, but the sweating and aches suggest something is amiss.</afflictiondescription.internaldamage.low>
+<afflictiondescription.blunttrauma.low>A light bruise shows where something hit, but it doesn’t look like anything is broken.</afflictiondescription.blunttrauma.low>
+<afflictiondescription.lacerations.low>The cuts look worse than they really are.</afflictiondescription.lacerations.low>
+<afflictiondescription.bitewounds.low>Something tried to take a big chomp but luckily only caught a nibble. It will leave a scar though.</afflictiondescription.bitewounds.low>
+<afflictiondescription.gunshotwound.low>The bullet missed all the important bits and went straight through, but the pain is real and so is the risk of infection.</afflictiondescription.gunshotwound.low>
+<afflictiondescription.organdamage.self>You feel a sharp pain in your abdomen. There are no wounds to be seen.</afflictiondescription.organdamage.self>
+<afflictiondescription.explosiondamage.low>The area of skin appears slightly bruised.</afflictiondescription.explosiondamage.low>
+<afflictiondescription.bleeding.low>Blood is slowly dripping out from the wound.</afflictiondescription.bleeding.low>
+<afflictiondescription.bleeding.high>Blood is gushing out at an alarming rate.</afflictiondescription.bleeding.high>
+<afflictiondescription.burn.low>The area is red and dry.</afflictiondescription.burn.low>
+<afflictiondescription.burn.high>The skin is white and partially charred; this looks severe.</afflictiondescription.burn.high>
+<afflictionname.acidburn>Acid Burn</afflictionname.acidburn>
+<afflictiondescription.acidburn.low>The skin is irritated and raw.</afflictiondescription.acidburn.low>
+<afflictiondescription.acidburn>Parts of the flesh are stripped away by acid; a mixture of red and white mark the edges.</afflictiondescription.acidburn>
+<afflictiondescription.acidburn.high>The flesh has deformed and essentially melted away due to high amounts of acid.</afflictiondescription.acidburn.high>
+<afflictiondescription.oxygenlow.low>Restless anxiety and headaches hint at low blood oxygen levels.</afflictiondescription.oxygenlow.low>
+<afflictiondescription.bloodloss.low.self>You feel cold and fatigued.</afflictiondescription.bloodloss.low.self>
+<afflictiondescription.bloodloss.high.self>You feel cold and dizzy, probably not far from passing out.</afflictiondescription.bloodloss.high.self>
+<afflictiondescription.bloodloss.low>The patient's skin feels cold and moist.</afflictiondescription.bloodloss.low>
+<afflictiondescription.stun.self>You are temporarily rendered unable to move.</afflictiondescription.stun.self>
+<afflictiondescription.concussion.low>The patient seems slightly disoriented.</afflictiondescription.concussion.low>
+<afflictiondescription.concussion.low.self>Something hit you so hard your eyes are still shaking.</afflictiondescription.concussion.low.self>
+<afflictiondescription.concussion.high.self>A massive headache, your ears are ringing and your eyes refuse to focus. It takes a lot of effort to stand upright.</afflictiondescription.concussion.high.self>
+<afflictiondescription.huskinfection.dormant.self>There’s an itch in your throat; the source seems to move around.</afflictiondescription.huskinfection.dormant.self>
+<afflictiondescription.huskinfection.transition.self>Something growing in your throat prevents you from talking; it’s freaking you out.</afflictiondescription.huskinfection.transition.self>
+<afflictiondescription.huskinfection.active.self>Deep down you know you should be worried about the thing chittering and moving about in your mouth. Yet, you feel oddly at peace.</afflictiondescription.huskinfection.active.self>
+<afflictiondescription.huskinfection.dormant.other>A faint clicking noise can be heard occasionally from within the patient.</afflictiondescription.huskinfection.dormant.other>
+<afflictiondescription.huskinfection.transition.other>The patient is eerily silent, save for occasional clicking sounds apparently emanating from deep within the throat.</afflictiondescription.huskinfection.transition.other>
+<afflictiondescription.huskinfection.active.other>Something dark and unpleasant moves in the mouth. They are rendered completely mute.</afflictiondescription.huskinfection.active.other>
+<afflictiondescription.huskinfection.final>Violent seizures signal the emergence of the husk.</afflictiondescription.huskinfection.final>
+<afflictiondescription.spaceherpes.self>You feel as ugly on the outside as they said you were on the inside. Karma strikes back?</afflictiondescription.spaceherpes.self>
+<afflictiondescription.invertcontrols.self>You seem to have two left feet, and your brain disagrees with both. It’s like trying to walk mirrored.</afflictiondescription.invertcontrols.self>
+<afflictiondescription.psychosis.low>The patient insists they saw a spider the other day, but seem otherwise healthy.</afflictiondescription.psychosis.low>
+<afflictiondescription.drunk.self>After all… why not? Why shouldn’t you have another drink?</afflictiondescription.drunk.self>
+<afflictiondescription.drunk.lethal.self>Is it time to lie down? Oh the infinite bliss of drowning out your sorrow…</afflictiondescription.drunk.lethal.self>
+<afflictiondescription.drunk.low>This crewmate is in high spirits, perhaps a bit too high to operate complex machinery.</afflictiondescription.drunk.low>
+<afflictiondescription.drunk.lethal>This crewmate has departed this world mentally, with a grin on their face. You fear the crewmate's life functions will soon depart as well.</afflictiondescription.drunk.lethal>
+<afflictiondescription.opiatewithdrawal.low>Teary-eyed, sweaty and fidgety, the craving is growing.</afflictiondescription.opiatewithdrawal.low>
+<afflictiondescription.opiateoverdose.self>You feel disoriented and struggle to breathe. The world is very cold, even colder than usual.</afflictiondescription.opiateoverdose.self>
+<afflictiondescription.opiateaddiction.self>You’re feeling good… so long as the next fix isn’t too far.</afflictiondescription.opiateaddiction.self>
+<afflictiondescription.radiationsickness.low.self>You feel feverish. Even your skin feels as though it’s on fire.</afflictiondescription.radiationsickness.low.self>
+<afflictiondescription.radiationsickness.high.self>You’ve never felt nausea like this, and your body aches all over.</afflictiondescription.radiationsickness.high.self>
+<afflictiondescription.radiationsickness.high>The patient can’t stop vomiting, and they’re showing ulcers and various soft tissue symptoms.</afflictiondescription.radiationsickness.high>
+<afflictiondescription.morbusinepoisoning.low.self>You have some trouble breathing.</afflictiondescription.morbusinepoisoning.low.self>
+<afflictiondescription.morbusinepoisoning.high.self>You’re gasping for air, but to no avail.</afflictiondescription.morbusinepoisoning.high.self>
+<afflictiondescription.morbusinepoisoning.low>The patient’s breathing seems irregular.</afflictiondescription.morbusinepoisoning.low>
+<afflictiondescription.sufforinpoisoning>The patient is seemingly sick, and without a prompt treatment they will only get worse.</afflictiondescription.sufforinpoisoning>
+<afflictiondescription.sufforinpoisoning.high>The patient has been poisoned and is unable to move. Unless an antidote is found, the patient will eventually die in agony.</afflictiondescription.sufforinpoisoning.high>
+<afflictiondescription.sufforinpoisoning.medium.self>Your vision seems to be getting blurry and you feel the urgent need to regurgitate.</afflictiondescription.sufforinpoisoning.medium.self>
+<afflictiondescription.sufforinpoisoning.low>The patient’s symptoms are barely detectable, but may indicate poisoning.</afflictiondescription.sufforinpoisoning.low>
+<afflictiondescription.deliriuminepoisoning.high.self>You see and hear things that aren't there. They're the effects of Deliriumine poisoning.</afflictiondescription.deliriuminepoisoning.high.self>
+<afflictiondescription.deliriuminepoisoning.high>The patient is manic, their eyes darting around wildly. They're wondering how you can be so calm, when everything around you is on fire…</afflictiondescription.deliriuminepoisoning.high>
+<afflictiondescription.cyanidepoisoning.medium.self>You feel very very wrong. Have you been poisoned?</afflictiondescription.cyanidepoisoning.medium.self>
+<afflictiondescription.cyanidepoisoning.high.self>You regret not having invested in antidotes for Cyanide poisoning. Now you die.</afflictiondescription.cyanidepoisoning.high.self>
+<afflictiondescription.cyanidepoisoning.low>Scanning the patient reveals Cyanide poisoning. Unless administered an antidote, this will be fatal.</afflictiondescription.cyanidepoisoning.low>
+<afflictiondescription.cyanidepoisoning.high>The patient's mouth is foaming and they are rendered unable to move. You could probably steal their valuables and get away with it…</afflictiondescription.cyanidepoisoning.high>
+<afflictiondescription.cyanidepoisoning>The patient is gasping, the skin is blue, and there are occasional muscle spasms all over the body. Their condition is decreasing rapidly.</afflictiondescription.cyanidepoisoning>
+<afflictiondescription.paralysis.low.self>You’re having trouble moving your limbs.</afflictiondescription.paralysis.low.self>
+<afflictiondescription.paralysis.high.self>You can’t move a muscle.</afflictiondescription.paralysis.high.self>
+<afflictiondescription.paralysis.high>The patient is completely paralyzed and unable to move.</afflictiondescription.paralysis.high>
+<afflictiondescription.nausea.low>Feeling queasy, but nothing a rest wouldn't fix.</afflictiondescription.nausea.low>
+<afflictiondescription.nausea.high>You are really sick. Should you worry about it or just rest?</afflictiondescription.nausea.high>
+<afflictiondescription.watchersgaze.self>You can’t shake it. It will always be there, staring. Would tearing out your own eyes make it go away?</afflictiondescription.watchersgaze.self>
+<afflictiondescription.hallucinating.low>There's something strange going on with your senses.</afflictiondescription.hallucinating.low>
+<afflictiondescription.reaperstax.self>You’re plagued by a sense of déjà vu, and it’s too real. Maybe you should be glad you can only remember your death, and not your birth.</afflictiondescription.reaperstax.self>
+
+<!-- Buffs -->
+<afflictionname.durationincrease>Slow metabolism</afflictionname.durationincrease>
+<afflictiondescription.durationincrease>Causes chemicals to last longer.</afflictiondescription.durationincrease>
+<afflictionname.haste>Hyperactivity</afflictionname.haste>
+<afflictiondescription.haste>Movement speed and reflexes are heightened.</afflictiondescription.haste>
+<afflictionname.huskinfectionresistance>Husk infection resistance</afflictionname.huskinfectionresistance>
+
+<afflictionname.psychosisresistance>Psychosis resistance</afflictionname.psychosisresistance>
+<afflictiondescription.psychosisresistance>Patient exhibits high mental fortitude.</afflictiondescription.psychosisresistance>
+<afflictionname.pressureresistance>Pressure resistance</afflictionname.pressureresistance>
+<afflictiondescription.pressureresistance>Internal organs are more accustomed to high pressures.</afflictiondescription.pressureresistance>
+<afflictionname.strengthen>Vigor</afflictionname.strengthen>
+<afflictiondescription.strengthen>Patient's pain receptors are numbed.</afflictiondescription.strengthen>
+<afflictionname.paralysisresistance>Paralysis Resistance</afflictionname.paralysisresistance>
+<afflictiondescription.paralysisresistance>The patient's body is less affected by paralysis. It also seems to recover from any existing effects.</afflictiondescription.paralysisresistance>
+
+<!-- Genetic afflictions -->
+<afflictionname.increasedswimmingspeed>Crawler Genes</afflictionname.increasedswimmingspeed>
+<afflictiondescription.increasedswimmingspeed>Oxygen flows more freely into the subject's limbs, resulting in greater swimming speed.</afflictiondescription.increasedswimmingspeed>
+<afflictionname.naturalmeleeweapon>Mudraptor Genes</afflictionname.naturalmeleeweapon>
+<afflictiondescription.naturalmeleeweapon>A sharp beak is protruding from the subject's forehead.</afflictiondescription.naturalmeleeweapon>
+<afflictionname.naturalrangedweapon>Spineling Genes</afflictionname.naturalrangedweapon>
+<afflictiondescription.naturalrangedweapon>Sharp spikes are growing from the subject's back.</afflictiondescription.naturalrangedweapon>
+<afflictionname.damageresistance>Moloch Genes</afflictionname.damageresistance>
+<afflictiondescription.damageresistance>Subject's skin is hardened and more resistant to damage.</afflictiondescription.damageresistance>
+<afflictionname.decreasedoxygenconsumption>Tiger Thresher Genes</afflictionname.decreasedoxygenconsumption>
+<afflictiondescription.decreasedoxygenconsumption>Subject's lung capacity is grown, resulting in more efficient oxygen consumption.</afflictiondescription.decreasedoxygenconsumption>
+<afflictionname.increasedwalkingspeed>Mantis Genes</afflictionname.increasedwalkingspeed>
+<afflictiondescription.increasedwalkingspeed>Subject's bone structure is lighter, resulting in greater walking and running speed.</afflictiondescription.increasedwalkingspeed>
+<afflictionname.increasedmeleedamage>Hammerhead Genes</afflictionname.increasedmeleedamage>
+<afflictiondescription.increasedmeleedamage>Subject has gained muscle mass, resulting in greater strength.</afflictiondescription.increasedmeleedamage>
+<afflictionname.healdamage>Hammerhead Matriarch Genes</afflictionname.healdamage>
+<afflictiondescription.healdamage>Subject's wounds are healed at an accelerated rate.</afflictiondescription.healdamage>
+<afflictionname.vigorondamage>Mollusc Genes</afflictionname.vigorondamage>
+<afflictiondescription.vigorondamage>Subject's pain receptors are numbed in response to physical trauma.</afflictiondescription.vigorondamage>
+<afflictionname.hyperactivityondamage>Skitter Genes</afflictionname.hyperactivityondamage>
+<afflictiondescription.hyperactivityondamage>Subject's reflexes are heightened in response to physical trauma.</afflictiondescription.hyperactivityondamage>
+<afflictionname.increasedmeleedamageondamage>Hunter Genes</afflictionname.increasedmeleedamageondamage>
+<afflictiondescription.increasedmeleedamageondamage>Subject's adrenaline level is heightened in response to physical trauma.</afflictiondescription.increasedmeleedamageondamage>
+<afflictionname.increasedmeleedamage_temporary>Increased Melee Damage (Temporary)</afflictionname.increasedmeleedamage_temporary>
+<afflictionname.husktransformimmunity>Husk Genes</afflictionname.husktransformimmunity>
+<afflictiondescription.husktransformimmunity>Subject has gained a heightened tolerance for the husk parasite.</afflictiondescription.husktransformimmunity>
+<afflictionname.tunnelvision>Tunnel Vision</afflictionname.tunnelvision>
+<afflictiondescription.tunnelvision>Subject's eyes are sensitive to light.</afflictiondescription.tunnelvision>
+<afflictionname.rigidjoints>Rigid Joints</afflictionname.rigidjoints>
+<afflictiondescription.rigidjoints>Subject's joints are stiff and moving is more difficult.</afflictiondescription.rigidjoints>
+<afflictionname.hypersensitivity>Hypersensitivity</afflictionname.hypersensitivity>
+<afflictiondescription.hypersensitivity>Subject's skin is sore and more sensitive to touch.</afflictiondescription.hypersensitivity>
+<afflictionname.xenobiology>Xenobiology</afflictionname.xenobiology>
+<afflictiondescription.xenobiology>Subject's organs are resistant to traditional medicine.</afflictiondescription.xenobiology>
+<afflictionname.outsideinfluence>Outside Influence</afflictionname.outsideinfluence>
+<afflictiondescription.outsideinfluence>Subject hears unintelligible voices inside their head.</afflictiondescription.outsideinfluence>
+<afflictionname.glassjaw>Glass Jaw</afflictionname.glassjaw>
+<afflictiondescription.glassjaw>Subject suffers from longer periods of unconsciousness when knocked out.</afflictiondescription.glassjaw>
+<afflictionname.decrepify>Decrepify</afflictionname.decrepify>
+<afflictiondescription.decrepify>Subject's endurance is decreased.</afflictiondescription.decrepify>
+<afflictionname.musculardystrophy>Muscular Dystrophy</afflictionname.musculardystrophy>
+<afflictiondescription.musculardystrophy>Subject suffers from decreased muscle mass.</afflictiondescription.musculardystrophy>
+<afflictionname.inflamedlung>Inflamed Lung</afflictionname.inflamedlung>
+<afflictiondescription.inflamedlung>Subject has an adverse reaction to oxygen.</afflictiondescription.inflamedlung>
+
+<!-- Talent afflictions -->
+<afflictionname.regeneration>Regenerating</afflictionname.regeneration>
+<afflictiondescription.regeneration>The subject is slowly regaining their vitality.</afflictiondescription.regeneration>
+<afflictionname.repairflow>In the Flow</afflictionname.repairflow>
+<afflictiondescription.repairflow>The subject is in the flow, and able to repair devices effortlessly.</afflictiondescription.repairflow>
+<afflictionname.evasivemaneuvers>Emergency Maneuvers</afflictionname.evasivemaneuvers>
+<afflictiondescription.evasivemaneuvers>The subject has momentarily become a much better captain.</afflictiondescription.evasivemaneuvers>
+<afflictionname.skedaddle>Skedaddle</afflictionname.skedaddle>
+<afflictiondescription.skedaddle>The subject is skedaddling away!</afflictiondescription.skedaddle>
+<afflictionname.stonewall>Stonewall</afflictionname.stonewall>
+<afflictiondescription.stonewall>The subject has become sturdier and resistant to stuns.</afflictiondescription.stonewall>
+<afflictionname.clownpower>Clown Power</afflictionname.clownpower>
+<afflictiondescription.clownpower>Only by wearing the mask is the true self revealed.</afflictiondescription.clownpower>
+<afflictionname.soothingsounds>Soothing Sounds</afflictionname.soothingsounds>
+<afflictiondescription.soothingsounds>The sounds of clownery have a healing effect on the subject.</afflictiondescription.soothingsounds>
+<afflictionname.inspiringtunes>Inspiring Tunes</afflictionname.inspiringtunes>
+<afflictiondescription.inspiringtunes>The subject's skills are momentarily increased.</afflictiondescription.inspiringtunes>
+<afflictionname.tandemfire>Tandem Fire</afflictionname.tandemfire>
+<afflictiondescription.tandemfire>The subject is gaining combat effectiveness from being near an inspiring ally.</afflictiondescription.tandemfire>
+<afflictionname.tumbling>Tumbling</afflictionname.tumbling>
+<afflictiondescription.tumbling>The subject's effectiveness with pistols is increased.</afflictiondescription.tumbling>
+<afflictionname.quickdrawing>Ready to Draw</afflictionname.quickdrawing>
+<afflictiondescription.quickdrawing>The subject is prepared to draw.</afflictiondescription.quickdrawing>
+<afflictionname.dashing>Dashing</afflictionname.dashing>
+<afflictiondescription.dashing>The subject is moving forward, quickly.</afflictiondescription.dashing>
+<afflictionname.inspiredtoact>Inspired to Act</afflictionname.inspiredtoact>
+<afflictiondescription.inspiredtoact>The subject, ordered by their captain, has become stalwart and able!</afflictiondescription.inspiredtoact>
+<afflictionname.welldrilled>Well-drilled</afflictionname.welldrilled>
+<afflictiondescription.welldrilled>The subject, ordered by their captain, has become better at ship repairs and maintenance.</afflictiondescription.welldrilled>
+<afflictionname.battleready>Battle-ready</afflictionname.battleready>
+<afflictiondescription.battleready>The subject, ordered by their captain, is now a much better warrior.</afflictiondescription.battleready>
+<afflictionname.downwiththeship>Down with the Ship</afflictionname.downwiththeship>
+<afflictiondescription.downwiththeship>The subject refuses to abandon ship, and will do anything to restore it to its former glory.</afflictiondescription.downwiththeship>
+<afflictionname.powerattack>Powerattacking</afflictionname.powerattack>
+<afflictiondescription.powerattack>The subject is about to unleash a powerful attack.</afflictiondescription.powerattack>
+<afflictionname.pickinguptheslack>Picking Up the Slack</afflictionname.pickinguptheslack>
+<afflictiondescription.pickinguptheslack>The subject feels they must work a bit harder to make up for someone else.</afflictiondescription.pickinguptheslack>
+<afflictionname.pyromania>Pyromania</afflictionname.pyromania>
+<afflictiondescription.pyromania>The subject is enjoying the smell of searing flesh a bit too much.</afflictiondescription.pyromania>
+<afflictionname.tinkerexhaustion>Tinker Exhaustion</afflictionname.tinkerexhaustion>
+<afflictiondescription.tinkerexhaustion>The subject can't tinker with any more devices for the time being.</afflictiondescription.tinkerexhaustion>
+<afflictionname.bedsidemanner>Vitamin Supplements</afflictionname.bedsidemanner>
+<afflictiondescription.bedsidemanner>The subject is feeling very healthy.</afflictiondescription.bedsidemanner>
+<afflictionname.guarded>Guarded</afflictionname.guarded>
+<afflictiondescription.guarded>The subject is prepared for the next attack on them.</afflictiondescription.guarded>
+<afflictionname.skillfulmelodies>Skillful Melodies</afflictionname.skillfulmelodies>
+<afflictiondescription.skillfulmelodies>The subject has become better at learning.</afflictiondescription.skillfulmelodies>
+<afflictionname.combatstimulant>Combat Stimulant</afflictionname.combatstimulant>
+<afflictiondescription.combatstimulant>Gaining combat-based performance-boosting abilities.</afflictiondescription.combatstimulant>
+<afflictionname.chemaddiction>Chem addiction</afflictionname.chemaddiction>
+<afflictiondescription.chemaddiction>The patient has grown dependent on performance-boosting drugs.</afflictiondescription.chemaddiction>
+<afflictionname.chemwithdrawal>Chem withdrawal</afflictionname.chemwithdrawal>
+<afflictiondescription.chemwithdrawal>The patient sweats and twitches a lot, likely craving their next fix.</afflictiondescription.chemwithdrawal>
+<afflictionname.pressurestabilized>Pressure Stabilized</afflictionname.pressurestabilized>
+<afflictiondescription.pressurestabilized>The subject is immune to pressure and has no need for oxygen at this time.</afflictiondescription.pressurestabilized>
+<afflictionname.endocrineboost>Endocrine Boost</afflictionname.endocrineboost>
+<afflictiondescription.endocrineboost>The subject has gained heightened capabilities, permanently.</afflictiondescription.endocrineboost>
+<afflictionname.physicaldamage>Physical damage</afflictionname.physicaldamage>
+<afflictionname.implacable>Implacable</afflictionname.implacable>
+<afflictiondescription.implacable>The subject is unable to fall unconscious.</afflictiondescription.implacable>
+<afflictionname.lonewolf>Lone Wolf</afflictionname.lonewolf>
+<afflictiondescription.lonewolf>You thrive in isolation. Without interference of others, your capabilities are enhanced.</afflictiondescription.lonewolf>
+<afflictionname.deputy>Deputy</afflictionname.deputy>
+<afflictiondescription.deputy>Your captain trusts you to take care of the sub in case of their absence. You wouldn't let them down.</afflictiondescription.deputy>
+<afflictionname.highmorale>High Morale</afflictionname.highmorale>
+<afflictiondescription.highmorale>Your captain is leading by example. You feel confident and energetic.</afflictiondescription.highmorale>
+<afflictionname.excellentmorale>Excellent Morale</afflictionname.excellentmorale>
+<afflictiondescription.excellentmorale>This crew is like a family to you. Nobody messes with your little submarine family.</afflictiondescription.excellentmorale>
+<afflictionname.inspirationalleader>Inspirational Leader</afflictionname.inspirationalleader>
+<afflictiondescription.inspirationalleader>Your captain inspires and encourages you to learn.</afflictiondescription.inspirationalleader>
+<afflictionname.inspiringpresence>Notice me</afflictionname.inspiringpresence>
+<afflictiondescription.inspiringpresence>The presence of your captain makes you eager to impress.</afflictiondescription.inspiringpresence>
+<afflictionname.genetampering>Gene Tampering</afflictionname.genetampering>
+<afflictiondescription.genetampering>Your medical doctor has tampered with your genes, eliminating minor health issues.</afflictiondescription.genetampering>
+<afflictionname.emergencyresponse>Emergency Response</afflictionname.emergencyresponse>
+<afflictiondescription.emergencyresponse>It's fortunate food is scarce. It makes crewmmates that much easier to carry to safety.</afflictiondescription.emergencyresponse>
+<afflictionname.medicalassistance>Medical Assistant</afflictionname.medicalassistance>
+<afflictiondescription.medicalassistance>As long as you follow the Doctor's instructions, the patient will be fine.</afflictiondescription.medicalassistance>
+<afflictionname.miracleworker>Miracle In Progress</afflictionname.miracleworker>
+<afflictiondescription.miracleworker>Your lifeforces are fading, yet one Doctor shines bright like a beacon. While they're nearby, you won't give in.</afflictiondescription.miracleworker>
+<afflictionname.quickfixer>Quickfixer</afflictionname.quickfixer>
+<afflictiondescription.quickfixer>Gotta go speedily.</afflictiondescription.quickfixer>
+<afflictionname.berserker>Berserker</afflictionname.berserker>
+<afflictiondescription.berserker>They've bruised your body and, more importantly, your ego. You'll make them pay. Deal more damage.</afflictiondescription.berserker>
+<afflictionname.foolhardy>Foolhardy</afflictionname.foolhardy>
+<afflictiondescription.foolhardy>Dang, they sure gave you a beating. But what doesn't kill you makes you stronger. Resist some physical damage.</afflictiondescription.foolhardy>
+<afflictionname.revengesquad>Revenge Squad</afflictionname.revengesquad>
+<afflictiondescription.revengesquad>They killed our assistant. You don't remember their name, but you will avenge them. Temporarily take reduced damage.</afflictiondescription.revengesquad>
+<afflictionname.journeyman>Journeyman</afflictionname.journeyman>
+<afflictiondescription.journeyman>Once an apprentice proves their skill, they can efficiently help the professionals. Gain your primary skill faster.</afflictiondescription.journeyman>
+<afflictionname.loyalassistant>Loyal Assistant</afflictionname.loyalassistant>
+<afflictiondescription.loyalassistant>A friend is someone who walks into a room when everyone else is walking out. A loyal assistant keeps working even when you walk out. Increases your crafting quality.</afflictiondescription.loyalassistant>
+<afflictionname.disloyalscum>Treacherous Assistant</afflictionname.disloyalscum>
+<afflictiondescription.disloyalscum>The assistant's dedication to their apprenticeship and their master leaves a lot to be desired, but hanging out with the other crew boosts their efficiency. Repairing and skill gains are increased.</afflictiondescription.disloyalscum>
+
+
+</infotexts>

@@ -1,0 +1,48 @@
+CODE:
+ArachnidHob & ArachnidBrainControlBug - AVP-Aliens by NANO DRAGOON
+
+
+ITEMS:
+Manufactory - Unknown (ArtStation)
+E-Pulse Charger - Unknown (ArtStation)
+Ammunition Fabricator - Unknown (ArtStation)
+Skinny Suit - BaroGalactic Mod by The Goofinator
+
+
+
+
+LOGOS:
+Skinny Logo - Ambionics Security
+Fire icon - Vecteezy
+Renegades Logo - Vecteezy
+
+
+SHIPS/STATIONS:
+S-22 Rudy - DOXLUY_KOT (https://steamcommunity.com/sharedfiles/filedetails/?id=3407977725)
+Mago - Archive (https://steamcommunity.com/sharedfiles/filedetails/?id=3424903694)
+Leblanc - Archive (https://steamcommunity.com/sharedfiles/filedetails/?id=3435452802)
+Tortomega - Lonely Tear (https://steamcommunity.com/sharedfiles/filedetails/?id=2982911209)
+Manufactory - Ideas taken from Stations From the Beyond
+
+
+SOUNDS/MUSIC:
+Main Menu - "Klendathu Drop" by Basil Poledouris
+Skinny Suit - BaroGalactic Mod by The Goofinator
+
+
+
+
+
+TITLE/LOADING SCREENS:
+title_image - Jim Martin (ArtStation)
+st_loading_image_1 - Jim Martin (ArtStation)
+st_loading_image_2 - Constant Le Gall (ArtStation)
+st_loading_image_3 - Jim Martin (ArtStation)
+st_loading_image_4 - Jim Martin (ArtStation)
+st_loading_image_5 - C0R (ArtStation)
+st_loading_image_6 - John Miller (ArtStation)
+st_loading_image_7 - Mike Hanson (ArtStation)
+st_loading_image_8 - Mike Hanson (ArtStation)
+st_loading_image_9 - Mike Hanson (ArtStation)
+st_loading_image_9 - Aidil Azri Shamsuddin (ArtStation)
+

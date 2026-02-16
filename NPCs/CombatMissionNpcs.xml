@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                            Arachnid Cultists                              -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <npcset identifier="arachnid_humancultists">
+    <npc identifier="arachnid_humancultist_easy" job="structuredefender" moduleflags="none" behavior="Patrol" aimspeed="0.8" aimaccuracy="0.3">
+      <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="piratebandana" equip="true"/>
+      <Item identifier="cultistrobes" equip="true"/>
+      <Item identifier="alienpistol">
+        <Item identifier="alienpowercell" />
+      </Item>
+      <Item identifier="wrench" equip="true" />
+      <Item identifier="screwdriver" equip="true" />
+      <Item identifier="crowbar" equip="true" />
+      <Item identifier="divingmask">
+        <Item identifier="oxygentank" />
+      </Item>
+      <Item identifier="weldingtool">
+        <Item identifier="weldingfueltank" />
+      </Item>
+      </ItemSet>
+    </npc>
+
+  </npcset>
+  
+</npcsets>

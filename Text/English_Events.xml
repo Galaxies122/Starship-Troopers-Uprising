@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+<!-- Mission types -->
+<missiontype.none>None</missiontype.none>
+<missiontype.random>Random</missiontype.random>
+<missiontype.salvage>Salvage</missiontype.salvage>
+<missiontype.monster>Monster</missiontype.monster>
+<missiontype.cargo>Cargo</missiontype.cargo>
+<missiontype.combat>Combat</missiontype.combat>
+<missiontype.personneltransport>Personnel Transport</missiontype.personneltransport>
+<missiontype.swarm>Swarm</missiontype.swarm>
+<missiontype.prospect>Prospecting</missiontype.prospect>
+<missiontype.nest>Nest</missiontype.nest>
+<missiontype.mineral>Mining</missiontype.mineral>
+<missiontype.beacon>Beacon</missiontype.beacon>
+<missiontype.abandonedoutpost>Abandoned outpost</missiontype.abandonedoutpost>
+<missiontype.outpostdestroy>Destroy outpost</missiontype.outpostdestroy>
+<missiontype.outpostrescue>Outpost rescue</missiontype.outpostrescue>
+<missiontype.escort>Escort</missiontype.escort>
+
+<!-- Mission descriptions -->
+
+
+
+<missionname.pvpmission>Search and destroy</missionname.pvpmission>
+<missiondescriptionneutral.pvpmission>A Mobile Infantry vessel has been dispatched from [location1] to destroy a renegade vessel at the outskirts of [location2].</missiondescriptionneutral.pvpmission>
+<missiondescription1.pvpmission>A renegade vessel has been detected at the outskirts of [location2]. Treason against the Mobile Infantry is punishable by death—eliminate the renegades by any means necessary.</missiondescription1.pvpmission>
+<missiondescription2.pvpmission>You're a member of the Insurrectionists, a group opposing the Mobile Infantry. According to your informants at [location1], an MI ship has just been dispatched on a mission to take you out. Eliminate their crew by any means necessary.</missiondescription2.pvpmission>
+
+<!-- Mission misc -->
+<missionteam1.pvpmission>Mobile Infantry</missionteam1.pvpmission>
+<missionteam2.pvpmission>Insurrectionist</missionteam2.pvpmission>
+<missionmessage0.combatmission>The Insurrectionist vessel has been defeated by the Mobile Infantry crew!</missionmessage0.combatmission>
+<missionmessage1.combatmission>The Mobile Infantry vessel has been defeated by the Insurrectionist crew!</missionmessage1.combatmission>
+<missionsuccess.pvpmission>The [loser] vessel has been defeated by the [winner] crew!</missionsuccess.pvpmission>
+<missionfailed>Mission failed</missionfailed>
+<missioncompleted>Completed</missioncompleted>
+<missionunlocked>Mission unlocked: [missionname]</missionunlocked>
+<beaconstationsonarlabel>Beacon station</beaconstationsonarlabel>
+<sonarmineralscanner>Mineral scanner</sonarmineralscanner>
+<missions>Missions</missions>
+<missionsonarlabel.target>Target</missionsonarlabel.target>
+<missionsonarlabel.nest>Nest</missionsonarlabel.nest>
+<sideobjective>Side objective</sideobjective>
+<beaconstationactivetooltip>There's an active ‖color:gui.orange‖beacon station‖end‖ in this passageway, which helps human habitation spread into nearby locations.</beaconstationactivetooltip>
+<beaconstationinactivetooltip>There's an inactive ‖color:gui.orange‖beacon station‖end‖ in this passageway. Getting it back online will make it easier for human habitation to spread into nearby locations.</beaconstationinactivetooltip>
+<huntinggroundstooltip>A creature from the outer reaches of space has made this passageway its ‖color:gui.orange‖hunting grounds‖end‖. Until the beast is dead, new outposts won't be established in the adjacent locations, and existing locations may get abandoned.</huntinggroundstooltip>
+<enteremptylocation>Select a destination and leave the passageway</enteremptylocation>
+<undockingdisabledbymission>You cannot undock before the mission is completed.</undockingdisabledbymission>
+<hostagesdiscovered>The hostages have been located, but still need to be escorted out safely. You may want to take their handcuffs off and order them to follow you.</hostagesdiscovered>
+
+<missiontypedescription.salvage>Find and retrieve a specific item—for example, an artifact from an alien ruin, or sensitive cargo from a destroyed spaceship.</missiontypedescription.salvage>
+<missiontypedescription.monster>Terminate an aggressive creature (or a group of creatures) residing within the passageway.</missiontypedescription.monster>
+<missiontypedescription.cargo>Deliver cargo (such as explosives, dangerous chemicals or minerals) from one outpost to another.</missiontypedescription.cargo>
+<missiontypedescription.nest>Find and destroy a nest. Nests are usually located inside small caverns within the passageway.</missiontypedescription.nest>
+<missiontypedescription.beacon>Locate a beacon station and get it back online by repairing any damage to the station or its systems.</missiontypedescription.beacon>
+<missiontypedescription.mineral>There's been talk of valuable mineral clusters within the passageway. Locate the clusters and retrieve the minerals.</missiontypedescription.mineral>
+<missiontypedescription.abandonedoutpost>Eradicate aggressive creatures or bandit outlaws who have taken over an abandoned outpost, or rescue hostages from one.</missiontypedescription.abandonedoutpost>
+<missiontypedescription.clearalienruins>Clear an alien ruin of its guardians.</missiontypedescription.clearalienruins>
+<missiontypedescription.escort>Escort a number of personnel from outpost to another while ensuring their safety.</missiontypedescription.escort>
+<missiontypedescription.scanalienruins>Install scanners in the alien ruins. Retrieve the data by returning the scanners to the next outpost.</missiontypedescription.scanalienruins>
+<missiontypedescription.pirate>Find the pirate ship and destroy it, along with its crew.</missiontypedescription.pirate>
+
+
+<!-- Beacon Stations -->
+<missionname.beaconmission>Activate beacon...</missionname.beaconmission>
+<missiondescription.beaconmission>The beacon station between [location1] and [location2] is down—get in there, and get it back online and transmitting an active sonar signal.</missiondescription.beaconmission>
+<missionmessage0.beaconmission>The beacon station is back online. Make sure it stays transmitting, and navigate the submarine to [location2] to claim your reward.</missionmessage0.beaconmission>
+<missionsuccess.beaconmission>Beacon reactivated.</missionsuccess.beaconmission>
+
+<!-- Cargo Missions -->
+<missionname.ucf_cargo_mechanical>Deliver mechanical supplies...</missionname.ucf_cargo_mechanical>
+<missiondescription.ucf_cargo_mechanical>[location2] requires a resupply of mechanical components that [location2] is willing to provide. Successful transportation will result in [reward] credits.</missiondescription.ucf_cargo_mechanical>
+
+<missionname.ucf_cargo_electrical>Deliver electrical supplies...</missionname.ucf_cargo_electrical>
+<missiondescription.ucf_cargo_electrical>[location2] requires a resupply of electrical components that [location2] is willing to provide. Successful transportation will result in [reward] credits.</missiondescription.ucf_cargo_electrical>
+
+<missionname.ucf_cargo_emergencymeds>Deliver electrical supplies...</missionname.ucf_cargo_emergencymeds>
+<missiondescription.ucf_cargo_emergencymeds>[location2] requires a resupply of electrical components that [location2] is willing to provide. Successful transportation will result in [reward] credits.</missiondescription.ucf_cargo_emergencymeds>
+
+
+
+
+<!-- Mining Missions -->
+<missionname.ucf_mining_pyromorphite>Deliver pyromorphite...</missionname.ucf_mining_pyromorphite>
+<missiondescription.ucf_mining_pyromorphite>[location2] requires a resupply of pyromorphite that [location2] is willing to provide. Successful transportation will result in [reward] credits.</missiondescription.ucf_mining_pyromorphite>
+<missionheader0.ucf_mining_pyromorphite>Mission accomplished</missionheader0.ucf_mining_pyromorphite>
+
+
+
+
+<!-- Takeover Missions -->
+<missionname.ucf_arachnidplanettakeover>Lost contact...</missionname.ucf_arachnidplanettakeover>
+<missiondescription.ucf_arachnidplanettakeover>Attempt to find out what happened to this location. [reward] credits to the first one who does so.</missiondescription.ucf_arachnidplanettakeover>
+<missionsonarlabel.ucf_arachnidplanettakeover>TARGET</missionsonarlabel.ucf_arachnidplanettakeover>
+<missionsuccess.ucf_arachnidplanettakeover>The Arachnids have been terminated.</missionsuccess.ucf_arachnidplanettakeover>
+<missionheader0.ucf_arachnidplanettakeover>Targets terminated</missionheader0.ucf_arachnidplanettakeover>
+<missionmessage0.ucf_arachnidplanettakeover>The Bugs are dead. Navigate the spaceship out of the cavern to claim the reward.</missionmessage0.ucf_arachnidplanettakeover>
+
+<missionname.ucf_arachnidoutposttakeover>Lost contact...</missionname.ucf_arachnidoutposttakeover>
+<missiondescription.ucf_arachnidoutposttakeover>Attempt to find out what happened to this location. [reward] credits to the first one who does so.</missiondescription.ucf_arachnidoutposttakeover>
+<missionsonarlabel.ucf_arachnidoutposttakeover>TARGET</missionsonarlabel.ucf_arachnidoutposttakeover>
+<missionsuccess.ucf_arachnidoutposttakeover>The Arachnids have been terminated.</missionsuccess.ucf_arachnidoutposttakeover>
+<missionheader0.ucf_arachnidoutposttakeover>Targets terminated</missionheader0.ucf_arachnidoutposttakeover>
+<missionmessage0.ucf_arachnidoutposttakeover>The Bugs are dead. Navigate the spaceship out of the cavern to claim the reward.</missionmessage0.ucf_arachnidoutposttakeover>
+
+
+
+
+
+
+
+</infotexts>

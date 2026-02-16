@@ -1,0 +1,96 @@
+<!-- Skills to YOURSELF -->
+- veteran (+5 to all skills and +10% repair speed) **EDIT THIS
+  - egghead (+100% skill gain)
+ - grounded (+10 electrical and 20% less burn dama)
+- militaryapplications (+10 weapons skill and useless crafts -.-)
+ - bootcamp (+50% exp until 5 talent unlocks?)
+
+
+
+<!-- Skills to OTHERS -->
+ - inspirationalleader (more skill gain for crew!!)
+ - leadingbyexample (as long as you're alive, lots of skill buffs for crew members) **EDIT THIS
+- sailorwithnoname (+20 medical skill)
+ - prodigy (personal skill gain +50%)
+ - family (on unlock, all characters get 1 extra talent point)
+  - trickledown (if this character gets a talent point, the rest do too)
+
+
+
+
+
+<!-- Buffs to YOURSELF -->
+- lonewolf (if no crew members are nearby, fun buffs) **EDIT THIS [make it so anyone NOT near other players take 3x damage or smth + go crazy lol. ofc this would be forced upon people, and wouldnt be a talent]
+- skedaddle (move 10% faster, and when attacked, move 30% faster for 5s)
+  - tastytarget (enemies attack you sooner rather than someone else)
+- nonthreatening (when ragdolling for +2s, enemies dont see you!!)
+- unseen (my own talent, enemies shouldnt be able to see you PERIOD!)
+ - pyromaniac (more flame damage)
+- unstoppablecuriosity (crowbars stuff much faster and hits harder w/ them)
+  - thewaitinglist (die slower when in 2nd health bar)
+ - betterthannew (fixed electrical stuff deteriorates 30% slower)
+  - ballastdenizen (hold breath 50% longer)
+- multifunctional (hits harder with wrenches and crowbars)
+- hullfixer (fixes hull faster)
+- quickfixer (2x repair speed, then +20% faster walk speed for 10s)
+- tinkerer (repair 40% past norm)
+- iamthatguy (+20% blunt force, and 20 weapon skill)
+ - heavylifting (move faster when carrying stuff)
+- mudraptorwrestler (more damage dealt when attacking mudraptors, and +10% phys dama resistance)
+ - berserker (when below 50% health, +20% melee damage dealt)
+ - foolhardy (when below 50% health, +20% phys dama resistance)
+   - exampleofhealth (+20% max health)
+  - laresistance (+50 chem and opiate resistance)
+ - selfcare (meds are +20% more potent when applied to YOU)
+ - stayinalive (o2 low is not as bad when people are doing cpr)
+ - firemanscarry (carrying fast lol)
+   - medicalexpertise (+30 med skill, and bandages are more powerful!)
+  - dontdieonme (cpr is MUCH more powerful)
+ - supersoldiers (buffs YOU apply last +25% longer)
+  - commando (crouching means that you have less spread and do more damage)
+ - gunrunner (walk 20% faster while aiming)
+  - crustyseaman (less bleed dama)
+- rifleman (+10% more rifle damage)
+  - firstaidtraining (+15 meds skill AND meds are more potent when applied to YOU!)
+ - buff (+50% buff duration and opiate addiction resistance)
+ - swole (+10% max health and +20% melee power!)
+- inordinateexsanguination (+100% MORE bleed damage onto target)
+- warlord (max +50% gunshotwound damage per enemy nearby)
+   - beatcop (50% more stun)
+ - physicalconditioning (10% faster and takes less o2)
+- stonewall (less damage overall!)
+- extrapowder (more explosion damage + radius!)
+ - daringdolphin (+25% swim speed)
+ - easyturtle (20% less damage from attacks when in water)
+- implacable (literally stays alive longer)
+
+
+
+
+
+<!-- Buffs to OTHERS -->
+ - crewlayabout (debuffs YOU to buff others!)
+- revengesquad (when you die, EVERYONE gets 30% physical dama res for 2m) **NEEDS EDITING
+  - indenturedservitude (other people of YOUR job get more exp) **NEEDS EDITING
+ - miracleworker (nearby crewmates cant die (when unconscious) unless they give in)
+  - drsubmarine (meds are +25% more potent when YOU apply them to others)
+
+
+
+
+
+<!-- Officers -->
+- steadytune (play harmonica for psychosis res) **EDIT THIS
+
+
+
+
+<!-- Weaponry stuff -->
+ - quickdraw (awesome pistol skill, makes attack +25% more damage)
+ - bigguns (extra monster attack damage!)
+
+
+
+
+<!-- Misc stuff -->
+- drunkensailor (literally useless but FUNNY - stun resistance while drunk lol)

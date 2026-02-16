@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="[MI] Formal Uniform" identifier="mi_formal_uniform" category="Equipment" subcategory="Mobile Infantry" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
+    <Price baseprice="150" minavailable="1" requiredfaction="coalition">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="40">
+      <RequiredSkill identifier="weapons" level="30" />
+      <Item identifier="titaniumaluminiumalloy" amount="2" />
+      <Item identifier="ballisticfiber" amount="2" />
+      <Item identifier="steel" amount="2" />
+    </Fabricate>
+    <ItemContainer capacity="2" depth="0.5">
+      <Containable items="smallitem,ammo,medical" excludeditems="clothing,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack" />
+    </ItemContainer>
+    <InventoryIcon name="MI Light Uniform Icon" texture="%ModDir%/Items/Outfits/mi_outfit_icons.png" sourcerect="12,104,80,65" origin="0.5,0.5" />
+    <Sprite name="MI Light Uniform" texture="%ModDir%/Items/Outfits/mi_outfit_icons.png" sourcerect="384,190,116,55" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="MI Light Uniform Torso" texture="mi_uniform_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Hand" texture="mi_uniform_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Hand" texture="mi_uniform_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Lower Arm" texture="mi_uniform_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Lower Arm" texture="mi_uniform_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Upper Arm" texture="mi_uniform_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Upper Arm" texture="mi_uniform_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Waist" texture="mi_uniform_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Thigh" texture="mi_uniform_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Thigh" texture="mi_uniform_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Leg" texture="mi_uniform_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Leg" texture="mi_uniform_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Left Shoe" texture="mi_uniform_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Light Uniform Right Shoe" texture="mi_uniform_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="explosiondamage,lacerations,bleeding" armorsector="0.0,360.0" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <SkillModifier skillidentifier="weapons" skillvalue="-7" />
+      <SkillModifier skillidentifier="mechanical" skillvalue="-5" />
+      <SkillModifier skillidentifier="electrical" skillvalue="-10" />
+      <StatValue stattype="WalkingSpeed" value="-0.075" />
+      <StatValue stattype="SwimmingSpeed" value="-0.1" />
+    </Wearable>
+  </Item>
+
+  <Item name="[MI] Trooper Uniform" identifier="mi_trooper_uniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
+    <Price baseprice="150" minavailable="1" requiredfaction="coalition">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="40">
+      <RequiredSkill identifier="weapons" level="30" />
+      <Item identifier="titaniumaluminiumalloy" amount="2" />
+      <Item identifier="ballisticfiber" amount="2" />
+      <Item identifier="steel" amount="2" />
+    </Fabricate>
+    <ItemContainer capacity="2" depth="0.5">
+      <Containable items="smallitem,ammo,medical" excludeditems="clothing,toolbox,mobilecontainer,rucksack,backpack,waistbelt,vest,backpack1,medicalbackpack,power-backpack,duffelbag,heavybackpack,oxy-gen. backpack,xeno-backpack,techno-backpack" />
+    </ItemContainer>
+    <InventoryIcon name="MI Trooper Uniform Icon" texture="%ModDir%/Items/Outfits/mi_outfit_icons.png" sourcerect="12,184,79,66" origin="0.5,0.5" />
+    <Sprite name="MI Trooper Uniform" texture="%ModDir%/Items/Outfits/mi_outfit_icons.png" sourcerect="390,110,110,75" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="MI Trooper Uniform Torso" texture="mi_uniform_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Hand" texture="mi_uniform_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Hand" texture="mi_uniform_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Lower Arm" texture="mi_uniform_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Lower Arm" texture="mi_uniform_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Upper Arm" texture="mi_uniform_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Upper Arm" texture="mi_uniform_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Waist" texture="mi_uniform_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Thigh" texture="mi_uniform_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Thigh" texture="mi_uniform_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Leg" texture="mi_uniform_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Leg" texture="mi_uniform_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Left Shoe" texture="mi_uniform_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <sprite name="MI Trooper Uniform Right Shoe" texture="mi_uniform_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,683,264" origin="0.5,0.5" />
+      <damagemodifier afflictionidentifiers="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="explosiondamage,lacerations,bleeding" armorsector="0.0,360.0" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <SkillModifier skillidentifier="weapons" skillvalue="-7" />
+      <SkillModifier skillidentifier="mechanical" skillvalue="-5" />
+      <SkillModifier skillidentifier="electrical" skillvalue="-10" />
+      <StatValue stattype="WalkingSpeed" value="-0.075" />
+      <StatValue stattype="SwimmingSpeed" value="-0.1" />
+    </Wearable>
+  </Item>
+
+</Items>
+
+

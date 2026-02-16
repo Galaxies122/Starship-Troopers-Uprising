@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Missions>
+
+  <!-- Planet Takeovers -->
+  <PlanetTakeoverMission
+    identifier="q2"
+    textidentifier="q2"
+    tags="arachnid_planettakeover"
+    achievementidentifier="abandonedoutpostdestroymonsters"
+    type="OutpostDestroy"
+    reward="4500"
+    difficulty="1"
+    commonness="100"
+    allowretry="true"
+    sonarlabel="nest"
+    unhideentitysubcategories="abandonedmonster"
+    minleveldifficulty="0">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
+    <LocationType identifier="bug_planet_1" />
+    <LocationTypeChange from="bug_planet_1" to="ucf_planet_1" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="arachnidwarrior" min="4" max="6"/>
+      <Character identifier="arachnidwarrior" min="2" max="2" multiplayeronly="true"/>
+    </Characters>
+    <Items>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+    </Items>
+    <Reputation identifier="unitedcitizenfederation" amount="2" />
+    <Reputation identifier="arachnids" amount="-5" />
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true"/>
+    <message header="missionheader0.arachnid_planettakeover_easy" text="missionmessage0.arachnid_planettakeover_easy"/>
+  </PlanetTakeoverMission>
+
+
+
+</Missions>

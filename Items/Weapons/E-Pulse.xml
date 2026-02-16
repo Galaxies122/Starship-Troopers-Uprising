@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="st_epulse_round" category="Misc" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Ammo/epulse_firing.png" sourcerect="11,174,79,47" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Ammo/epulse_firing.png" sourcerect="11,174,79,47" depth="0.55" origin="0.5,0.5" />
+    <Body width="40" height="14" density="40" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="80.0" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="eklaserrifletracer" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,255,125" scalemultiplier="1,1" />
+      <Attack structuredamage="0.5" itemdamage="2" stun="0.16" severlimbsprobability="0.05" targetforce="10">
+        <Affliction identifier="internaldamage" strength="15" />
+        <Affliction identifier="burn" strength="15" />
+        <Affliction identifier="bleeding" strength="10" />
+      </Attack>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="2.5">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="eklaserspark" copyentityangle="true" particleamount="4" anglemin="-90" anglemax="90" velocitymin="-250" velocitymax="-750" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="eklasersmoke" copyentityangle="true" particleamount="1" anglemin="-45" anglemax="45" velocitymin="-5" velocitymax="-25" />
+        <ParticleEmitter particle="eklaserrifleflare" particleamount="1" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="5">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="E-Pulse Cell [Rifle]" identifier="st_epulse_cell_rifle" scale="0.25" category="Weapon" subcategory="Mobile Infantry" cargocontaineridentifier="metalcrate" tags="smallitem,magazine,st_epulse_cell_rifle" impactsoundtag="impact_metal_light" maxstacksize="2">
+    <PreferredContainer primary="st_epulse88" />
+    <!--<Price storeidentifier="merchantMilitary" buyprice="25" />
+    <Price storeidentifier="merchantCity" buyprice="50" />
+    <Price storeidentifier="merchantOutpost" buyprice="60" />-->
+    <Price baseprice="150" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="st_ammofabricator" requiredtime="20">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredSkill identifier="weapons" level="20" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="fpgacircuit" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="batterycell" outcondition="0.01" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Items/Weapons/E-Pulse.png" depth="0.56" sourcerect="502,4,210,105" origin="0.5,0.5" />
+    <ContainedSprite name="Laser Rifle Mag" allowedcontainertags="weapon" texture="%ModDir%/Items/Weapons/E-Pulse.png" depth="0.56" sourcerect="502,4,210,105" origin="0.5,0.5" />
+    <Body width="48" height="60" density="50" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" holdangle="-5" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" />
+    <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" SpawnWithId="st_epulse_round" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <Containable identifiers="st_epulse_round" />
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <StatusEffect type="OnUse" target="This" condition="-0.5" disabledeltatime="true" />
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="st_epulse_round" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="E-Pulse 88" identifier="st_epulse88" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+    <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
+    <Price baseprice="1200" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminium" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="manufactory" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="10,17,416,94" origin="0.1726477,0.20090222" />
+    <Sprite texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="10,17,416,94" depth="0.55" origin="0.15650354,0.24157177" />
+    <ContainedSprite name="Depth Fix" allowedcontainertags="weapons_cabinet" texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="10,17,416,94" depth="0.83" origin="0.48767206,0.6022543" />
+    <Body width="176" height="64" density="50" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="45,-10" aimpos="50,5" handle1="-30,-25" handle2="105,-15" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <!-- barrelpos="48,2" holdpos="45,-10" aimpos="50,10" handle1="-18,-21" handle2="102,-19" holdangle="-40" -->
+    <RangedWeapon barrelpos="350,-10" spread="0.5" unskilledspread="18" reload="0.12" combatPriority="55" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <ParticleEmitter particle="ekmuzzleflamelaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <ParticleEmitter particle="ekmuzzlebreaklaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Sounds/Weapons/epulse_firing.ogg" type="OnUse" range="3000" volume="2.0" />
+      <StatusEffect type="OnUse">
+        <Explosion range="140.0" force="0.3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="4.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_rifle" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifier="st_epulse_cell_rifle" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="45" />
+    </RangedWeapon>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" canbeselected="false" hideitems="true" itempos="46,-28">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="st_epulse_cell_rifle" />
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_rifle" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" condition="100" setvalue="true" />
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.15" />
+    </Quality>
+  </Item>
+
+  <Item name="E-Pulse 44" identifier="st_epulse44" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+    <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
+    <Price baseprice="1200" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminium" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="manufactory" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="23,146,374,105" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="23,146,374,105" depth="0.55" origin="0.5,0.5" />
+    <Body width="176" height="64" density="50" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="45,-10" aimpos="50,5" handle1="-30,-25" handle2="105,-15" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <!-- barrelpos="48,2" holdpos="45,-10" aimpos="50,10" handle1="-18,-21" handle2="102,-19" holdangle="-40" -->
+    <RangedWeapon barrelpos="350,-10" spread="0.5" unskilledspread="18" reload="0.8" weapondamagemodifier="1.5" combatPriority="55" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <ParticleEmitter particle="ekmuzzleflamelaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <ParticleEmitter particle="ekmuzzlebreaklaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Sounds/Weapons/epulse_firing.ogg" type="OnUse" range="3000" volume="2.0" />
+      <StatusEffect type="OnUse">
+        <Explosion range="140.0" force="0.3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="4.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_rifle" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifier="st_epulse_cell_rifle" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="45" />
+    </RangedWeapon>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" canbeselected="false" hideitems="true" itempos="46,-28">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="st_epulse_cell_rifle" />
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_rifle" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" condition="100" setvalue="true" />
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.15" />
+    </Quality>
+  </Item>
+
+  <Item name="E-Pulse Cell [Pistol]" identifier="st_epulse_cell_pistol" scale="0.25" category="Weapon" subcategory="Mobile Infantry" cargocontaineridentifier="metalcrate" tags="smallitem,magazine,st_epulse_cell_rifle" impactsoundtag="impact_metal_light" maxstacksize="2">
+    <PreferredContainer primary="st_epulse_a1" />
+    <!--<Price storeidentifier="merchantMilitary" buyprice="25" />
+    <Price storeidentifier="merchantCity" buyprice="50" />
+    <Price storeidentifier="merchantOutpost" buyprice="60" />-->
+    <Price baseprice="150" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="st_ammofabricator" requiredtime="20">
+      <RequiredSkill identifier="electrical" level="30" />
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="epulse_conduit" />
+      <RequiredItem identifier="epulse_lightliquid" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="epulse_lightliquid" amount="2" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Items/Weapons/E-Pulse.png" depth="0.56" sourcerect="672,391,44,84" origin="0.5,0.5" />
+    <ContainedSprite name="Laser Rifle Mag" allowedcontainertags="weapon" texture="%ModDir%/Items/Weapons/E-Pulse.png" depth="0.56" sourcerect="672,391,44,84" origin="0.5,0.5" />
+    <Body width="48" height="60" density="50" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" holdangle="-5" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" />
+    <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" SpawnWithId="st_epulse_round" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <Containable identifiers="st_epulse_round" />
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <StatusEffect type="OnUse" target="This" condition="-5.0" disabledeltatime="true" />
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="st_epulse_round" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="E-Pulse A1" identifier="st_epulse_a1" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+    <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
+    <Price baseprice="1200" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminium" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="manufactory" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="447,356,207,114" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/E-Pulse.png" sourcerect="447,356,207,114" depth="0.55" origin="0.5,0.5" />
+    <Body width="176" height="64" density="50" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="45,-10" aimpos="50,5" handle1="-60,-25" handle2="105,-15" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <!-- barrelpos="48,2" holdpos="45,-10" aimpos="50,10" handle1="-18,-21" handle2="102,-19" holdangle="-40" -->
+    <RangedWeapon barrelpos="350,-10" spread="0.5" unskilledspread="18" reload="1.5" weapondamagemodifier="3.0" combatPriority="55" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <ParticleEmitter particle="ekmuzzleflamelaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <ParticleEmitter particle="ekmuzzlebreaklaserrifle" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Sounds/Weapons/epulse_firing.ogg" type="OnUse" range="3000" volume="2.0" />
+      <StatusEffect type="OnUse">
+        <Explosion range="140.0" force="0.3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="4.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_pistol" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifier="st_epulse_cell_pistol" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="45" />
+    </RangedWeapon>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" canbeselected="false" hideitems="true" itempos="46,-28">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="st_epulse_cell_pistol" />
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="st_epulse_cell_pistol" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" condition="100" setvalue="true" />
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.15" />
+    </Quality>
+  </Item>
+
+
+</Items>

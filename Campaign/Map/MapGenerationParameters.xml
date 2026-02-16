@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MapGenerationParameters
+  DifficultyZones="3"
+  GateCount="2,2,1"
+  Width="15000"
+  Height="800"
+  MinZoom="1.0"
+  MaxZoom="1.4"
+  VoronoiSiteInterval="300,150"
+  VoronoiSiteVariance="200,10"
+  MinLocationDistance="80"
+  MinConnectionDistance="60"
+  SmallLevelConnectionLength="100"
+  LargeLevelConnectionLength="1000"
+  ConnectionIndicatorIterationMultiplier="0.07"
+  ConnectionIndicatorDisplacementMultiplier="0.1"
+  LocationIconSize="50"
+  LocationConnectionWidth="6"
+  IndicatorColor="128,206,175,255"
+  ConnectionColor="128,206,175,255"
+  HighlightedConnectionColor="193,232,217,255"
+  UnvisitedConnectionColor="200,200,200,255">
+  
+  <PassedConnectionSprite texture="Content/Map/MapAtlas.png" sourcerect="1,641,45,16"/>
+  <ConnectionSprite texture="Content/Map/MapAtlas.png" sourcerect="44,641,45,16"/>
+  <ZoneIndicator texture="Content/Map/MapCircle.png" sourcerect="0,0,150,1024" origin="0.5,0.5" premultiplyalpha="false"/>
+  <DecorativeGraphSprite texture="Content/Map/MapAtlas.png" sourcerect="0,0,1024,640" columns="4" rows="5" emptyframes="3" premultiplyalpha="false"/>
+  <CurrentLocationIndicator texture="%ModDir%/UI/ui_icons.png" sourcerect="43,22,147,145" origin="0.5,0.5"/>
+  <SelectedLocationIndicator texture="Content/Map/MapAtlas.png" sourcerect="802,793,186,205" origin="0.5,0.5"/>  
+  <MissionIcon texture="Content/Map/MapAtlas.png" sourcerect="79,759,30,30" origin="0.5,0.5"/>
+  <TypeChangeIcon texture="Content/Map/MapAtlas.png" sourcerect="41,759,30,30" origin="0.5,0.5"/>
+
+  <MapTile texture="%ModDir%/Campaign/Map/MapPieces/piece_1.png" sourcerect="0,0,2000,1333" origin="0.5,0.5" biome="spacialregions"/>
+
+  <MapTile texture="%ModDir%/Campaign/Map/MapPieces/piece_2.png" sourcerect="0,0,2000,1333" origin="0.5,0.5" biome="grandiosenebula"/>
+
+  <MapTile texture="%ModDir%/Campaign/Map/MapPieces/piece_3.png" sourcerect="0,0,2000,1333" origin="0.5,0.5" biome="endbiome"/>
+
+  <FogOfWarSprite texture="Content/Map/MapPieces/MapPieces.png" sourcerect="1536,1536,512,512" origin="0.5,0.5"/>
+
+</MapGenerationParameters>

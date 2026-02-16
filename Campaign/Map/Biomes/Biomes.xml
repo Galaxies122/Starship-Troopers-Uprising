@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelGenerationParameters>
+  <Biomes>
+    <Biome
+      identifier="spacialregions"
+      name="Spacial Regions"
+      description=""
+      AllowedZones="1"
+      ExperienceFromMissionRewards="0.09"
+      mindifficulty="0"
+      maxdifficulty="100">
+    </Biome>
+    <Biome
+      identifier="grandiosenebula"
+      name="Grandiose Nebula"
+      description=""
+      AllowedZones="2"
+      ExperienceFromMissionRewards="0.18"
+      mindifficulty="0"
+      maxdifficulty="100">
+    </Biome>
+    <Biome
+      identifier="endzone"
+      name="???"
+      description=""
+      AllowedZones="3"
+      endbiome="true"
+      endbiomelocationcount="2">
+    </Biome>
+  </Biomes>
+</LevelGenerationParameters>

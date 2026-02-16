@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Missions>
+
+  <!-- Planet Takeovers -->
+  <OutpostTakeoverMission
+    identifier="ucf_arachnidplanettakeover_1"
+    textidentifier="ucf_arachnidplanettakeover_1"
+    tags="ucf_arachnidplanettakeover"
+    achievementidentifier="abandonedoutpostdestroymonsters"
+    type="OutpostDestroy"
+    reward="4500"
+    difficulty="1"
+    commonness="100"
+    allowretry="true"
+    sonarlabel="nest"
+    unhideentitysubcategories="abandonedmonster"
+    minleveldifficulty="0">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
+    <LocationType identifier="bug_planet_1" />
+    <LocationTypeChange from="bug_planet_1" to="ucf_planet_1" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="arachnidwarrior" min="4" max="6"/>
+      <Character identifier="arachnidwarrior" min="2" max="2" multiplayeronly="true"/>
+    </Characters>
+    <Items>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+    </Items>
+    <Reputation identifier="unitedcitizenfederation" amount="2" />
+    <Reputation identifier="arachnids" amount="-5" />
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true"/>
+    <message header="missionheader0.arachnid_planettakeover_easy" text="missionmessage0.arachnid_planettakeover_easy"/>
+  </OutpostTakeoverMission>
+
+
+
+
+  <!-- Outpost Takeovers -->
+  <OutpostTakeoverMission
+    identifier="ucf_arachnidoutposttakeover_1"
+    textidentifier="ucf_arachnidoutposttakeover_1"
+    tags="ucf_arachnidoutposttakeover"
+    achievementidentifier="abandonedoutpostdestroymonsters"
+    type="OutpostDestroy"
+    reward="4500"
+    difficulty="1"
+    commonness="100"
+    allowretry="true"
+    sonarlabel="nest"
+    unhideentitysubcategories="abandonedmonster"
+    minleveldifficulty="0">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
+    <LocationType identifier="bug_planet_1" />
+    <LocationTypeChange from="bug_planet_1" to="ucf_planet_1" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="arachnidwarrior" min="4" max="6"/>
+      <Character identifier="arachnidwarrior" min="2" max="2" multiplayeronly="true"/>
+    </Characters>
+    <Items>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+      <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+    </Items>
+    <Reputation identifier="unitedcitizenfederation" amount="2" />
+    <Reputation identifier="arachnids" amount="-5" />
+    <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true"/>
+    <message header="missionheader0.arachnid_outposttakeover_easy" text="missionmessage0.arachnid_outposttakeover_easy"/>
+  </OutpostTakeoverMission>
+
+
+
+
+
+
+  <!-- Kill Swarm -->
+
+  <MonsterMission
+    identifier="ucf_killarachnid_1"
+    tags="ucf_killarachnid_1"
+    type="Monster"
+    difficulty="1"
+    commonness="100"
+    reward="750"
+    maxsonarmarkerdistance="10000">
+    <monster character="Arachnidwarrior" min="2" max="4"/>
+    <Reputation identifier="unitedcitizenfederation" amount="1" />
+    <Reputation identifier="arachnids" amount="-1" />
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48"/>
+    <message header="missionheader0.killarachnid_easy" text="missionmessage0.killarachnid_easy"/>
+  </MonsterMission>
+
+
+
+
+
+
+
+
+
+  <!-- Salvage Missions -->
+  
+  <SalvageMission
+    identifier="ucf_salvagewreck_1"
+    tags="ucf_salvagewreck_1"
+    type="SalvageWreck"
+    difficulty="2"
+    commonness="100"
+    reward="2000"
+    spawntype="wreck"
+    itemidentifier="handheldterminal"
+    containertag="locker"
+    requirewreck="true"
+    maxleveldifficulty="35"
+    PickedUpMessage="missionmessage.wrecksalvage.pickedup">
+    <Portrait texture="Content/Map/LocationPortraits/Wreck1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/Wreck2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <Reputation identifier="unitedcitizenfederation" amount="2" />
+    <chooserandom>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: cbspusbvnbhbnf.dpn/efsfmjdu/[ERR:_INSERT_PASS].htm"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_1]beweht"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_2]108 101 116 109 101 105 110"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_3]LLL SLS SL LS LLS S LSSS LLL LSLL"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_4]zorxv"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_5]s_m_l_t_d_ _i_i_i_u_e"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_6]DSPERiapa"/>
+      <StatusEffect target="This" showmessage="Receiving encrypted transmission: [PASS_7]4 5 1 4 13 5 14"/>
+    </chooserandom>
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,512,256,256" color="49,93,233"/>
+    <message header="missionheader0.salvagewreck1" text="missionmessage0.salvagewreck1"/>
+  </SalvageMission>
+
+  <SalvageMission
+    identifier="ucf_salvagecargo_1"
+    tags="ucf_salvagecargo_1"
+    type="SalvageWreck"
+    difficulty="3"
+    commonness="100"
+    reward="2000"
+    spawntype="wreck"
+    ContainerTag="cargocontainer"
+    PartiallyRetrievedMessage="missionmessage.lostcargo.partiallyretrieved"    
+    AllRetrievedMessage="missionmessage.lostcargo.allretrieved"
+    PickedUpMessage="missionmessage.lostcargo.pickedup"
+    requireddeliveryamount="0.98"
+    requirewreck="true">
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,512,256,256" color="49,93,233"/>
+    <Portrait texture="Content/Map/LocationPortraits/Wreck1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/Wreck2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <Reputation identifier="unitedcitizenfederation" amount="2" />
+    <chooserandom>
+      <target
+        spawntype="wreck"
+        itemidentifier="metalcrate"
+        sonarlabel="missionsonarlabel.lostcargo"
+        allowcontinuebeforeretrieved="true"
+        requireretrieval="RetrievedToSub"
+        minamount="1"
+        maxamount="2"
+        hidelabelafterretrieved="true">
+        <target
+          itemidentifier="iron" minamount="10" maxamount="15" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemtag="plastic" minamount="5" maxamount="8" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemtag="titanium" minamount="5" maxamount="8" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+      </target>
+      <target
+        spawntype="wreck"
+        itemidentifier="metalcrate"
+        sonarlabel="missionsonarlabel.lostcargo"
+        allowcontinuebeforeretrieved="true"
+        requireretrieval="RetrievedToSub"
+        minamount="1"
+        maxamount="2"
+        hidelabelafterretrieved="true">
+        <target
+          itemidentifier="plastic" minamount="10" maxamount="25" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemidentifier="rubber" minamount="5" maxamount="8" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemtag="titaniumaluminumalloy" minamount="5" maxamount="8" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+      </target>
+      <target
+        spawntype="wreck"
+        itemidentifier="mediccrate"
+        sonarlabel="missionsonarlabel.lostcargo"
+        allowcontinuebeforeretrieved="true"
+        requireretrieval="RetrievedToSub"
+        minamount="1"
+        maxamount="2"
+        hidelabelafterretrieved="true">
+        <target
+          itemtag="medical" minamount="10" maxamount="12" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+      </target>
+      <target
+        spawntype="wreck"
+        itemidentifier="chemicalcrate"
+        sonarlabel="Cargo"
+        allowcontinuebeforeretrieved="true"
+        requireretrieval="RetrievedToSub"
+        minamount="1"
+        maxamount="2"
+        hidelabelafterretrieved="true">
+        <target
+          itemidentifier="ethanol" minamount="5" maxamount="8" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemtag="chem" minamount="2" maxamount="4" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+        <target
+          itemtag="poison" minamount="2" maxamount="4" RequireInsideOriginalContainer="true" sonarlabel="missionsonarlabel.lostcargo" removeitem="false" />
+      </target>
+    </chooserandom>
+  </SalvageMission>
+
+
+
+
+
+  <!-- Nest Missions -->
+  
+  <NestMission
+    identifier="ucf_arachnidnest_1"
+    textidentifier="arachnidnest"
+    tags="ucf_arachnidnest_1"
+    type="Nest"
+    spawntype="cave"
+    reward="4000"
+    itemspawnradius="800"
+    approachitemsradius="800"
+    monsterspawnradius="4000"
+    nestobjectradius="1500"
+    nestobjectamount="20"
+    difficulty="1"
+    commonness="100">
+    <Items>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+      </Item>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="5" />
+      </Item>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="11" />
+      </Item>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="17" />
+      </Item>
+      <Item identifier="crawleregg" />
+      <Item identifier="crawleregg" />
+      <Item identifier="crawleregg" />
+    </Items>
+    <Monster character="Arachnidwarrior" min="3" max="4"/>
+    <Monster character="Arachnidwarrior" min="3" max="4" multiplayeronly="true"/>
+    <Reputation identifier="location" amount="2" amountforopposingfaction="-2" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
+    <message text="missionmessage0.crawlernest"/>
+  </NestMission>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Cargo Missions -->
+
+  <CargoMission
+    identifier="ucf_cargo_mechanical"
+    tags="ucf_station"
+    type="Cargo"
+    difficulty="1"
+    commonness="100"
+    reward="500"
+    achievementidentifier="cargomission"
+    requireddeliveryamount="0.98">
+    <Reputation identifier="location" amount="1" amountforopposingfaction="-1" />
+    <Items>
+      <Item identifier="metalcrate" reward="100" maxcount="25">
+        <Item identifier="magnesium" amount="5"/>
+        <Item identifier="copper" amount="5"/>
+        <Item identifier="steel" amount="5"/>
+        <Item identifier="lead" amount="5"/>
+        <Item identifier="aluminium" amount="5"/>
+        <Item identifier="iron" amount="10"/>
+        <Item identifier="titanium" amount="5"/>
+      </Item>
+    </Items>
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,0,256,256" color="243,146,55"/>    
+  </CargoMission>
+
+  <CargoMission
+    identifier="ucf_cargo_electrical"
+    tags="ucf_station"
+    type="Cargo"
+    difficulty="1"
+    commonness="100"
+    reward="500"
+    achievementidentifier="cargomission"
+    requireddeliveryamount="0.98">
+    <Reputation identifier="location" amount="1" amountforopposingfaction="-1" />
+    <Items>
+      <Item identifier="metalcrate" reward="160" maxcount="24">
+        <Item identifier="fpgacircuit" amount="12"/>
+        <Item identifier="relaycomponent" amount="4"/>
+        <Item identifier="motiondetector" amount="2"/>
+        <Item identifier="oxygendetector" amount="2"/>
+        <Item identifier="smokedetector" amount="2"/>
+      </Item>
+    </Items>
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,0,256,256" color="243,146,55"/>    
+  </CargoMission>
+
+  <CargoMission
+    identifier="ucf_cargo_emergencymeds"
+    tags="ucf_station"
+    type="Cargo"
+    difficulty="1"
+    commonness="30"
+    reward="750"
+    achievementidentifier="cargomission"
+    requireddeliveryamount="0.98">
+    <Reputation identifier="location" amount="1" amountforopposingfaction="-1" />
+    <Items>
+      <Item identifier="mediccrate" reward="1000" maxcount="1">
+        <Item identifier="morbusineantidote" amount="5"/>
+      </Item>
+    </Items>
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,0,256,256" color="243,146,55"/>    
+  </CargoMission>
+
+
+
+
+
+
+  <!-- Mining Missions -->
+  <MineralMission
+    identifier="ucf_mining_pyromorphite"
+    textIdentifier="ucf_mining_pyromorphite"
+    description="missiondescription.mining_ucf_pyromorphite"
+    tags="ucf_station"
+    type="Mineral"
+    difficulty="1"
+    commonness="100"
+    resourceHandoverAmount="0.25"
+    positionType="mainpath"
+    reward="1200">
+    <Items>
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+      <Item identifier="pyromorphite" />
+    </Items>
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,0,256,256" color="243,146,55"/>
+    <LocationType from="AnyOutpost" to="AnyOutpost" />  
+    <Reputation identifier="unitedcitizenfederation" amount="1" amountforopposingfaction="-1" />
+    <message header="missionheader0.mining_ucf_pyromorphite" text="missionmessage0.mining_ucf_pyromorphite"/>
+  </MineralMission>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Escort Missions -->
+
+  <EscortMission
+    identifier="ucf_escort_1"
+    tags="ucf_escort_1"
+    type="Escort"
+    difficulty="1"
+    commonness="100"
+    reward="1000"
+    baseescortedcharacters="1"
+    scalingescortedcharacters="0.35">
+    <Characters>
+      <Character from="escortnpcs1" identifier="commoner" />
+    </Characters>
+    <Reputation identifier="unitedcitizenfederation" amount="5" amountforopposingfaction="-5" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,512,256,256" color="243,146,55" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader0.escort1" text="missionmessage0.escort1"/>
+  </EscortMission>
+
+
+
+
+
+
+
+  <!-- Abandoned Outpost Missions -->
+
+  <AbandonedOutpostMission
+    identifier="ucf_jailbreak_1"
+    name="missionname.ucf_jailbreak"
+    successmessage="missionsuccess.ucf_jailbreak"
+    failuremessage="missionfailure.ucf_jailbreak"
+    tags="ucf_jailbreak_1"
+    requiredlocationfaction="insurrectionist"
+    type="jailbreak"
+    reward="3000"
+    difficulty="3"
+    commonness="100"
+    allowretry="true"
+    hostageskilledmessage="prisonerkilled">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="512,256,256,256" color="214,50,48"/>
+    <LocationType identifier="City" />
+    <LocationType identifier="Military" />
+    <Characters>
+      <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" moduleflags="researchmodule" />
+      <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" moduleflags="researchmodule" />
+      <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" multiplayeronly="true" moduleflags="researchmodule" />
+    </Characters>
+    <TriggerEvent state="0" eventidentifier="jailbreak" />
+    <Reputation identifier="coalition" amount="5" amountforopposingfaction="-5" />
+    <message header="missionheader0.prisonerrescue" text="missionmessage0.prisonerrescue"/>
+  </AbandonedOutpostMission>
+
+
+  <SalvageMission
+    identifier="ucf_stealreport_1"
+    tags="salvage"
+    type="Salvage"
+    difficulty="4"
+    commonness="0"
+    reward="0"
+    sonarlabel="target"
+    spawntype="Outpost"
+    itemidentifier="tormsdalereport"
+    removeitem="false"
+    containertag="admincabinet"
+    requirewreck="false"
+    allowretry="true"
+    BlockLocationTypeChanges="true">
+    <Reputation identifier="separatists" amount="10" />
+    <Reputation identifier="coalition" amount="-10" />
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,512,256,256" color="49,93,233"/>
+    <LocationType identifier="City"/>
+    <LocationType identifier="Outpost"/>
+    <LocationType identifier="Military"/>
+    <LocationType identifier="Research"/>
+    <LocationType identifier="Mine"/>
+    <message header="missionsuccess.tormsdalereport" text="missionmessage0.tormsdalereport"/>
+    <TriggerEvent state="0" delay="5" eventidentifier="tormsdalereport_outpost" campaignonly="true"/>
+  </SalvageMission>
+
+
+
+
+
+
+
+  <!-- Beacon Stations -->
+
+
+
+</Missions>

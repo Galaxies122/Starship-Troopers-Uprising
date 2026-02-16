@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+
+<!-- Factions -->
+<faction.mobileinfantry>Mobile Infantry</faction.mobileinfantry>
+<faction.mobileinfantry.description>The Mobile Infantry is the ground military component of the United Citizen Federation. The primary military arm of the Federal Armed Services, it is comprised of volunteers from all Federal worlds, eliminating the nationalistic tendencies caused by sovereign territories that provoked the Disorders and instilling personal sense of duty in the future Citizen franchise.</faction.mobileinfantry.description>
+<faction.mobileinfantry.shortdescription>The Mobile Infantry is the ground military component of the United Citizen Federation. The primary military arm of the Federal Armed Services.</faction.mobileinfantry.shortdescription>
+<faction.unitedcitizenfederation>United Citizen Federation</faction.unitedcitizenfederation>
+<faction.unitedcitizenfederation.description>The Federation is the unified government of Earth, all inhabited Sol System planets as well as its associated colonies, territories and outposts. The Federation is a veteran-led, republic-style system of government based in Geneva, Switzerland and is ruled by the Sky Marshal.</faction.unitedcitizenfederation.description>
+<faction.unitedcitizenfederation.shortdescription>The Federation is the unified government of Earth, all inhabited Sol System planets as well as its associated colonies, territories and outposts.</faction.unitedcitizenfederation.shortdescription>
+<faction.arachnids>Arachnids</faction.arachnids>
+<faction.arachnids.description>The Arachnids, commonly referred to as Bugs and Archies, represent a hostile alien species that has subjugated numerous planets throughout the galaxy, establishing an empire diametrically opposed to the human-dominated United Citizen Federation. Their capacity to colonize planets through the dispersion of their spores into space, coupled with a social structure finely attuned to their mental acumen, underscores their formidable capabilities.</faction.arachnids.description>
+<faction.arachnids.shortdescription>The Arachnids, commonly referred to as Bugs and Archies, represent a hostile alien species that has subjugated numerous planets throughout the galaxy.</faction.arachnids.shortdescription>
+<faction.skinnies>Skinnies</faction.skinnies>
+<faction.skinnies.description>The "Skinnies" are a tall, aptly skinny humanoid species. Very little is known about them or their technology, though it is known that they have had a much longer time to develop their armaments than humanity has, as can be considered a Type-3 civilization, whereas the Federation is merely a Type-2.</faction.skinnies.description>
+<faction.skinnies.shortdescription>The "Skinnies" are a tall, aptly skinny humanoid species. Very little is known about them or their technology.</faction.skinnies.shortdescription>
+<faction.insurrectionist>Insurrectionists</faction.insurrectionist>
+<faction.insurrectionist.description>The uncaring, facist arm of the Federation has wrought nothing but pain on its' civilians, while only the citizens (you become a citizen after enlisting in the MI) are allowed the God-given right to vote. This right is meant for all people. For democracy!</faction.insurrectionist.description>
+<faction.insurrectionist.shortdescription>The largest rebel cell against the United Citizen Federation does their best to take out the Federation and install their own democratic government.</faction.insurrectionist.shortdescription>
+
+
+<!-- Mission types -->
+<missiontype.shipkill_arachnids_easy>Ship Infestation</missiontype.shipkill_arachnids_easy>
+<missionname.shipkill_arachnids_easy>Comms Lost</missionname.shipkill_arachnids_easy>
+<missiondescription.shipkill_arachnids_easy>Contact with [location1] was recently lost. It's suspected that the outpost is under invasion by hostile fauna. Get rid of all the creatures found inside the outpost.</missiondescription.shipkill_arachnids_easy>
+<missionsuccess.shipkill_arachnids_easy>The Archies have been successfully eliminated...</missionsuccess.shipkill_arachnids_easy>
+<missionfailure.shipkill_arachnids_easy>The outpost remains infested with Bugs...</missionfailure.shipkill_arachnids_easy>
+<missionheader0.shipkill_arachnids_easy>Arachnids terminated.</missionheader0.shipkill_arachnids_easy>
+<missionmessage0.shipkill_arachnids_easy>The creatures inside the outpost have been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.shipkill_arachnids_easy>
+
+
+
+
+
+<!-- Currency -->
+<moneygained>Gained [amount] credits.</moneygained>
+<moneygainedclient>[clientname] gained [amount] credits.</moneygainedclient>
+<moneylost>Lost [amount] credits.</moneylost>
+<moneylostclient>[clientname] lost [amount] credits.</moneylostclient>
+<currencyformat>[credits] CR</currencyformat>
+<price>Price: [amount]</price>
+
+
+
+
+<!-- Hint system -->
+<disableingamehints>Disable in-game hints</disableingamehints>
+<disableingamehintstooltip>Prevent any in-game hints from being displayed during the game.</disableingamehintstooltip>
+<hintmessagebox.dontshowagain>Don't show again</hintmessagebox.dontshowagain>
+<hintmessagebox.dontshowagaintooltip>Don't show this hint again. In-game hints can be disabled altogether in the settings menu.</hintmessagebox.dontshowagaintooltip>
+<hintmessagebox.disablehints>Disable hints</hintmessagebox.disablehints>
+<hintmessagebox.disablehintstooltip>Disable all future hints. They can be re-enabled from the Settings.</hintmessagebox.disablehintstooltip>
+<hintmessagebox.dismiss>Dismiss</hintmessagebox.dismiss>
+<hint.onadjacenthull.highpressure>The area beyond this door is flooded with water under high pressure. Proceeding without a diving suit may be dangerous.</hint.onadjacenthull.highpressure>
+<hint.onadjacenthull.highwaterpercentage>A nearby room is currently filled with water. You might need to bring some diving gear with you.</hint.onadjacenthull.highwaterpercentage>
+<hint.onafflictiondisplayed>You've developed an affliction. Afflictions can be treated by pressing [key] to open the medical interface.</hint.onafflictiondisplayed>
+<hint.onautopilotreachedoutpost>The autopilot has navigated the ship to the location. Switch to manual control to move closer to the docking station.</hint.onautopilotreachedoutpost>
+<hint.onavailabletransition.returntopreviousemptylocation>You have returned to the beginning of the level. Select a new destination to continue your journey, or close the map by pressing Esc.</hint.onavailabletransition.returntopreviousemptylocation>
+<hint.onavailabletransition.progresstonextemptylocation>You have reached the end of the level. Select a new destination to continue your journey.</hint.onavailabletransition.progresstonextemptylocation>
+<hint.oncharacterkilled>The character you were controlling has died. Switch to another crewmember by opening the crew list to the top left of the screen and clicking on a portrait.</hint.oncharacterkilled>
+<hint.oncharacterunconscious>The character you were controlling has fallen unconscious. You can either wait for another crewmember to heal you or give in by clicking on the button on the top of the screen.</hint.oncharacterunconscious>
+<hint.ondivinggearoutofoxygen>You have equipped a space suit that lacks a sufficient oxygen source. Put in a new oxygen tank before using this gear.</hint.ondivinggearoutofoxygen>
+<hint.onhandcuffed>You have been handcuffed and your capability to move or interact is limited. Someone else needs to uncuff you.</hint.onhandcuffed>
+<hint.onisinteracting.reactorwithextrarods>Adding more than one fuel rod to the reactor is useful for jump starting it when it's submerged but will produce a dangerous rate of reaction under normal operation.</hint.onisinteracting.reactorwithextrarods>
+<hint.onreactoroutoffuel>The reactor has run out of fuel and the ship will run out of power. Replace the fuel rod to get power back on.</hint.onreactoroutoffuel>
+<hint.onrepairfailed>Failing to repair a device can cause you harm. Characters more skillful in mechanical or electrical repairs are more likely to succeed.</hint.onrepairfailed>
+<hint.onroundstarted.voipdisabled>Turn on the voice chat in the setting if you want to communicate using your microphone.</hint.onroundstarted.voipdisabled>
+<hint.onshootwithoutaiming>You'll need to aim by holding [key] before using this.</hint.onshootwithoutaiming>
+<hint.onshowcampaigninterface.map>Use the campaign map to select your next destination. After picking a destination, you can choose the mission you want to undertake.</hint.onshowcampaigninterface.map>
+<hint.onshowcommandinterface>Use the command wheel to issue commands to other crewmembers. Choose an order category, then the order. A suitable person will be assigned for the job.</hint.onshowcommandinterface>
+<hint.onshowhealthinterface>This is the health interface. Choose a body part to see the afflictions affecting that part. Drag medical items from your inventory to administer them to a body part.</hint.onshowhealthinterface>
+<hint.onsonarspottedenemy>Sonar is picking up a moving target. Make sure the sub's guns are manned and try to manouver so that your gunners have a clear shot.</hint.onsonarspottedenemy>
+<hint.onstartedcontrolling.job.assistant>You're playing an assistant. Assistants are a jack-of-all-trades class. Be helpful where you can and develop your skills.</hint.onstartedcontrolling.job.assistant>
+<hint.onstartedcontrolling.job.captain>You're playing a captain. You should make your way to the command room and start navigating the spaceship to the destination.</hint.onstartedcontrolling.job.captain>
+<hint.onstartedcontrolling.job.engineer>You're playing an engineer. Engineers are responsible for keeping the spaceship powered at all times. To do that, tend to the reactor and keep electrical equipment in good condition by repairing them.</hint.onstartedcontrolling.job.engineer>
+<hint.onstartedcontrolling.job.mechanic>You're playing a mechanic. You should keep an eye out on all the devices on the spaceship and repair them if they break.</hint.onstartedcontrolling.job.mechanic>
+<hint.onstartedcontrolling.job.medicaldoctor>You're playing a medical doctor. Take care of your fellow crew and treat their injuries if they hurt themselves.</hint.onstartedcontrolling.job.medicaldoctor>
+<hint.onstartedcontrolling.job.securityofficer>You're playing a security officer. Take inventory of the weapons on board the submarine, arm the turrets in case of an enemy attack and keep the rowdy crewmembers in line.</hint.onstartedcontrolling.job.securityofficer>
+<hint.onstartedinteracting.brokenitem>All devices on a ship will gradually break down over time, as this one has, and must be maintained for peak operating performance. Equip a screwdriver to repair electrical devices, and a wrench to repair mechanical ones.</hint.onstartedinteracting.brokenitem>
+<hint.onstartedinteracting.lootingisstealing>Items with a red hand icon belong to someone else. If you take them, there will be consequences to deal with.</hint.onstartedinteracting.lootingisstealing>
+<hint.onstartedinteracting.turretperiscope>This periscope controls a spaceship weapon. Use the mouse to look around and press [shootkey] to fire and [deselectkey] or "ESC" to stop.</hint.onstartedinteracting.turretperiscope>
+<hint.onstartedinteracting.item.deconstructor>Use the deconstructor to break down items to their components. Insert an item to the input slot and press "Deconstruct" to start the process.</hint.onstartedinteracting.item.deconstructor>
+<hint.onstartedinteracting.item.fabricator>Use the fabricator to craft items. Choose an item from the list, and if you have the required items in your inventory, press "Create" to start fabricating.</hint.onstartedinteracting.item.fabricator>
+<hint.onstartedinteracting.item.gunloader>This loader must be loaded with ammunition for the linked spaceship weapon.</hint.onstartedinteracting.item.gunloader>
+<hint.onstartedinteracting.item.navterminal>You can plot a course for the sub, set the autopilot, control the sonar, and monitor a side view of the sonar returns from here. Click on the sonar view to select direction. Use Mouse scroll wheel to zoom in and out.</hint.onstartedinteracting.item.navterminal>
+<hint.onstartedinteracting.item.reactor>Nuclear reactors provide power to your devices. Try to keep the "load" and "output" the same, otherwise you'll likely suffer from blackouts or power spikes that damage your devices.</hint.onstartedinteracting.item.reactor>
+<hint.onstoleitem>You just stole something. This has hurt your reputation, and worse still, security will need to deal with you.</hint.onstoleitem>
+<hint.ontryopenstuckdoor>The door has been welded shut. You need a plasma cutter to open it.</hint.ontryopenstuckdoor>
+<hint.onweldingdoor>You're welding a door shut. Once it's completely welded, you'll need to use a plasma cutter or crowbar to get it open again.</hint.onweldingdoor>
+<hint.reminder.characterchange>If you wish, you can play as any of your crew by opening the crew list to the top left of the screen and clicking on a portrait.</hint.reminder.characterchange>
+<hint.reminder.commandinterface>You can give orders to the crew via the command wheel, which is displayed with [commandkey].</hint.reminder.commandinterface>
+<hint.reminder.tabmenu>Press [infotabkey] to open the info tab where you can find information about things like your crew, your mission, and your reputation.</hint.reminder.tabmenu>
+<hint.reminder.toolbelt>You have a toolbelt equipped. Hover over the icon in your inventory to access the toolbelt inventory.</hint.reminder.toolbelt>
+<hint.onballastflorainfected>One of the ballast pumps is infected with ballast flora. Destroy the root with fire to kill it.</hint.onballastflorainfected>
+<hint.onobtaineditem.unidentifiedgeneticmaterial>You've found a mass of unidentified alien genetic material. You can use a research station to process it into something that can be inserted into a Gene Splicer—a device that can be used to augment people with non-human abilities.</hint.onobtaineditem.unidentifiedgeneticmaterial>
+<hint.onobtaineditem.geneticmaterial>You've obtained a vial of identified alien genetic material. You can use it with a Gene Splicer, combine it with genetic material of the same type in a Research Station to refine it and boost it's effectiveness, or combine it with a genetic material of different type to combine their effects.</hint.onobtaineditem.geneticmaterial>
+<hint.upgradedivingsuits>You are approaching a depth of 4,000 meters, after which normal diving suits will not be adequate to protect you from the pressure. You should try to obtain better ones, such as combat or abyss suits.</hint.upgradedivingsuits>
+<hint.assignedastraitor>You have been assigned a traitor objective. If you complete the objective successfully, you'll be given a reward and potentially a more difficult (and dangerous) traitor objective later.</hint.assignedastraitor>
+<hint.assignedastraitor2>Be discreet! Others in the crew can vote on who they suspect to be a traitor, and if the majority of the crew suspects you, the objective will fail and you will receive no rewards.</hint.assignedastraitor2>
+<hint.traitorsonboard>There may be traitors in the crew. If a traitor completes their objective successfully, they might get to steal portions of the mission reward and experience points gained by the rest of the crew.</hint.traitorsonboard>
+<hint.traitorsonboard2>You can suspect someone as the traitor by clicking the traitor icon in the crew list. If most of the crew correctly suspects the traitor, the traitor's objective will fail and they will not receive any rewards. But if the suspicions fall on an innocent player, the crew will need to pay a fine.</hint.traitorsonboard2>
+<hint.repairingsabotageditem>Something's off here. The device seems to keep breaking down despite your attempts to repair it. Could someone have tampered with it in some way?</hint.repairingsabotageditem>
+<hint.radiojammed>There's nothing but static coming out of your headset—someone might have activated a radio jammer somewhere.</hint.radiojammed>
+
+
+
+
+</infotexts>

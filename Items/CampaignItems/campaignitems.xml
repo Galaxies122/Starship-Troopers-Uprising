@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Spawner" nameidentifier="spawner" identifier="spawner" description="A simple item/creature spawner that can be wired" width="128" height="192" texturescale="0.5,0.5" scale="0.5" category="Electrical" noninteractable="true" spritecolor="255,255,150,255">
+    <sprite texture="Content/Map/MapAtlas.png" sourcerect="784,526,100,100" depth="0.800" premultiplyalpha="false" origin="0.5,0.5" />
+    <EntitySpawnerComponent ItemIdentifier="" SpeciesName="" OnlySpawnWhenCrewInRange="False" CrewAreaShape="Rectangle" CrewAreaBounds="500,500" CrewAreaRadius="500" CrewAreaOffset="0,0" SpawnAreaShape="Rectangle" SpawnAreaBounds="200,200" SpawnAreaRadius="200" SpawnAreaOffset="0,0" SpawnTimerRange="-1,-1" SpawnAmountRange="1,1" MaximumAmount="0" MaximumAmountInArea="0" MaximumAmountRangePadding="0" PreloadCharacter="False" />
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="trigger_in" displayname="connection.turrettriggerin" />
+      <input name="toggle" displayname="connection.togglestate" />
+      <input name="set_state" displayname="connection.setstate" />
+      <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
+    </ConnectionPanel>
+    <CustomInterface canbeselected="true" pickkey="Use" drawhudwhenequipped="true" allowuioverlap="false">
+      <GuiFrame style="ItemUI" absoluteoffset="0,0" anchor="BottomCenter" relativesize="0.2,0.13" />
+      <TextBox text="Item Identifier" propertyname="ItemIdentifier" maxtextlength="50" />
+      <TextBox text="Species Name" propertyname="Speciesname" maxtextlength="50" />
+    </CustomInterface>
+  </Item>
+
+  <Item name="Psychic Gifting" description="Want to be unlike the others?" identifier="st_psychic_talentgiver" maxstacksize="1" Tags="smallitem,chem,admin" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/Medical/Medicines.png" sourcerect="448,256,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="303,310,35,67" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="This" Condition="-100" />
+      <StatusEffect type="OnBroken" target="This,Character">
+        <GiveTalentInfo giverandom="true" talentidentifiers="dummytalent,psychic" />
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+
+
+
+
+
+</Items>

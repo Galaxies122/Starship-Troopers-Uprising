@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+
+  <!-- HOB INTO BRAINCONTROLBUG -->
+
+  <Affliction name="Xeno Growth Drone" identifier="xenogrowthdrone" description="Time to grow up..." type="damage" targets="Xenoimp" causeofdeathdescription="It grew up..." selfcauseofdeathdescription="You have grown to something more." limbspecific="false" indicatorlimb="Torso" activationthreshold="0" showiconthreshold="40" karmachangeonapplied="-1" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
+    <Effect minstrength="1" maxstrength="96" strengthchange="5" />
+    <!-- Small break for suspense, character still slow -->
+    <Effect minstrength="96.1" maxstrength="98.5" strengthchange="0.5">
+      <StatusEffect target="Character" SpeedMultiplier="1" HealthMultiplier="8" setvalue="true" />
+    </Effect>
+    <!-- Large burst, spawn creature -->
+    <Effect minstrength="98.5" maxstrength="99" strengthchange="0.1">
+      <StatusEffect target="Character" SpeedMultiplier="1" HealthMultiplier="8" setvalue="true" />
+      <StatusEffect target="Character" targetlimbs="Torso" duration="1">
+        <Sound file="Content/Sounds/Damage/Gore5.ogg" range="1000" />
+        <particleemitter particle="heavygib" particleamount="2" emitinterval="3" particlespersecond="0" velocitymin="60" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="bloodsplash" particleamount="1" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="whitegoosplash" particleamount="4" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+      </StatusEffect>
+      <StatusEffect target="Character" duration="1" stackable="false">
+        <!-- NOTE: This may spawn multiple characters, let me know if that is the case -->
+        <SpawnCharacter speciesname="Xenodrone" count="1" />
+        <!-- NOTE: Change speciesname to the proper identifier -->
+        <removecharacter />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/Creature Bodys/Chestbursterimage.png" sourcerect="0,0,128,128" color="255,165,0,255" origin="0,0" />
+  </Affliction>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Facehugger infection, handles progression towards xenomorph spawning by Working Joe-->
+  <Affliction name="Arachnid Gestation" identifier="arachind_hob_takeover" description="There's an Arachnid inside of you.... Fix it." type="arachind_hob_takeover" targets="human" sendmessages="false" causeofdeathdescription="... died due to a gestation." selfcauseofdeathdescription="You died due to a gestation." limbspecific="false" indicatorlimb="Torso" maxstrength="100" showiconthreshold="20" showicontoothersthreshold="30" showinhealthscannerthreshold="0">
+    <icon texture="%ModDir%/Afflictions/arachnid_gestation.png" sourcerect="0,0,128,128" origin="0,0" color="109,0,153,255" />
+    <!-- NOTE: you'll have to add an icon path here or the game may crash -->
+    <!-- Gradual Progression -->
+    <!-- Note: time until spawn is maxstrength/strengthchange, about 3 minutes in this case. That's the base duration, will vary with class depending on maxvitality -->
+    <Effect minstrength="0" maxstrength="50" strengthchange="0.5" />
+    <!-- If progression over half way and killed early, spawn anyways -->
+    <!-- NOTE: commented out, the type="OnDeath" statuseffect won't work now. Next update this will work! -->
+    <!-- NOTE: If you add this change the speciesname in the SpawnCharacter effect to the right identifier -->
+    <!-- NOTE: Also change effect above to have maxstrength="50" -->
+    <!--
+		<Effect minstrength="50" maxstrength="96" strengthchange="0.37">
+			<StatusEffect type="OnDeath" target="Character" setvalue="true">
+				<particleemitter particle="heavygib" particleamount="2" emitinterval="3" particlespersecond="0" velocitymin="60" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True"/>
+				<particleemitter particle="bloodsplash" particleamount="1" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True"/>
+				<particleemitter particle="whitegoosplash" particleamount="4" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True"/>
+				<SpawnCharacter speciesname="Xenochestburster" count="1" /> 
+			</StatusEffect>
+		</Effect>-->
+    <!-- NOTE: You may want to give the character paralysis after this point -->
+    <Effect minstrength="50" maxstrength="96" strengthchange="0.37">
+      <StatusEffect type="OnDeath" target="Character" setvalue="true">
+        <particleemitter particle="heavygib" particleamount="2" emitinterval="3" particlespersecond="0" velocitymin="60" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="bloodsplash" particleamount="1" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="whitegoosplash" particleamount="4" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <SpawnCharacter speciesname="Arachnidbraincontrolbug" count="1" />
+      </StatusEffect>
+    </Effect>
+    <!-- Slow down player, increase health to prevent death -->
+    <Effect minstrength="96" maxstrength="96.1" strengthchange="0.5">
+      <!-- small burst as a runaway warning -->
+      <StatusEffect target="Character" targetlimbs="Torso" duration=".2">
+        <Sound file="Content/Sounds/Damage/Gore2.ogg" range="1000" />
+        <particleemitter particle="bloodsplash" particleamount="1" emitinterval=".1" particlespersecond="1" velocitymin="0" velocitymax="300" anglemin="-45" anglemax="45" scalemin="0.5" scalemax="1.0" highqualitycollisiondetection="False" copyentityangle="True" />
+      </StatusEffect>
+      <StatusEffect target="Character" targetlimbs="Torso" duration=".5" delay=".5">
+        <particleemitter particle="heavygib" particleamount="1" emitinterval="2" particlespersecond="0" velocitymin="60" velocitymax="100" anglemin="-45" anglemax="45" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+      </StatusEffect>
+      <!-- Second delayed medium burst for dramatic effect -->
+      <StatusEffect target="Character" targetlimbs="Torso" duration=".2" delay="1.5">
+        <Sound file="Content/Sounds/Damage/Gore10.ogg" range="1000" />
+        <particleemitter particle="bloodsplash" particleamount="1" emitinterval=".05" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="-45" anglemax="45" scalemin="0.5" scalemax="1.0" highqualitycollisiondetection="False" copyentityangle="True" />
+      </StatusEffect>
+      <StatusEffect target="Character" targetlimbs="Torso" duration=".5" delay="2">
+        <particleemitter particle="heavygib" particleamount="1" emitinterval="1" particlespersecond="0" velocitymin="60" velocitymax="100" anglemin="-45" anglemax="45" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+      </StatusEffect>
+      <StatusEffect target="Character" targetlimbs="Torso" duration="3" delay="2.5">
+        <particleemitter particle="blooddrop" particleamount="3" emitinterval=".8" particlespersecond="0" velocitymin="0" velocitymax="0" anglemin="-45" anglemax="45" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+      </StatusEffect>
+    </Effect>
+    <!-- Small break for suspense, character still slow -->
+    <Effect minstrength="96.1" maxstrength="98.5" strengthchange="0.4">
+      <StatusEffect target="Character" SpeedMultiplier="0.1" HealthMultiplier="8" setvalue="true" />
+    </Effect>
+    <!-- Large burst, spawn creature -->
+    <Effect minstrength="98.5" maxstrength="99" strengthchange="0.5">
+      <StatusEffect target="Character" SpeedMultiplier="0.1" HealthMultiplier="8" setvalue="true" />
+      <StatusEffect target="Character" targetlimbs="Torso" duration="1">
+        <Sound file="Content/Sounds/Damage/Gore5.ogg" range="1000" />
+        <particleemitter particle="heavygib" particleamount="2" emitinterval="3" particlespersecond="0" velocitymin="60" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="bloodsplash" particleamount="1" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+        <particleemitter particle="whitegoosplash" particleamount="4" emitinterval="2" particlespersecond="0" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.2" scalemax="0.5" copyentityangle="True" />
+      </StatusEffect>
+      <StatusEffect target="Character" duration="0.3" stackable="false">
+        <!-- NOTE: This may spawn multiple characters, let me know if that is the case -->
+        <SpawnCharacter speciesname="Arachnidbraincontrolbug" count="1" />
+        <!-- NOTE: Change speciesname to the proper identifier -->
+        <killcharacter />
+      </StatusEffect>
+    </Effect>
+    <!-- kill character -->
+    <Effect minstrength="99" maxstrength="100" maxvitalitydecrease="2" minvitalitydecrease="2" multiplybymaxvitality="true" strengthchange="66" />
+  </Affliction>
+
+  <!-- _________________________________________________________________ -->
+  <!-- MUTANT HUSK SEVERED HIJACKING HEAD IN-PROGRESS / COOLDOWN AFFLICTION-->
+  <!-- _________________________________________________________________ -->
+  <!-- This affliction prevents multiple facehugger from latching onto the same person. It also serves as a cooldown so that you don't get attacked by another head immediately after getting rid of one. -->
+  <Affliction name="There's a Hob crawling into your mouth..." identifier="hob_enter_body" description="GET IT OFF. GET IT OFF. GET IT OFF." type="hob_enter_body" limbspecific="false" indicatorlimb="Head" activationthreshold="0" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-3" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,640,128,128" color="60,107,195,255" origin="0,0" />
+  </Affliction>
+
+
+  <!-- _________________________________________________________________ -->
+  <!-- BEFORE facehugger AFFLICTION-->
+  <!-- _________________________________________________________________ -->
+  <!--  Having this affliction makes you a possible candidate for being facehug the next time you are attacked by one. -->
+  <Affliction name="I feel something inside of me..." identifier="hob_inside_body" description="GET IT OUT. GET IT OUT. GET IT OUT." type="hob_inside_body" limbspecific="false" indicatorlimb="Head" activationthreshold="0" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-6" minscreendistort="0.0" maxscreendistort="0.0" minscreenblur="1.1" maxscreenblur="1.2" />
+    <PeriodicEffect mininterval="1" maxinterval="2">
+      <StatusEffect target="Character" comparison="and" targetlimbs="Head">
+        <Conditional isdead="false" />
+        <Conditional speciesname="eq human" />
+        <Conditional stun="gt 0" />
+        <Conditional gunshotwound="gt 20" />
+        <ReduceAffliction identifier="gunshotwound" strength="20" />
+        <!-- Because the affliction below relies on gunshot wounds to remove it, it's necessary to reduce it beforehand, else it could disappear immediately. -->
+      </StatusEffect>
+    </PeriodicEffect>
+    <icon texture="%ModDir%/Afflictions/arachnid_gestation.png" sourcerect="0,0,128,128" color="60,107,195,255" origin="0,0" />
+  </Affliction>
+
+
+  <!-- _________________________________________________________________ -->
+  <!-- HEAD Facehugger AFFLICTION by The Ninja Scout edited by SLA -->
+  <!-- _________________________________________________________________ -->
+  <Afflictionhusk name="I need to get this thing out." identifier="hob_gestation" description="RIP IT OUT. RIP IT OUT. RIP IT OUT." type="alieninfection" targets="human" huskedspeciesname="Arachnidbraincontrolbug" limbspecific="false" indicatorlimb="Head" activationthreshold="0" showiconthreshold="20" showicontoothersthreshold="30" showinhealthscannerthreshold="0" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255" CauseSpeechImpediment="false" sendmessages="false" needsair="true">
+    <Effect minstrength="0" maxstrength="4" strengthchange="-0.8">
+      <!-- When it reaches 0-4 strength, the severed head dies. -->
+      <StatusEffect target="Character" delay="0.5" targetlimb="Head">
+        <Affliction identifier="hob_enter_body" strength="50" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="5" maxstrength="73" strengthchange="45">
+      <!-- From 0 strength to 74 strength, the severed head is not actually visible, so we want to make the affliction quickly reach 75% strength. -->
+      <StatusEffect target="Character" delay="0.1" stackable="false" targetlimb="Head">
+        <Affliction identifier="hob_enter_body" strength="50" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="74" maxstrength="98" strengthchange="1.0" SpeedMultiplier="0.6">
+      <!-- From 75 strength to 98 strength, the severed head is visible on the character. If it is shot enough times, the affliction will quickly be reduced and the head will die. -->
+      <StatusEffect target="Character" delay="0.1" stackable="false" targetlimb="Head">
+        <Affliction identifier="hob_enter_body" strength="50" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="99" maxstrength="100" strengthchange="2" SpeedMultiplier="3.0">
+      <!-- Once it reaches maximum strength... It's too late.-->
+      <StatusEffect target="Character" delay="2.0" targetlimb="Head">
+        <Affliction identifier="bluntforcetrauma" amount="0.5" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="0.1" duration="3.0" targetlimb="Head">
+        <Affliction identifier="lacerations" amount="0.5" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="0.1" targetlimb="Head">
+        <Affliction identifier="internaldamage" amount=".2" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="3.0" duration="12.0" targetlimb="Chest">
+        <Affliction identifier="internaldamage" amount=".01" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="0.1">
+        <Affliction identifier="xenoinfection" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="5.1">
+        <Affliction identifier="Stun" amount="13" />
+      </StatusEffect>
+      <StatusEffect target="Character" delay="7.2">
+        <ReduceAffliction identifier="hob_gestation" amount="100" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/Afflictions/arachnid_gestation.png" sourcerect="0,0,128,128" color="255,165,0,255" origin="0,0" />
+    <AfflictionOverlay texture="%ModDir%/Afflictions/gestation_overlay.png" sourcerect="0,0,1024,680" color="255,255,255,255" origin="0,0" />
+  </Afflictionhusk>
+
+</Afflictions>

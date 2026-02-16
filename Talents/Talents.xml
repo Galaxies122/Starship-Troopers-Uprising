@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="mi_tier_1" name="MI Tier 1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,7" sheetelementsize="128,128"/>
+    <Description tag="talentdescription.mi_tier_1"/>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.qqq" color="gui.orange"/>
+    </Description>
+    <AddedRecipe itemidentifier="qqq" />
+    <AbilityGroupInterval interval="100">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffect type="Always" target="NearbyCharacters" range="10000">
+            <GiveTalentInfo talentidentifiers="mi_tier_1" />
+          </StatusEffect>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+
+
+
+
+
+
+  <!-- Player talents -->
+
+
+  <Talent identifier="normal" name="normal" >
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,4" sheetelementsize="128,128"/>
+    <Description tag="talentdescription.normal" />
+  </Talent>
+
+  <Talent identifier="psychic" name="Psychic" ishiddenextratalent="false">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,4" sheetelementsize="128,128"/>
+    <Description tag="talentdescription.psychic">
+      <Replace tag="[seconds]" value="2" color="gui.green"/>
+    </Description>
+    <AbilityGroupInterval interval="1.0">
+      <Abilities>
+        <CharacterAbilityGiveAffliction affliction="mindsense" strength="1.0" setvalue="true" />
+        <CharacterAbilityReduceAffliction afflictionId="bleeding" amount="1" />
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+
+
+  <Talent identifier="unseen" name="Unseen...">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,4" sheetelementsize="128,128"/>
+    <Description tag="talentdescription.unseen">
+      <Replace tag="[seconds]" value="2" color="gui.green"/>
+    </Description>
+    <AbilityGroupInterval >
+      <Abilities>
+        <CharacterAbilityModifyFlag flagtype="IgnoredByEnemyAI"/>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+
+
+
+
+
+</Talents>

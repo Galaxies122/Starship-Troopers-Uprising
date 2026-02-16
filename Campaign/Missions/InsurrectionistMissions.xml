@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Missions>
+
+  <!-- Planet Takeovers -->
+  <OutpostDestroyMission
+    identifier="innie_ucfassassinate"
+    textidentifier="innie_assassinate"
+    type="OutpostDestroy"
+    reward="2000"
+    difficulty="4"
+    commonness="0"
+    allowretry="false"
+    sonarlabel="target"
+    BlockLocationTypeChanges="true">
+    <Reputation identifier="insurrectionist" amount="10" amountforopposingfaction="-10" />
+    <Reputation identifier="unitedcitizenfederation" amount="-5" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48"/>
+    <LocationType identifier="ucf_station" />
+    <Characters>
+      <Character identifier="coalitionspy" from="customnpcs1" teamid="FriendlyNpc" asfaraspossible="true" requirekill="true"/>
+    </Characters>
+    <message text="missionsuccess.huskcultspecialassassinate"/>
+  </OutpostDestroyMission>
+
+  <AbandonedOutpostMission
+    identifier="innie_destroy_ucfstation1"
+    textidentifier="innie_destroy_ucfstation"
+    tags="abandonedoutpost"
+    type="AbandonedOutpostAssassinate"
+    reward="4500"
+    difficulty="4"
+    commonness="100"
+    allowretry="true"
+    sonarlabel="target"
+    unhideentitysubcategories="abandonedhuman"
+    minleveldifficulty="50">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48"/>
+    <LocationType identifier="ucf_station" />
+    <LocationTypeChange from="ucf_station" to="innie_station" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="bandit" from="abandonedoutpostnpcs" moduleflags="crewmodule"/>
+      <Character identifier="bandit" from="abandonedoutpostnpcs" moduleflags="researchmodule" multiplayeronly="true"/>
+      <Character identifier="bandit" from="abandonedoutpostnpcs" moduleflags="engineeringmodule"/>
+      <Character identifier="bandit_heavy" from="abandonedoutpostnpcs" moduleflags="securitymodule"/>
+      <Character identifier="bandit_elite" from="abandonedoutpostnpcs" moduleflags="securitymodule" multiplayeronly="true"/>
+      <Character identifier="bandit_heavy" from="abandonedoutpostnpcs" moduleflags="seccrewmodule"/>
+      <Character identifier="bandit_heavy" from="abandonedoutpostnpcs" moduleflags="seccrewmodule" multiplayeronly="true"/>
+      <Character identifier="bandit_elite" from="abandonedoutpostnpcs" asfaraspossible="true" />
+      <Character identifier="bandit_elite" from="abandonedoutpostnpcs" asfaraspossible="true" multiplayeronly="true"/>
+      <Character identifier="bandit_elite" from="abandonedoutpostnpcs" asfaraspossible="true" multiplayeronly="true"/>
+      <Character identifier="banditleader_heavy" from="abandonedoutpostnpcs" asfaraspossible="true" requirekill="true"/>
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinate" text="missionmessage0.abandonedoutpostassassinate"/>
+  </AbandonedOutpostMission>
+
+
+</Missions>

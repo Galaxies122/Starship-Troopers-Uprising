@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutpostGenerationParameters>
+  
+  <!-- fallback config for level types that aren't included here (for example, modded location types) -->
+  <OutpostConfig
+    identifier="fallback"
+    totalmodulecount="6" minhallwaylength="0">
+    <modulecount flag="Airlock" count="1"/>
+    <modulecount flag="EngineeringModule" count="1"/>
+    <modulecount flag="AdminModule" count="1"/>
+  </OutpostConfig>
+
+
+<!-- UCF -->
+  <OutpostConfig
+    identifier="ucf_station"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="3" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_station">
+    <modulecount flag="UCF_Station_Stage1" count="1"/>
+    <modulecount flag="UCF_Station_Stage2" count="2"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_city"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="3" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_city">
+    <modulecount flag="UCF_Station_Stage1" count="1"/>
+    <modulecount flag="UCF_Station_Stage2" count="2"/>
+    <modulecount flag="UCF_Station_Security" count="1"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_refinery"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="3" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_refinery">
+    <modulecount flag="UCF_Station_Stage1" count="1"/>
+    <modulecount flag="UCF_Station_Stage2" count="2"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_manufactorium"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="2" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_manufactorium">
+    <modulecount flag="UCF_Manu_Stage1" count="1"/>
+    <modulecount flag="UCF_Manu_Stage2" count="1"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_shipyard"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="3" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_shipyard">
+    <modulecount flag="UCF_Station_Stage1" count="1"/>
+    <modulecount flag="UCF_Station_Stage2" count="2"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_subupgrade"/>
+      <npc from="federation_npcs" identifier="federation_subsales"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_quarantine"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="3" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_quarantine">
+    <modulecount flag="UCF_Station_Stage1" count="1"/>
+    <modulecount flag="UCF_Station_Stage2" count="2"/>
+
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_hrmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+
+
+<!-- Arachnids -->
+  <OutpostConfig
+    identifier="bug_planet_1"
+    replaceinradiation="abandonedplanet"
+    totalmodulecount="4" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="bug_planet_1">
+    <modulecount flag="Planet_v01_Entryway" count="1" order="1" />
+    <modulecount flag="Planet_v01_Droppoint" count="1" order="2" />
+    <modulecount flag="Planet_v01_Mid" count="3" order="3" />
+  </OutpostConfig>
+
+
+<!-- Ships -->
+  <OutpostConfig
+    identifier="ucf_ship"
+    totalmodulecount="1" 
+    minhallwaylength="0"
+    replaceinradiation="ucf_ship_abandoned"
+    outposttag="ucf_ship"
+    allowedlocationtypes="ucf_ship_location">
+    <npcs>
+      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
+      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_ship_abandoned"
+    totalmodulecount="1" 
+    minhallwaylength="0"
+    replaceinradiation="abandonedoutpost"
+    outposttag="ucf_ship_abandoned"
+    allowedlocationtypes="ucf_abandonedship_location">
+  </OutpostConfig>
+
+
+<!-- Asteroids -->
+  <OutpostConfig
+    identifier="asteroid_1"
+    totalmodulecount="7" minhallwaylength="0"
+    allowedlocationtypes="asteroid_1"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="false"
+    alwaysrewireable="true"
+    allowstealing="true">
+    <modulecount flag="Asteroid_v01_Beg" count="1"/>
+    <modulecount flag="Asteroid_v01_Mid" count="5"/>
+    <modulecount flag="Asteroid_v01_End" count="1"/>
+  </OutpostConfig>
+
+
+<!-- Innie -->
+  <OutpostConfig
+    identifier="innie_outpost"
+    totalmodulecount="6" minhallwaylength="0"
+    allowedlocationtypes="innie_station"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true">
+    <modulecount flag="AbandonedAirlock" count="1"/>
+    <modulecount flag="AbandonedEngineeringModule" count="1"/>
+    <modulecount flag="AbandonedAdminModule" count="1"/>
+    <modulecount flag="AbandonedCrewModule" count="1"/>
+    <modulecount flag="AbandonedResearchModule" count="1"/>
+    <modulecount flag="AbandonedSecurityModule" count="1"/>
+  </OutpostConfig>
+
+
+<!-- Skinny -->
+  <OutpostConfig
+    identifier="skinny_outpost"
+    totalmodulecount="6" minhallwaylength="0"
+    allowedlocationtypes="skinny_planet"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true">
+    <modulecount flag="AbandonedAirlock" count="1"/>
+    <modulecount flag="AbandonedEngineeringModule" count="1"/>
+    <modulecount flag="AbandonedAdminModule" count="1"/>
+    <modulecount flag="AbandonedCrewModule" count="1"/>
+    <modulecount flag="AbandonedResearchModule" count="1"/>
+    <modulecount flag="AbandonedSecurityModule" count="1"/>
+  </OutpostConfig>
+
+
+
+
+
+
+  <OutpostConfig
+    identifier="abandonedoutpost"
+    totalmodulecount="6" minhallwaylength="0"
+    allowedlocationtypes="Abandoned"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true">
+    <modulecount flag="AbandonedAirlock" count="1"/>
+    <modulecount flag="AbandonedEngineeringModule" count="1"/>
+    <modulecount flag="AbandonedAdminModule" count="1"/>
+    <modulecount flag="AbandonedCrewModule" count="1"/>
+    <modulecount flag="AbandonedResearchModule" count="1"/>
+    <modulecount flag="AbandonedSecurityModule" count="1"/>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="Outpost"
+    totalmodulecount="6" minhallwaylength="0"
+    allowedlocationtypes="Outpost">
+    <modulecount flag="Airlock" count="1"/>
+    <modulecount flag="EngineeringModule" count="1"/>
+    <modulecount flag="AdminModule" count="1"/>
+    <modulecount flag="CrewModule" count="1"/>
+    <modulecount flag="ResearchModule" count="1"/>
+    <modulecount flag="SecurityModule" count="1"/>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="tutorialoutpost"
+    allowedlocationtypes="tutorialoutpost"
+    outpostfilepath="Content/Tutorials/CampaignStartOutpost.sub">
+    <npcs>
+      <npc from="tutorialnpcs" identifier="merchanttutorial"/>
+      <npc from="outpostnpcs1" identifier="outpostmanagercoalition"/>
+      <npc from="outpostnpcs1" identifier="commoner"/>
+      <npc from="outpostnpcs1" identifier="commoner"/>
+      <npc from="outpostnpcs1" identifier="securitynpccoalition"/>
+    </npcs>
+  </OutpostConfig>
+
+
+
+
+
+
+
+  <OutpostConfig
+    identifier="endoutpostentrance"
+    totalmodulecount="1" minhallwaylength="0"
+    minwaterpercentage="100" maxwaterpercentage="100"
+    allowedlocationtypes="EndLocation"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true"
+    lockunuseddoors="false"
+    drawbehindsubs="true"
+    AlwaysShowStructuresOnSonar="true"
+    leveltype="LocationConnection">
+    <modulecount flag="EndOutpostEntrance" count="1"/>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="endoutpostmid"
+    totalmodulecount="1" minhallwaylength="0"
+    minwaterpercentage="100" maxwaterpercentage="100"
+    removeunusedgaps="false"
+    allowedlocationtypes="EndLocation"
+    forcetoendlocationindex="0"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true"
+    lockunuseddoors="false"
+    drawbehindsubs="true"
+    leveltype="Outpost">
+    <modulecount flag="EndOutpostMid" count="1"/>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="endoutpostfinal"
+    totalmodulecount="1" minhallwaylength="0"
+    minwaterpercentage="100" maxwaterpercentage="100"
+    removeunusedgaps="false"
+    allowedlocationtypes="EndLocation"
+    forcetoendlocationindex="1"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true"
+    lockunuseddoors="false"
+    drawbehindsubs="true"
+    leveltype="Outpost">
+    <modulecount flag="EndOutpostFinal" count="1"/>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="colonypvp"
+    totalmodulecount="1" minhallwaylength="0"
+    AlwaysRewireable="true"
+    AllowStealing="true"
+    AlwaysDestructible="true"
+    outposttag="PvPOutpost">
+  </OutpostConfig>
+
+</OutpostGenerationParameters>

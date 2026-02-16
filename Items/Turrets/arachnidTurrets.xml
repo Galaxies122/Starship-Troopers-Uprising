@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+  <Item name="" identifier="bugplasmaprojectile" nameidentifier="bugplasmaprojectile" category="Weapon,Alien" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,pistolammoitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="195,282,17,6" depth="0.55" origin="0.5,0.5" />
+    <Body width="40" height="14" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracernucleargun" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1,1" colormultiplier="255,200,200,200" />
+      <Attack structuredamage="5" targetforce="5" itemdamage="5" severlimbsprobability="0.1">
+        <Affliction identifier="explosiondamage" strength="10.5" />
+        <Affliction identifier="burn" strength="10.5" />
+        <Affliction identifier="stun" strength="0.1" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="eknukeflash" anglemin="0" anglemax="360" particleamount="10" velocitymin="0" scalemultiplier="0.65,0.65" colormultiplier="255,200,200,200" scalemin="0.0" scalemax="0.7" />
+      </StatusEffect>
+      <!--<StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure"/>
+        <Conditional hastag="eq door"/>
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>-->
+    </Projectile>
+  </Item>
+  <Item name="Bug Plasma Ammo" identifier="bugplasmaammo" category="Machine" subcategory="Arachnids" tags="alien,bugplasmaammo" scale="0.2">
+    <Upgrade gameversion="1.4.6.0" scale="0.2" />
+    <Sprite texture="Content/Items/Alien/EndRuin_Items.png" depth="0.7" sourcerect="839,768,71,256" origin="0.5,0.5" />
+    <Body radius="25" density="10" />
+    <Projectile characterusable="false" launchimpulse="20.0" launchrotation="90">
+      <Attack structuredamage="0" severlimbsprobability="0.5">
+        <Affliction identifier="psychosis" strength="5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This">
+        <ParticleEmitter particle="bugplasma_ammotracer" anglemax="360" distancemax="0" particlespersecond="300" scalemultiplier="1.0,1.0"/>
+      </StatusEffect>
+      <!-- reduce condition to give the bolt a 5 second lifetime -->
+      <StatusEffect type="OnNotContained" target="This" condition="-20" />
+      <StatusEffect type="OnImpact" target="This" condition="-100" >
+        <ParticleEmitter particle="bugplasma_ammotracer" anglemax="360" distancemax="200" scalemultiplier="2.0,2.0" particleamount="40"/>
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Explosion range="300.0" structuredamage="0" force="20.0">
+          <Affliction identifier="explosiondamage" strength="50" />
+        </Explosion>
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="Bug Plasma Turret" identifier="bugplasmaturret" category="Machine" subcategory="Arachnids" Tags="turret,alien" scale="0.5" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" health="1000">
+    <Sprite texture="Content/Items/Alien/EndRuin_Items.png" depth="0.4" sourcerect="384,768,455,256" canflipy="false" />
+    <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" canbeselected="false" characterusable="true">
+      <Containable items="alienturretammo" />
+      <!-- when the turret is fired, it triggers this statuseffect and spawns new ammo -->
+      <StatusEffect type="OnUse" target="Contained">
+        <SpawnItem identifier="alienturretammo" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Turret autooperate="true" friendlytag="ancientalien" canbeselected="false" characterusable="false" linkable="true" barrelpos="228,85" rotationlimits="180,360" powerconsumption="10000.0" showchargeindicator="true" showprojectileindicator="true" recoildistance="50" reload="3" springstiffnesslowskill="2" springstiffnesshighskill="2" springdampinglowskill="0.5" springdampinghighskill="0.5" rotationspeedlowskill="1" rotationspeedhighskill="1">
+      <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" />
+      <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" />
+      <RailSprite texture="Content/Items/Alien/EndRuin_Items.png" depth="0.5" sourcerect="384,384,351,384" origin="0.5, 0.66" />
+      <BarrelSprite texture="Content/Items/Alien/EndRuin_Items.png" depth="0.6" sourcerect="735,384,175,384" origin="0.5,1.0" />
+    </Turret>
+    <ConnectionPanel canbeselected="true" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <input name="power_in" displayname="connection.powerin" />
+      <input name="position_in" displayname="connection.turretaimingin" />
+      <input name="trigger_in" displayname="connection.turrettriggerin" />
+      <input name="toggle_light" displayname="connection.togglelight" />
+    </ConnectionPanel>
+  </Item>
+
+</Items>

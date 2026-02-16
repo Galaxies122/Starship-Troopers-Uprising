@@ -1,0 +1,1487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+
+
+<entityname.st_weaponparts>Weapon Parts</entityname.st_weaponparts>
+<entitydescription.st_weaponparts>qqq.</entitydescription.st_weaponparts>
+
+<entityname.st_gununderslung_kit>Underslung Kit</entityname.st_gununderslung_kit>
+<entitydescription.st_gununderslung_kit>qqq.</entitydescription.st_gununderslung_kit>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Starting Items -->
+<entityname.st_psychic_talentgiver>Mysterious item...</entityname.st_psychic_talentgiver>
+<entitydescription.st_psychic_talentgiver>You shouldn't be able to have this.</entitydescription.st_psychic_talentgiver>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MAIN BARO ITEMS!!!!! -->
+
+<!-- Entity subcategories -->
+<subcategory>Subcategory</subcategory>
+<subcategories>Subcategories</subcategories>
+<subcategory.thalamus>Thalamus</subcategory.thalamus>
+<subcategory.abandoned>Abandoned Outposts</subcategory.abandoned>
+<subcategory.abandonedhuman>Abandoned Outpost (Human)</subcategory.abandonedhuman>
+<subcategory.abandonedmonster>Abandoned Outpost (Monster)</subcategory.abandonedmonster>
+<subcategory.exteriorsubwalls>Exterior spaceship walls</subcategory.exteriorsubwalls>
+<subcategory.exteriorshuttle>Exterior shuttle pieces</subcategory.exteriorshuttle>
+<subcategory.labels>Labels</subcategory.labels>
+<subcategory.backgroundwall>Background wall</subcategory.backgroundwall>
+<subcategory.outpost>Outpost</subcategory.outpost>
+
+<!-- Entity categories -->
+<mapentitycategory.all>All</mapentitycategory.all>
+<mapentitycategory.structure>Structure</mapentitycategory.structure>
+<mapentitycategory.machine>Machine</mapentitycategory.machine>
+<mapentitycategory.equipment>Equipment</mapentitycategory.equipment>
+<mapentitycategory.electrical>Electrical</mapentitycategory.electrical>
+<mapentitycategory.material>Material</mapentitycategory.material>
+<mapentitycategory.misc>Misc</mapentitycategory.misc>
+<mapentitycategory.alien>Alien</mapentitycategory.alien>
+<mapentitycategory.itemassembly>ItemAssembly</mapentitycategory.itemassembly>
+<mapentitycategory.legacy>Legacy</mapentitycategory.legacy>
+<mapentitycategory.decorative>Decorative</mapentitycategory.decorative>
+<mapentitycategory.wall>Wall</mapentitycategory.wall>
+<mapentitycategory.wrecked>Wrecked</mapentitycategory.wrecked>
+<mapentitycategory.thalamus>Thalamus</mapentitycategory.thalamus>
+<mapentitycategory.medical>Medical</mapentitycategory.medical>
+<mapentitycategory.weapon>Weapon</mapentitycategory.weapon>
+<mapentitycategory.diving>Diving</mapentitycategory.diving>
+<mapentitycategory.fuel>Fuel</mapentitycategory.fuel>
+<ItemAssemblies>Item assemblies</ItemAssemblies>
+
+<!-- Display names -->
+<displayname.oxygentankempty>Oxygen Tank (empty)</displayname.oxygentankempty>
+<displayname.weldingfueltankempty>Welding Fuel Tank (empty)</displayname.weldingfueltankempty>
+<displayname.scrapsavantitem>[itemname] (Scrap Savant)</displayname.scrapsavantitem>
+<displayname.recycleitem>[itemname] (recycle)</displayname.recycleitem>
+<displayname.emptyitem>[itemname] (empty)</displayname.emptyitem>
+
+
+<!-- Submarine & outpost labels -->
+<label.ventralcoilguncontrol>Ventral Coilgun Control</label.ventralcoilguncontrol>
+<label.dorsalcoilguncontrol>Dorsal Coilgun Control</label.dorsalcoilguncontrol>
+<label.rearcoilguncontrol>Rear Coilgun Control</label.rearcoilguncontrol>
+<label.frontcoilguncontrol>Front Coilgun Control</label.frontcoilguncontrol>
+<label.ventralrailguncontrol>Ventral Railgun Control</label.ventralrailguncontrol>
+<label.dorsalrailguncontrol>Dorsal Railgun Control</label.dorsalrailguncontrol>
+<label.rearrailguncontrol>Rear Railgun Control</label.rearrailguncontrol>
+<label.frontrailguncontrol>Front Railgun Control</label.frontrailguncontrol>
+<label.toggledocking>Toggle Docking</label.toggledocking>
+<label.reactorshutdown>Reactor Shutdown</label.reactorshutdown>
+<label.engine1>Engine #1</label.engine1>
+<label.engine2>Engine #2</label.engine2>
+<label.auxiliaryengine>Aux. engine</label.auxiliaryengine>
+<label.launchdecoy>Launch Decoy</label.launchdecoy>
+<label.launchdepthcharge>Launch Depth Charge</label.launchdepthcharge>
+<label.activatedischargecoil>Electrical Discharge Coil</label.activatedischargecoil>
+<label.activateupperdischargecoil>Upper Discharge Coil</label.activateupperdischargecoil>
+<label.activatelowerdischargecoil>Lower Discharge Coil</label.activatelowerdischargecoil>
+<label.exteriorcamera>Ext. camera view</label.exteriorcamera>
+<label.ventralcamera>Ventral camera view</label.ventralcamera>
+<label.dorsalcamera>Dorsal camera view</label.dorsalcamera>
+<label.reactortemp>Reactor temp.</label.reactortemp>
+<label.alphadeck>Alpha Deck</label.alphadeck>
+<label.gammadeck>Gamma Deck</label.gammadeck>
+<label.deltadeck>Delta Deck</label.deltadeck>
+<label.readytodock>Ready to dock</label.readytodock>
+<label.docked>Docked</label.docked>
+<label.emergencydooroverride>Emergency door override</label.emergencydooroverride>
+<label.emergencyhatchoverride>Emergency hatch override</label.emergencyhatchoverride>
+<label.supplies>Supplies</label.supplies>
+<label.togglebatteries>Toggle Batteries</label.togglebatteries>
+<label.togglesiren>Toggle Siren</label.togglesiren>
+<label.emergency>Emergency</label.emergency>
+<label.backuppowerarray>Backup power array</label.backuppowerarray>
+<label.dronecontrol>Drone control</label.dronecontrol>
+<label.statuslabel>Status</label.statuslabel>
+<label.onlinelabel>Online</label.onlinelabel>
+<label.offlinelabel>Offline</label.offlinelabel>
+<label.openlabel>Open</label.openlabel>
+<label.closelabel>Close</label.closelabel>
+<label.ballasthatch>Ballast hatch</label.ballasthatch>
+<label.betadeck>Beta Deck</label.betadeck>
+<label.airlock>Airlock</label.airlock>
+<label.dockingport>Docking Port</label.dockingport>
+<label.weapons>Weapons</label.weapons>
+<label.cargo>Cargo Bay</label.cargo>
+<label.crewquarters>Crew Quarters</label.crewquarters>
+<label.electrical1>Electrical #1</label.electrical1>
+<label.electrical2>Electrical #2</label.electrical2>
+<label.medical>Medical</label.medical>
+<label.engineering>Engineering</label.engineering>
+<label.ballast>Ballast</label.ballast>
+<label.reactor>Reactor</label.reactor>
+<label.armory>Armory</label.armory>
+<label.batteryoutput>Battery Output</label.batteryoutput>
+<label.onoff>On/Off</label.onoff>
+<label.bilge>Bilge</label.bilge>
+<label.powermainline>Power Mainline</label.powermainline>
+<label.command>Command</label.command>
+<label.engine>Engine</label.engine>
+<label.outpostinfodisplay1>Welcome. Oxygen Levels: Nominal. Power Levels: Nominal. Radiation Levels: Suboptimal. Weather Forecast for Today: Cold and Damp.</label.outpostinfodisplay1>
+<label.navterminaldock>Dock</label.navterminaldock>
+<label.navterminalundock>Undock</label.navterminalundock>
+<label.highpressurewarning>WARNING: High pressure</label.highpressurewarning>
+<label.reactortempwarning>Reactor temp. caution</label.reactortempwarning>
+<label.activatedischargecoils>Discharge Coils</label.activatedischargecoils>
+<label.lights1>Lights 1</label.lights1>
+<label.lights2>Lights 2</label.lights2>
+<label.lights3>Lights 3</label.lights3>
+<label.lights4>Lights 4</label.lights4>
+<label.lights5>Lights 5</label.lights5>
+<label.pumps1>Pumps 1</label.pumps1>
+<label.pumps2>Pumps 2</label.pumps2>
+<label.dronecharge>Drone Charge</label.dronecharge>
+<label.meltdown>Meltdown</label.meltdown>
+<label.batterycharge>Battery charge%</label.batterycharge>
+<label.hatchoverride>Hatch Override</label.hatchoverride>
+<label.batteryin>Battery IN</label.batteryin>
+<label.batteryout>Battery OUT</label.batteryout>
+<label.batteryarray>Battery Array</label.batteryarray>
+<label.fire>Fire</label.fire>
+<label.flood>Flood</label.flood>
+<label.dockingports>Docking Ports</label.dockingports>
+<label.oxygenlevels>Oxygen Levels</label.oxygenlevels>
+<label.dronedoor>Please ensure the drone door is closed before attempting to undock</label.dronedoor>
+<label.deliveryservice>Submarine Switch Terminal</label.deliveryservice>
+<label.storage>Storage</label.storage>
+<label.repellant>Intruder repellant</label.repellant>
+<label.emergencylights>Emergency lights</label.emergencylights>
+<label.letwaterdrain>Allow all water to drain before exiting!</label.letwaterdrain>
+<label.ventralturretcontrol>Ventral Turret Control</label.ventralturretcontrol>
+<label.dorsalturretcontrol>Dorsal Turret Control</label.dorsalturretcontrol>
+<label.rearturretcontrol>Rear Turret Control</label.rearturretcontrol>
+<label.frontturretcontrol>Front Turret Control</label.frontturretcontrol>
+<label.researchfacility>Research facility</label.researchfacility>
+<label.admin>Administrative office</label.admin>
+<label.hr>Human resources</label.hr>
+<label.store>General store</label.store>
+<label.waterintakevalve>Water Intake Valve</label.waterintakevalve>
+<label.daysafterlawsuit>Days since last malpractice lawsuit</label.daysafterlawsuit>
+<label.silentrunning>Silent Running</label.silentrunning>
+
+<!-- Doors -->
+<entityname.door>Custom Door</entityname.door>
+<entitydescription.door>A sliding door with no integrated buttons—has to be wired manually.</entitydescription.door>
+<entityname.windoweddoor>Custom Windowed Door</entityname.windoweddoor>
+<entitydescription.windoweddoor>A sliding door with a window. No integrated buttons—has to be wired manually.</entitydescription.windoweddoor>
+<entityname.hatch>Custom Hatch</entityname.hatch>
+<entitydescription.hatch>A door, but on the horizontal axis. No integrated buttons—has to be wired manually.</entitydescription.hatch>
+<entityname.doorwbuttons>Door with Buttons</entityname.doorwbuttons>
+<entitydescription.doorwbuttons>A sliding door with two integrated buttons.</entitydescription.doorwbuttons>
+<entityname.windoweddoorwbuttons>Windowed Door with Buttons</entityname.windoweddoorwbuttons>
+<entitydescription.windoweddoorwbuttons>A sliding door with a window and two integrated buttons.</entitydescription.windoweddoorwbuttons>
+<entityname.hatchwbuttons>Hatch with Buttons</entityname.hatchwbuttons>
+<entitydescription.hatchwbuttons>A door, but on the horizontal axis. Two integrated buttons.</entitydescription.hatchwbuttons>
+
+<!-- Machine -->
+<entityname.navterminal>Navigation Terminal</entityname.navterminal>
+<entitydescription.navterminal>Usable device for setting the course of the sub.</entitydescription.navterminal>
+<entityname.shuttlenavterminal>Shuttle Navigation Terminal</entityname.shuttlenavterminal>
+<entitydescription.shuttlenavterminal>Usable device for setting the course of the shuttle.</entitydescription.shuttlenavterminal>
+<entityname.sonarmonitor>Sonar Monitor</entityname.sonarmonitor>
+<entitydescription.sonarmonitor>Usable device for observing the sub's sonar. Non-interactive.</entitydescription.sonarmonitor>
+<entityname.statusmonitor>Status Monitor</entityname.statusmonitor>
+<entitydescription.statusmonitor>Usable device for viewing a schematic of the sub as well as the status of each room.</entitydescription.statusmonitor>
+<entityname.sonartransducer>Sonar Transducer</entityname.sonartransducer>
+<entitydescription.sonartransducer>Sonar generator, allowing the sonar monitors and navigation terminals to receive a sonar signal other than the default one (useful for drones and remote-controlled shuttles).</entitydescription.sonartransducer>
+<entityname.engine>Engine</entityname.engine>
+<entitydescription.engine>Usable device for generating motion on the X axis.</entitydescription.engine>
+<entityname.largeengine>Large Engine</entityname.largeengine>
+<entitydescription.largeengine>Usable device for generating motion on the X axis.</entitydescription.largeengine>
+<entityname.shuttleengine>Shuttle Engine</entityname.shuttleengine>
+<entitydescription.shuttleengine>Usable device for generating motion on the X axis.</entitydescription.shuttleengine>
+<entityname.fabricator>Fabricator</entityname.fabricator>
+<entitydescription.fabricator>A machine capable of manufacturing a wide range of items out of basic raw materials.</entitydescription.fabricator>
+<entityname.medicalfabricator>Medical Fabricator</entityname.medicalfabricator>
+<entitydescription.medicalfabricator>A machine that can be used to manufacture various medicines.</entitydescription.medicalfabricator>
+<entityname.deconstructor>Deconstructor</entityname.deconstructor>
+<entitydescription.deconstructor>Disassembles and breaks down items to reusable components and material bars.</entitydescription.deconstructor>
+<entityname.oxygenerator>Oxygen Generator</entityname.oxygenerator>
+<entitydescription.oxygenerator>Usable device for oxygen generation—must be linked to vents to work. Also recharges oxygen tanks.</entitydescription.oxygenerator>
+<entityname.shuttleoxygenerator>Shuttle Oxygen Generator</entityname.shuttleoxygenerator>
+<entitydescription.shuttleoxygenerator>Usable device for oxygen generation—must be linked to vents to work. Also recharges oxygen tanks.</entitydescription.shuttleoxygenerator>
+<entityname.vent>Vent</entityname.vent>
+<entitydescription.vent>Oxygen output point. Must be linked to an oxygen generator to work.</entitydescription.vent>
+<entityname.pump>Pump</entityname.pump>
+<entitydescription.pump>Usable device for moving water.</entitydescription.pump>
+<entityname.smallpump>Small Pump</entityname.smallpump>
+<entitydescription.smallpump>Usable device for moving water.</entitydescription.smallpump>
+<entityname.searchlight>Searchlight</entityname.searchlight>
+<entitydescription.searchlight>Aimable lighting.</entitydescription.searchlight>
+<entityname.reactor1>Nuclear Reactor</entityname.reactor1>
+<entitydescription.reactor1>Usable device for generating electrical power.</entitydescription.reactor1>
+<entityname.coilgun>Coilgun</entityname.coilgun>
+<entitydescription.coilgun>A rapid-firing turret that propels metal bolts using electromagnets. Generally not very effective against large or heavily armored targets, but ideal for taking down smaller enemies.</entitydescription.coilgun>
+<entityname.coilgunloader>Coilgun Loader</entityname.coilgunloader>
+<entitydescription.coilgunloader>Feeds coilgun ammunition into a linked coilgun.</entitydescription.coilgunloader>
+<entityname.depthchargetube>Depth Charge Tube</entityname.depthchargetube>
+<entitydescription.depthchargetube>Deploys a depth charge or decoy.</entitydescription.depthchargetube>
+<entityname.depthchargeloader>Depth Charge Loader</entityname.depthchargeloader>
+<entitydescription.depthchargeloader>Feeds depth charges and decoys into a linked depth charge tube.</entitydescription.depthchargeloader>
+<entityname.dischargecoil>Electrical Discharge Coil</entityname.dischargecoil>
+<entitydescription.dischargecoil>Produces a harmful localized electrical shock across a portion of the adjacent hull.</entitydescription.dischargecoil>
+<entityname.railgun>Railgun</entityname.railgun>
+<entitydescription.railgun>A heavy turret that uses electromagnetic force to launch shells at very high velocities. Requires very large surges of power (usually supplied by supercapacitors) and has a low rate of fire, and as such it's most often used against large and heavily armored targets.</entitydescription.railgun>
+<entityname.periscope>Periscope</entityname.periscope>
+<entitydescription.periscope>A device that can be used to observe the outside of the sub by connecting it to a camera, or to control weapons such as the railgun and coilgun.</entitydescription.periscope>
+<entityname.railgunloader>Railgun Loader</entityname.railgunloader>
+<entitydescription.railgunloader>Feeds railgun ammunition into a linked railgun.</entitydescription.railgunloader>
+<entityname.railgunloadersinglevertical>Railgun Loader Single Vertical</entityname.railgunloadersinglevertical>
+<entitydescription.railgunloadersinglevertical>Feeds railgun ammunition into a linked railgun. Single shot version.</entitydescription.railgunloadersinglevertical>
+<entityname.railgunloadersinglehorizontal>Railgun Loader Single Horizontal</entityname.railgunloadersinglehorizontal>
+<entitydescription.railgunloadersinglehorizontal>Feeds railgun ammunition into a linked railgun. Single shot version.</entitydescription.railgunloadersinglehorizontal>
+<entityname.miningmachines>Mining Machine</entityname.miningmachines>
+<entityname.coilgunammoshelf>Ammunition Shelf</entityname.coilgunammoshelf>
+<entitydescription.coilgunammoshelf>A way to neatly stow ammunition boxes.</entitydescription.coilgunammoshelf>
+<entityname.turrethardpoint>Turret Hardpoint</entityname.turrethardpoint>
+<entitydescription.turrethardpoint>An empty weapon station turrets can be installed on.</entitydescription.turrethardpoint>
+<entityname.blankperiscope>Periscope Base</entityname.blankperiscope>
+<entityname.blankloader>Loader Base</entityname.blankloader>
+<entityname.railguncanistershellpellet>Canister Shell Pellet</entityname.railguncanistershellpellet>
+<entitydescription.railguncanistershellpellet>A pellet fired out of a canister shell.</entitydescription.railguncanistershellpellet>
+<entityname.pulselaser>Pulse Laser</entityname.pulselaser>
+<entitydescription.pulselaser>A large pulsed chemical laser attached to a turret, capable of firing intense beams of energy after charging up. Inflicts extreme burns on anything it hits.</entitydescription.pulselaser>
+<entityname.pulselaserammobox>Pulse Laser Fuel Box</entityname.pulselaserammobox>
+<entitydescription.pulselaserammobox>A box of arranged chemicals and a focusing lens, useful for inducing intense bursts of energy. Used as ammo by the Pulse Laser.</entitydescription.pulselaserammobox>
+<entityname.pulselaserbolt>Pulse Laser Bolt</entityname.pulselaserbolt>
+<entityname.pulselaserloader>Pulse Laser Loader</entityname.pulselaserloader>
+<entityname.chaingun>Chaingun</entityname.chaingun>
+<entitydescription.chaingun>A powerful multiple-barrel turreted weapon, based on coilgun technology. Though somewhat unwieldy and slow to wind up to its firing state, its capability to deliver a hail of high-velocity metal at any would-be foe is unparalleled.</entitydescription.chaingun>
+<entityname.chaingunammobox>Chaingun Ammunition Box</entityname.chaingunammobox>
+<entityname.chaingunloader>Chaingun Loader</entityname.chaingunloader>
+<entitydescription.chaingunammobox>A heavy box of ammo for the Chaingun.</entitydescription.chaingunammobox>
+<entityname.chaingunbolt>Chaingun Bolt</entityname.chaingunbolt>
+<entityname.largeturrethardpoint>Large Turret Hardpoint</entityname.largeturrethardpoint>
+<entitydescription.largeturrethardpoint>An empty weapon station large turrets can be installed on.</entitydescription.largeturrethardpoint>
+<entityname.doublecoilgun>Double Coilgun</entityname.doublecoilgun>
+<entitydescription.doublecoilgun>A double-barreled version of the coilgun.</entitydescription.doublecoilgun>
+<entityname.flakcannon>Flak Cannon</entityname.flakcannon>
+<entitydescription.flakcannon>A large cannon, designed to fire shells that explode into sharp shrapnel fragments.</entitydescription.flakcannon>
+<entityname.flakcannonloader>Flak Cannon Loader</entityname.flakcannonloader>
+<entityname.flakcannonammobox>Spreader Flak Shells Box</entityname.flakcannonammobox>
+<entitydescription.flakcannonammobox>A heavy box of wide-spread shrapnel ammo for the flak cannon. Good against swarms.</entitydescription.flakcannonammobox>
+<entityname.flakbolt>Flak Shell</entityname.flakbolt>
+<entityname.flakshrapnel>Flak Fragment</entityname.flakshrapnel>
+<entityname.flakcannondirectionalammobox>Focused Flak Shells Box</entityname.flakcannondirectionalammobox>
+<entitydescription.flakcannondirectionalammobox>A heavy box of low spread ammo for the flak cannon. Good against single targets.</entitydescription.flakcannondirectionalammobox>
+<entityname.flakboltdirectional>Flak Shell (Choked)</entityname.flakboltdirectional>
+<entityname.flakshrapneldirectional>Heavy Flak Fragment</entityname.flakshrapneldirectional>
+<entityname.flakcannonammoboxphysicorium>Physicorium Flak Shells Box</entityname.flakcannonammoboxphysicorium>
+<entitydescription.flakcannonammoboxphysicorium>A backbreakingly heavy box of ammo for the flak cannon, utilizing Physicorium as its main material.</entitydescription.flakcannonammoboxphysicorium>
+<entityname.flakboltphysicorium>Physicorium Flak Shell</entityname.flakboltphysicorium>
+<entityname.flakshrapnelphysicorium>Physicorium Flak Fragment</entityname.flakshrapnelphysicorium>
+<entityname.flakcannonammoboxexplosive>Explosive Flak Shells Box</entityname.flakcannonammoboxexplosive>
+<entitydescription.flakcannonammoboxexplosive>A heavy box of ammo for the flak cannon, loaded with high explosive materials.</entitydescription.flakcannonammoboxexplosive>
+<entityname.flakboltexplosive>Explosive Flak Shell</entityname.flakboltexplosive>
+<entityname.flakshrapnelexplosive>Explosive Flak Fragment</entityname.flakshrapnelexplosive>
+<fabricationdescription.ammoboxrecycle>Any empty ammunition box.</fabricationdescription.ammoboxrecycle>
+<fabricationheader.ammoboxrecycle>Empty Ammunition Box</fabricationheader.ammoboxrecycle>
+
+<!-- Equipment -->
+<entityname.idcard>ID Card</entityname.idcard>
+<entitydescription.idcard>Allows limited access to areas of the sub.</entitydescription.idcard>
+<entityname.alienpistol>Alien Pistol</entityname.alienpistol>
+<entitydescription.alienpistol>A handgun powered by alien power cells.</entitydescription.alienpistol>
+<entityname.captainscap>Captain's Cap</entityname.captainscap>
+<entitydescription.captainscap>A token of the captain's unquestionable authority.</entitydescription.captainscap>
+<entityname.captainsuniform>Captain's Uniform</entityname.captainsuniform>
+<entitydescription.captainsuniform>Makes you look like you might be in charge.</entitydescription.captainsuniform>
+<entityname.healthscanner>Health Scanner HUD</entityname.healthscanner>
+<entitydescription.healthscanner>A heads-up display that shows information about the vital signs and status of nearby humans.</entitydescription.healthscanner>
+<entityname.doctorsuniform2>Doctor's Uniform</entityname.doctorsuniform2>
+<entitydescription.doctorsuniform2>Makes you look like you might be useful in a medical emergency.</entitydescription.doctorsuniform2>
+<entityname.orangejumpsuit>Orange Jumpsuit</entityname.orangejumpsuit>
+<entitydescription.orangejumpsuit>The fire-resistant fabric offers some protection against fires.</entitydescription.orangejumpsuit>
+<entityname.bluejumpsuit>Blue Jumpsuit</entityname.bluejumpsuit>
+<entitydescription.bluejumpsuit>The fire-resistant fabric offers some protection against fires.</entitydescription.bluejumpsuit>
+<entityname.toolbox>Storage Container</entityname.toolbox>
+<entitydescription.toolbox>A portable container for storing tools and supplies.</entitydescription.toolbox>
+<entityname.headset>Headset</entityname.headset>
+<entitydescription.headset>Allows remote communication among the crew.</entitydescription.headset>
+<entityname.clownmask>Clown Mask</entityname.clownmask>
+<entitydescription.clownmask>Praise the honkmother.</entitydescription.clownmask>
+<entityname.clowncostume>Clown Costume</entityname.clowncostume>
+<entitydescription.clowncostume>Praise the honkmother.</entitydescription.clowncostume>
+<entityname.assistantclothes>Assistant Clothes</entityname.assistantclothes>
+<entitydescription.assistantclothes>Even the assistant needs clothing.</entitydescription.assistantclothes>
+<entityname.watchmanclothes>Watchman Clothes</entityname.watchmanclothes>
+<entitydescription.watchmanclothes>Makes you look like you might offer a mission to a passerby at any moment.</entitydescription.watchmanclothes>
+<entityname.vipoutfit>VIP Outfit</entityname.vipoutfit>
+<entityname.prisonerclothes>Prisoner Outfit</entityname.prisonerclothes>
+<entityname.securityuniform2>Security Officer's Uniform</entityname.securityuniform2>
+<entitydescription.securityuniform2>Obey my authority!</entitydescription.securityuniform2>
+<entityname.bodyarmor>Body Armor</entityname.bodyarmor>
+<entitydescription.bodyarmor>While the body armor won't offer adequate protection against most of the inhabitants of the subsurface ocean, it can be extremely useful if there are traitors on board.</entitydescription.bodyarmor>
+<entityname.ballistichelmet1>Ballistic Helmet</entityname.ballistichelmet1>
+<entitydescription.ballistichelmet1>While the helmet won't offer adequate protection against most of the inhabitants of the subsurface ocean, it can be extremely useful if there are traitors on board.</entitydescription.ballistichelmet1>
+<entityname.handcuffs>Handcuffs</entityname.handcuffs>
+<entitydescription.handcuffs>Useful for restraining problem players.</entitydescription.handcuffs>
+<entityname.riotshield>Riot Shield</entityname.riotshield>
+<entitydescription.riotshield>Blocks projectiles and prevents creatures or people from passing.</entitydescription.riotshield>
+<entityname.divingmask>Diving Mask</entityname.divingmask>
+<entitydescription.divingmask>Small enough to carry around in case it's needed, but won't protect you from the water pressure in the event of a full-blown hull breach.</entitydescription.divingmask>
+<entityname.divingsuit>Diving Suit</entityname.divingsuit>
+<entitydescription.divingsuit>An atmospheric diving suit capable of withstanding the immense pressure under Europa's crust. Only offers adequate protection up to the depth of 4,000 meters—beyond this point, an Abyss or Combat suit is required.</entitydescription.divingsuit>
+<entityname.brokendivingsuit>Broken Diving Suit</entityname.brokendivingsuit>
+<entitydescription.brokendivingsuit>A severely damaged diving suit that could be deconstructed for some raw materials.</entitydescription.brokendivingsuit>
+<entityname.underwaterscooter>Underwater Scooter</entityname.underwaterscooter>
+<entitydescription.underwaterscooter>A battery-powered underwater propulsion device.</entitydescription.underwaterscooter>
+<entityname.antibleeding1>Bandage</entityname.antibleeding1>
+<entityname.antibleeding2>Plastiseal</entityname.antibleeding2>
+<entityname.antibleeding3>Antibiotic Glue</entityname.antibleeding3>
+<entityname.weldingtool>Welding Tool</entityname.weldingtool>
+<entitydescription.weldingtool>One of the most crucial tools on board the submarine. Also works underwater.</entitydescription.weldingtool>
+<entityname.plasmacutter>Plasma Cutter</entityname.plasmacutter>
+<entitydescription.plasmacutter>Cuts through various materials using a jet of ionized oxygen.</entitydescription.plasmacutter>
+<entityname.weldingfueltank>Welding Fuel Tank</entityname.weldingfueltank>
+<entitydescription.weldingfueltank>Fuel for the welding tool.</entitydescription.weldingfueltank>
+<entityname.oxygentank>Oxygen Tank</entityname.oxygentank>
+<entitydescription.oxygentank>Portable oxygen container.</entitydescription.oxygentank>
+<entityname.extinguisher>Fire Extinguisher</entityname.extinguisher>
+<entitydescription.extinguisher>A handheld carbon dioxide extinguisher.</entitydescription.extinguisher>
+<entityname.screwdriver>Screwdriver</entityname.screwdriver>
+<entitydescription.screwdriver>Makes electrical repairs and rewiring possible.</entitydescription.screwdriver>
+<entityname.wrench>Wrench</entityname.wrench>
+<entitydescription.wrench>Makes mechanical repairs possible.</entitydescription.wrench>
+<entityname.crowbar>Crowbar</entityname.crowbar>
+<entitydescription.crowbar>Forces doors and hatches open. Also a blunt weapon.</entitydescription.crowbar>
+<entityname.handheldsonar>Handheld Sonar</entityname.handheldsonar>
+<entitydescription.handheldsonar>Portable sonar, handy for exploration.</entitydescription.handheldsonar>
+<entityname.sonarbeacon>Sonar Beacon</entityname.sonarbeacon>
+<entitydescription.sonarbeacon>Produces a localized signal that can be detected by a sonar monitor, handheld sonar, or navigation terminal.</entitydescription.sonarbeacon>
+<sonarbeacon.beaconactive>Beacon active</sonarbeacon.beaconactive>
+<sonarbeacon.beaconsignal>Beacon signal</sonarbeacon.beaconsignal>
+<entityname.flashlight>Flashlight</entityname.flashlight>
+<entitydescription.flashlight>Handheld light.</entitydescription.flashlight>
+<entityname.flare>Flare</entityname.flare>
+<entitydescription.flare>Temporary handheld light. Useful for marking a path while exploring outside the sub.</entitydescription.flare>
+<entityname.alienflare>Alien Flare</entityname.alienflare>
+<entitydescription.alienflare>Temporary handheld light. Useful for marking a path while exploring outside the sub. Burns for longer than a regular flare.</entitydescription.alienflare>
+<entityname.coilgunammobox>Coilgun Ammunition Box</entityname.coilgunammobox>
+<entityname.chaingunammoboxphysicorium>Physicorium Chaingun Ammunition Box</entityname.chaingunammoboxphysicorium>
+<entitydescription.chaingunammoboxphysicorium>A backbreakingly heavy box of ammunition for the chaingun, utilizing Physicorium as its main material. These rounds have enough stopping power to occasionally stun any foe they hit.</entitydescription.chaingunammoboxphysicorium>
+<entityname.pulselaserammoboxtrilaser>Pulse Tri-Laser Fuel Box</entityname.pulselaserammoboxtrilaser>
+<entityname.coilgunboltexplosive>Exploding Coilgun Bolt</entityname.coilgunboltexplosive>
+<entitydescription.coilgunboltexplosive>Ammunition for the coilgun. Explodes on impact.</entitydescription.coilgunboltexplosive>
+<entityname.coilgunboltpiercing>Piercing Coilgun Bolt</entityname.coilgunboltpiercing>
+<entitydescription.coilgunboltpiercing>Coilgun ammo that has piercing capabilities.</entitydescription.coilgunboltpiercing>
+<entityname.uex>UEX</entityname.uex>
+<entitydescription.uex>A simple explosive compound made of sodium and phosphorus.</entitydescription.uex>
+<entityname.c4block>C-4 Block</entityname.c4block>
+<entitydescription.c4block>A stable explosive compound.</entitydescription.c4block>
+<entityname.compoundn>Compound N</entityname.compoundn>
+<entitydescription.compoundn>A stable explosive compound.</entitydescription.compoundn>
+<entityname.volatilecompoundn>Volatile Compound N</entityname.volatilecompoundn>
+<entitydescription.volatilecompoundn>An unstable explosive compound.</entitydescription.volatilecompoundn>
+<entityname.ic4block>IC-4 Block</entityname.ic4block>
+<entitydescription.ic4block>A compound made of C-4 and incendium.</entitydescription.ic4block>
+<entityname.detonator>Detonator</entityname.detonator>
+<entitydescription.detonator>A device that detonates any contained explosive when receiving a signal.</entitydescription.detonator>
+<entityname.spear>Harpoon</entityname.spear>
+<entitydescription.spear>A harpoon for the harpoon gun.</entitydescription.spear>
+<entityname.alienspear>Physicorium Harpoon</entityname.alienspear>
+<entitydescription.alienspear>A harpoon for the harpoon gun, made of alien material.</entitydescription.alienspear>
+<entityname.explosivespear>Explosive Harpoon</entityname.explosivespear>
+<entitydescription.explosivespear>A harpoon for the harpoon gun.</entitydescription.explosivespear>
+<entityname.harpoongun>Harpoon Gun</entityname.harpoongun>
+<entitydescription.harpoongun>Launches harpoons, explosive harpoons, and alien harpoons.</entitydescription.harpoongun>
+<entityname.syringegun>Syringe Gun</entityname.syringegun>
+<entitydescription.syringegun>Launches syrettes containing drugs or poisons.</entitydescription.syringegun>
+<entityname.revolverround>Revolver Round</entityname.revolverround>
+<entitydescription.revolverround>.38 caliber. Might stop a person...</entitydescription.revolverround>
+<entityname.revolver>Revolver</entityname.revolver>
+<entitydescription.revolver>.38 caliber.</entitydescription.revolver>
+<entityname.stungrenade>Stun Grenade</entityname.stungrenade>
+<entitydescription.stungrenade>Produces bright light and a loud sound on detonation, which stuns nearby characters.</entitydescription.stungrenade>
+<entityname.empgrenade>EMP Grenade</entityname.empgrenade>
+<entitydescription.empgrenade>Damages electrical equipment.</entitydescription.empgrenade>
+<entityname.fraggrenade>Frag Grenade</entityname.fraggrenade>
+<entitydescription.fraggrenade>General purpose fragmentation grenade. Use carefully.</entitydescription.fraggrenade>
+<entityname.incendiumgrenade>Incendium Grenade</entityname.incendiumgrenade>
+<entitydescription.incendiumgrenade>Incendiary grenade. Use very carefully.</entitydescription.incendiumgrenade>
+<entityname.stunbaton>Stun Baton</entityname.stunbaton>
+<entitydescription.stunbaton>If verbal orders are insufficient, a high-voltage shock from a stun baton may be enough to beat an unruly crewmember into submission.</entitydescription.stunbaton>
+<entityname.divingknife>Diving Knife</entityname.divingknife>
+<entitydescription.divingknife>Stabs, pokes, cuts and slashes.</entitydescription.divingknife>
+<entityname.bikehorn>Bike Horn</entityname.bikehorn>
+<entitydescription.bikehorn>HONK!</entitydescription.bikehorn>
+<entityname.oxygenitetank>Oxygenite Tank</entityname.oxygenitetank>
+<entitydescription.oxygenitetank>A tank containing liquid Oxygenite.</entitydescription.oxygenitetank>
+<entityname.batterycell>Battery Cell</entityname.batterycell>
+<entitydescription.batterycell>Used as a power source for various handheld devices. Most submarines have several stationary backup batteries with recharge docks for battery cells.</entitydescription.batterycell>
+<entityname.fulguriumbatterycell>Fulgurium Battery Cell</entityname.fulguriumbatterycell>
+<entitydescription.fulguriumbatterycell>A battery cell constructed of the rare and poorly understood compound Fulgurium.</entitydescription.fulguriumbatterycell>
+<entityname.alienarmor>Physicorium Body Armor</entityname.alienarmor>
+<entitydescription.alienarmor>A body armor fabricated from an alien metamaterial.</entitydescription.alienarmor>
+<entityname.alienhelmet>Physicorium Helmet</entityname.alienhelmet>
+<entitydescription.alienhelmet>A helmet fabricated from an alien metamaterial.</entitydescription.alienhelmet>
+<entityname.flamer>Flamer</entityname.flamer>
+<entityname.smg>SMG</entityname.smg>
+<entitydescription.smg>A .45 caliber submachine gun.</entitydescription.smg>
+<entityname.smgmagazine>SMG Magazine</entityname.smgmagazine>
+<entitydescription.smgmagazine>A magazine for .45 caliber SMG rounds.</entitydescription.smgmagazine>
+<entityname.smground>SMG Round</entityname.smground>
+<entitydescription.smground>A .45 caliber submachine gun round.</entitydescription.smground>
+<entityname.grenadelauncher>Grenade Launcher</entityname.grenadelauncher>
+<entitydescription.grenadelauncher>A portable grenade launcher for 40mm grenades.</entitydescription.grenadelauncher>
+<entityname.40mmgrenade>40mm Grenade</entityname.40mmgrenade>
+<entitydescription.40mmgrenade>Ammunition for grenade launcher.</entitydescription.40mmgrenade>
+<entityname.40mmstungrenade>40mm Stun Grenade</entityname.40mmstungrenade>
+<entitydescription.40mmstungrenade>Ammunition for grenade launcher. Non-lethal.</entitydescription.40mmstungrenade>
+<entityname.shotgun>Riot Shotgun</entityname.shotgun>
+<entitydescription.shotgun>A shotgun designed for crowd control.</entitydescription.shotgun>
+<entityname.shotgunshell>Shotgun Shell</entityname.shotgunshell>
+<entitydescription.shotgunshell>Ammunition for a shotgun. Lethal.</entitydescription.shotgunshell>
+<entityname.stungun>Stun Gun</entityname.stungun>
+<entitydescription.stungun>A device for firing electrified darts.</entitydescription.stungun>
+<entityname.stungundart>Stun Gun Dart</entityname.stungundart>
+<entitydescription.stungundart>Causes electric shock to incapacitate a target. Non-lethal.</entitydescription.stungundart>
+<entityname.toyhammer>Toy Hammer</entityname.toyhammer>
+<entitydescription.toyhammer>Non-lethal but extremely annoying.</entitydescription.toyhammer>
+<entityname.crawlermask>Crawler Mask</entityname.crawlermask>
+<entitydescription.crawlermask>Protects wearer's identity. Fun at certain parties.</entitydescription.crawlermask>
+<entityname.huskstinger>Husk Stinger</entityname.huskstinger>
+<entitydescription.huskstinger>A makeshift stabbing tool.</entitydescription.huskstinger>
+<entityname.shellshield>Moloch Shell Fragment</entityname.shellshield>
+<entitydescription.shellshield>A sturdy piece of a moloch's shell.</entitydescription.shellshield>
+<entityname.mudraptorshell>Mudraptor Shell</entityname.mudraptorshell>
+<entitydescription.mudraptorshell>A protective shell of a mudraptor.</entitydescription.mudraptorshell>
+<entityname.accordion>Accordion</entityname.accordion>
+<entitydescription.accordion>An old handmade accordion.</entitydescription.accordion>
+<entityname.bongodrums>Bongo Drums</entityname.bongodrums>
+<entitydescription.bongodrums>An old handmade pair of bongo drums.</entitydescription.bongodrums>
+<entityname.captainspipe>Captain's Pipe</entityname.captainspipe>
+<entitydescription.captainspipe>For calming the nerves when the sea is stormy.</entitydescription.captainspipe>
+<entityname.incendiumfueltank>Incendium Fuel Tank</entityname.incendiumfueltank>
+
+<entitydescription.physicoriumammobox>Coilgun ammunition made of alien material.</entitydescription.physicoriumammobox>
+<entityname.physicoriumbolt>Physicorium Bolt</entityname.physicoriumbolt>
+<entityname.orangejumpsuit1>Hazmat Suit</entityname.orangejumpsuit1>
+<entitydescription.orangejumpsuit1>Has a protective lead shielding against radiation.</entitydescription.orangejumpsuit1>
+<entityname.orangejumpsuit2>Engineer's Jumpsuit</entityname.orangejumpsuit2>
+<entityname.bluejumpsuit1>Boiler Suit</entityname.bluejumpsuit1>
+<entityname.bluejumpsuit2>Mechanic's Jumpsuit</entityname.bluejumpsuit2>
+<entityname.captainscap1>Veteran's Cap</entityname.captainscap1>
+<entitydescription.captainscap1>A well-worn cap that has seen many ports.</entitydescription.captainscap1>
+<entityname.captainsuniform1>Veteran's Jacket</entityname.captainsuniform1>
+<entitydescription.captainsuniform1>A warm jacket to protect its wearer against the cold depths.</entitydescription.captainsuniform1>
+<entityname.captainscap2>Renegade's Hat</entityname.captainscap2>
+<entityname.captainsuniform2>Renegade's Jacket</entityname.captainsuniform2>
+<entitydescription.captainsuniform2>Indicates who is in charge.</entitydescription.captainsuniform2>
+<entityname.captainscap3>Admiral's Hat</entityname.captainscap3>
+<entityname.captainsuniform3>Admiral's Uniform</entityname.captainsuniform3>
+<entityname.securityuniform1>Commando's Fatigues</entityname.securityuniform1>
+<entitydescription.securityuniform1>I ain't got time to bleed.</entitydescription.securityuniform1>
+<entityname.securityuniform3>Gunner's Uniform</entityname.securityuniform3>
+<entitydescription.securityuniform3>A standard issue gunner's uniform.</entitydescription.securityuniform3>
+<entityname.ballistichelmet2>Gunner's Helmet</entityname.ballistichelmet2>
+<entitydescription.ballistichelmet2>A bit lighter than a regular ballistic helmet; designed not to get in the way when one is operating a periscope.</entitydescription.ballistichelmet2>
+<entityname.ballistichelmet3>Riot Helmet</entityname.ballistichelmet3>
+<entitydescription.ballistichelmet3>Designed for crowd control but equally useful against alien invaders.</entitydescription.ballistichelmet3>
+<entityname.doctorsuniform1>Medic's Fatigues</entityname.doctorsuniform1>
+<entitydescription.doctorsuniform1>For frontline medics. Offers some protection against enemies.</entitydescription.doctorsuniform1>
+<entityname.baseballcap>Baseball Cap</entityname.baseballcap>
+<entitydescription.baseballcap>Every self-respecting mechanic should have one.</entitydescription.baseballcap>
+<entityname.duffelbag>Duffel Bag</entityname.duffelbag>
+<entitydescription.duffelbag>The traditional way of storing a deceased seafarer's belongings until they can be delivered to their next of kin (or stolen or sold).</entitydescription.duffelbag>
+<entityname.outpostoutfit1>Outpost Dweller's Attire</entityname.outpostoutfit1>
+<entitydescription.outpostoutfit1>Not much to look at, but pretty warm and comfortable.</entitydescription.outpostoutfit1>
+<entityname.stationadminoutfit>Station Administrator's Outfit</entityname.stationadminoutfit>
+<entityname.crewchiefoutfit>Crew Chief's Outfit</entityname.crewchiefoutfit>
+<entityname.securitypatroloutfit>Outpost Security Uniform</entityname.securitypatroloutfit>
+<entityname.medicalofficeroutfit>Medical Officer's Outfit</entityname.medicalofficeroutfit>
+<entityname.quartermasteroutfit>Quartermaster's Outfit</entityname.quartermasteroutfit>
+<entityname.researcheroutfit>Researcher's Outfit</entityname.researcheroutfit>
+<entityname.mineroutfit>Miner's Overalls</entityname.mineroutfit>
+<entityname.minerhelmet>Mining Helmet</entityname.minerhelmet>
+<entityname.sprayer>Sprayer</entityname.sprayer>
+<entitydescription.sprayer>Cleans or paints walls by spraying liquid on them.</entitydescription.sprayer>
+<entityname.shotgununique>Boom Stick</entityname.shotgununique>
+<entitydescription.shotgununique>Barrels of fun.</entitydescription.shotgununique>
+<entityname.spearunique>Ahab's Spear</entityname.spearunique>
+<entitydescription.spearunique>An antique spear named after a legendary captain.</entitydescription.spearunique>
+<entityname.divingknifeunique>Europan Handshake</entityname.divingknifeunique>
+<entitydescription.divingknifeunique>For friends and enemies alike. Mostly enemies.</entitydescription.divingknifeunique>
+<entityname.smgunique>Deadeye Carbine</entityname.smgunique>
+<entitydescription.smgunique>A tactical weapon, available in black and slightly darker black.</entitydescription.smgunique>
+<entityname.flamerunique>Prototype Steam Cannon</entityname.flamerunique>
+<entitydescription.flamerunique>Gets rid of pests like nothing else. Patent pending.</entitydescription.flamerunique>
+<entityname.clownmaskunique>Mother's Countenance</entityname.clownmaskunique>
+<entitydescription.clownmaskunique>Nothing remains hidden under mother's gaze.</entitydescription.clownmaskunique>
+<entityname.clownsuitunique>Mother's Providence</entityname.clownsuitunique>
+<entitydescription.clownsuitunique>Nothing can escape mother's warm embrace.</entitydescription.clownsuitunique>
+<entityname.toolbelt>Toolbelt</entityname.toolbelt>
+<entitydescription.toolbelt>A wearable container for storing tools and supplies.</entitydescription.toolbelt>
+<entityname.chitinhelmet>Chitin Helmet</entityname.chitinhelmet>
+<entitydescription.chitinhelmet>A tough helmet made of chitin.</entitydescription.chitinhelmet>
+<entityname.glowstick>Glowstick</entityname.glowstick>
+<entitydescription.glowstick>Temporary handheld light. Useful for marking a path while exploring outside the sub.</entitydescription.glowstick>
+<entityname.abyssdivingsuit>Abyss Diving Suit</entityname.abyssdivingsuit>
+<entityname.combatdivingsuit>Combat Diving Suit</entityname.combatdivingsuit>
+<entityname.pressurestabilizer>Pressure Stabilizer</entityname.pressurestabilizer>
+<entitydescription.pressurestabilizer>A special drug that gives the user an immunity to pressure and removes their need for oxygen for a short duration.</entitydescription.pressurestabilizer>
+<entityname.endocrinebooster>Endocrine Booster</entityname.endocrinebooster>
+<entitydescription.endocrinebooster>This medical contraption, when used, bestows the user with permanent performance enhancement.</entitydescription.endocrinebooster>
+<entityname.slipsuit>Slipsuit</entityname.slipsuit>
+<entityname.backpack>Backpack</entityname.backpack>
+<entitydescription.backpack>A bulky backpack that can hold a large amount of tools and supplies, at the cost of slightly impaired movement.</entitydescription.backpack>
+<entityname.bandolier>Bandolier</entityname.bandolier>
+<entitydescription.bandolier>A light combat rig, capable of carrying ammunition and other useful items. Thanks to improved ergonomics, increases combat effectiveness with ranged weapons and turrets.</entitydescription.bandolier>
+<entityname.autoinjectorheadset>Auto-Injector Headset</entityname.autoinjectorheadset>
+<entitydescription.autoinjectorheadset>A modifed headset utilizing an integrated battery, capable of injecting medicine placed within once the user's vitals drop to a certain level.</entitydescription.autoinjectorheadset>
+<entityname.depletedfuel>Depleted Fuel</entityname.depletedfuel>
+<entitydescription.depletedfuel>A heavy, hard material derived from processing a spent fuel rod. Can be further fabricated into tools and munitions.</entitydescription.depletedfuel>
+<entityname.wrenchhardened>Hardened Wrench</entityname.wrenchhardened>
+<entitydescription.wrenchhardened>A wrench that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings.</entitydescription.wrenchhardened>
+<entityname.screwdriverhardened>Hardened Screwdriver</entityname.screwdriverhardened>
+<entitydescription.screwdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthened material allows for more efficient repairs and heavier swings.</entitydescription.screwdriverhardened>
+<entityname.crowbarhardened>Hardened Crowbar</entityname.crowbarhardened>
+<entitydescription.crowbarhardened>A crowbar that has gone through a process of hardening using depleted fuel. The strengthened material makes it easier to pry open doors and bash open heads.</entitydescription.crowbarhardened>
+<entityname.divingknifehardened>Hardened Diving Knife</entityname.divingknifehardened>
+<entitydescription.divingknifehardened>A diving knife that has gone through a process of hardening using depleted fuel. The strengthened material allows for deeper slashes and stabs.</entitydescription.divingknifehardened>
+<entityname.revolverrounddepletedfuel>Depleted Fuel Revolver Round</entityname.revolverrounddepletedfuel>
+<entitydescription.revolverrounddepletedfuel>A .38 round for the revolver, fashioned out of depleted fuel. Along with increased penetration, the ammo has been special-made to also inflict radiation sickness on the target.</entitydescription.revolverrounddepletedfuel>
+<entityname.smgmagazinedepletedfuel>Depleted Fuel SMG Magazine</entityname.smgmagazinedepletedfuel>
+<entitydescription.smgmagazinedepletedfuel>A .45 caliber magazine for the SMG, containing rounds of depleted fuel ammo. Along with increased penetration, the ammo has been special-made to also inflict radiation sickness on the target.</entitydescription.smgmagazinedepletedfuel>
+<entityname.smgrounddepletedfuel>Depleted Fuel SMG Round</entityname.smgrounddepletedfuel>
+<entityname.coilgunammoboxdepletedfuel>Depleted Fuel Coilgun Ammunition Box</entityname.coilgunammoboxdepletedfuel>
+<entitydescription.coilgunammoboxdepletedfuel>A heavy box of depleted fuel ammunition for the coilgun. Along with increased penetration, the ammo has been special-made to also inflict radiation sickness on the target.</entitydescription.coilgunammoboxdepletedfuel>
+<entityname.depletedfuelbolt>Depleted Fuel Bolt</entityname.depletedfuelbolt>
+<entityname.handheldelectricalmonitor>Handheld Electrical Monitor</entityname.handheldelectricalmonitor>
+<entitydescription.handheldelectricalmonitor>A small handheld device that gives the user remote access to information regarding the ship's electrical systems.</entitydescription.handheldelectricalmonitor>
+<entityname.handheldstatusmonitor>Handheld Status Monitor</entityname.handheldstatusmonitor>
+<entitydescription.handheldstatusmonitor>A small handheld device with a screen displaying the current status of the ship, informing the user of any breaches remotely.</entitydescription.handheldstatusmonitor>
+<entityname.electriciansgoggles>Electrician's Goggles</entityname.electriciansgoggles>
+<entitydescription.electriciansgoggles>A device that remotely detects and visualizes electrical fields, allowing an engineer to detect power and signals traveling through wires and to read the values of the signals from a device's connection panel.</entitydescription.electriciansgoggles>
+<entityname.autoshotgun>Autoshotgun</entityname.autoshotgun>
+<entitydescription.autoshotgun>A roughly engineered automatic shotgun with a vast ammo capacity. Its size and heft makes it a bit cumbersome to lug around.</entitydescription.autoshotgun>
+<entityname.handcannon>Handcannon</entityname.handcannon>
+<entitydescription.handcannon>A humongous beast of a revolver, designed to better deal with the large alien threats on Europa than typical firearms.</entitydescription.handcannon>
+<entityname.handcannonround>Handcannon Round</entityname.handcannonround>
+<entitydescription.handcannonround>An exceedingly large .61 revolver round. The unique alloy of materials allows for high penetration and stopping power.</entitydescription.handcannonround>
+<entityname.coalitioncommendation>Commendation</entityname.coalitioncommendation>
+<entitydescription.coalitioncommendation>A small medal fashioned out of copper, originally created by the Coalition. When applied to another crewmember's body, it instantly bestows them with a sum of experience.</entitydescription.coalitioncommendation>
+<entityname.coalitionmedal>Medal</entityname.coalitionmedal>
+<entitydescription.coalitionmedal>A small medal fashioned out of bronze, originally created by the Coalition. When applied to another crewmember's body, it instantly bestows them with a large sum of experience.</entitydescription.coalitionmedal>
+<entityname.assaultrifle>Assault Rifle</entityname.assaultrifle>
+<entitydescription.assaultrifle>An assault rifle chambering 6.8mm cartridges. Though banned by the Coalition, the schematics for these rifles are still passed around Europa as they present a premier option for submarine defense, or as the Separatists would prefer, societal revolution.</entitydescription.assaultrifle>
+<entityname.assaultriflemagazine>Assault Rifle Magazine</entityname.assaultriflemagazine>
+<entitydescription.assaultriflemagazine>A magazine designed for holding 6.8mm cartridges.</entitydescription.assaultriflemagazine>
+<entityname.rifle>Rifle</entityname.rifle>
+<entitydescription.rifle>A .30 caliber rifle with a manual reload mechanism. Slow rate of fire for unskilled users.</entitydescription.rifle>
+<entityname.riflebullet>Rifle Round</entityname.riflebullet>
+<entitydescription.riflebullet>A .30 caliber round for the rifle.</entitydescription.riflebullet>
+<entityname.hmg>HMG</entityname.hmg>
+<entitydescription.hmg>Heavy Machine Gun, capable of dealing a lot of damage, provided the user is skilled enough to handle the recoil.</entitydescription.hmg>
+<entityname.hmgmagazine>HMG Magazine</entityname.hmgmagazine>
+<entitydescription.hmgmagazine>A magazine of 5.56mm rounds for the HMG</entitydescription.hmgmagazine>
+<entityname.hmground>HMG Round</entityname.hmground>
+<entitydescription.hmground>Round of a Heavy Machine Gun</entitydescription.hmground>
+<entityname.harpooncoilrifle>Harpoon Coil-Rifle</entityname.harpooncoilrifle>
+<entitydescription.harpooncoilrifle>An advanced harpoon gun, powered by an energy source to launch harpoons at high velocities.</entitydescription.harpooncoilrifle>
+<entityname.machinepistol>Machine Pistol</entityname.machinepistol>
+<entitydescription.machinepistol>A high rate of fire automatic weapon, using .45 (SMG) caliber magazines. Hard to aim.</entitydescription.machinepistol>
+<entityname.heavywrench>Heavy Wrench</entityname.heavywrench>
+<entitydescription.heavywrench>A large and heavy titanium wrench. Can only be properly swung by very burly mechanics.</entitydescription.heavywrench>
+<entityname.arcemitter>Arc Emitter</entityname.arcemitter>
+<entitydescription.arcemitter>A handheld weapon based on electric discharge coil technology. Fires a high-voltage electrical arc.</entitydescription.arcemitter>
+<entityname.makeshiftarmor>Makeshift Armor</entityname.makeshiftarmor>
+<entitydescription.makeshiftarmor>A bulky and unwieldy set of iron plates, fashioned into something that resembles armor.</entitydescription.makeshiftarmor>
+<entityname.ironhelmet>Iron Helmet</entityname.ironhelmet>
+<entitydescription.ironhelmet>A very simple and very heavy helmet that covers the entire face.</entitydescription.ironhelmet>
+<entityname.scrapcannon>Scrap Cannon</entityname.scrapcannon>
+<entityname.exosuit>Exosuit</entityname.exosuit>
+<entitydescription.exosuit>A heavy powered suit originally designed for underwater construction work. Well-armored and capable of carrying substantial loads.</entitydescription.exosuit>
+<entityname.advancedsyringegun>Advanced Syringe Gun</entityname.advancedsyringegun>
+<entitydescription.advancedsyringegun>Launches syrettes containing drugs or poisons. Has a higher capacity and integrated health scanner.</entitydescription.advancedsyringegun>
+<entityname.clowncrate>Clown Crate</entityname.clowncrate>
+<entitydescription.clowncrate>A crate large enough to fit a prankster inside.</entitydescription.clowncrate>
+<entityname.europabrew>Europabrew</entityname.europabrew>
+
+<entityname.chemgrenade>Acid Grenade</entityname.chemgrenade>
+<entitydescription.chemgrenade>A grenade filled with acid, causing acid burns when it explodes.</entitydescription.chemgrenade>
+<entityname.40mmchemgrenade>40mm Acid Grenade</entityname.40mmchemgrenade>
+<entitydescription.40mmchemgrenade>Ammunition for grenade launcher. Filled with acid, causing acid burns when it explodes.</entitydescription.40mmchemgrenade>
+<entityname.rum>Rum</entityname.rum>
+
+<entityname.handhelditemfinder>Handheld Itemfinder</entityname.handhelditemfinder>
+<entitydescription.handhelditemfinder>A small handheld device with a screen, capable of easily finding items within the submarine.</entitydescription.handhelditemfinder>
+<entityname.makeshiftshelf>Makeshift Shelves</entityname.makeshiftshelf>
+<entitydescription.makeshiftshelf>Crate storage shelves that can be manually installed on a submarine.</entitydescription.makeshiftshelf>
+<entityname.ceremonialsword>Ceremonial Sword</entityname.ceremonialsword>
+<entitydescription.ceremonialsword>A sharp sword to commemorate graduating. It takes varied skills to use it to it's highest potential.</entitydescription.ceremonialsword>
+<entityname.shotgunslugexplosive>Explosive Slug</entityname.shotgunslugexplosive>
+<entitydescription.shotgunslugexplosive>A shotgun slug containing explosive material. Powerful, but still somewhat inaccurate on account of being fired out of a shotgun.</entitydescription.shotgunslugexplosive>
+<entityname.boardingaxe>Boarding Axe</entityname.boardingaxe>
+<entitydescription.boardingaxe>A hand axe, meant to be wielded with both hands.</entitydescription.boardingaxe>
+<entityname.skillbooksailorsguide>The Sailor's Guide</entityname.skillbooksailorsguide>
+<entitydescription.skillbooksailorsguide>A small handbook that covers all the tasks associated with underwater sailing, though in limited scope.</entitydescription.skillbooksailorsguide>
+<entityname.skillbooksubmarinewarfare>Art of Submarine Warfare</entityname.skillbooksubmarinewarfare>
+<entitydescription.skillbooksubmarinewarfare>A small handbook with useful information pertaining to all things submarine warfare, with detailed pictures of elaborate tactical manuevers and proper firearms discipline.</entitydescription.skillbooksubmarinewarfare>
+<entityname.skillbookhandyseaman>The Handy Seaman</entityname.skillbookhandyseaman>
+<entitydescription.skillbookhandyseaman>A small handbook containing detailed information on the most-often-encountered technical problems on board the submarines of Europa, with simple-to-understand instructions for dealing with them.</entitydescription.skillbookhandyseaman>
+<entityname.skillbookeuropanmedicine>Europan Medicine</entityname.skillbookeuropanmedicine>
+<entitydescription.skillbookeuropanmedicine>A small handbook seeking to educate its reader on the proper conduct with treating the wounded and the sick using limited medical resources. The word "triage" appears to be mentioned a lot.</entitydescription.skillbookeuropanmedicine>
+<entityname.thermalgoggles>Thermal Goggles</entityname.thermalgoggles>
+<entitydescription.thermalgoggles>A thermal imaging device that makes it easier to distinguish living targets in poor lighting conditions, even through solid obstacles.</entitydescription.thermalgoggles>
+<entityname.reactorpda>Reactor PDA</entityname.reactorpda>
+<entitydescription.reactorpda>A handheld device that can be used to remotely control the submarine's reactor.</entitydescription.reactorpda>
+<entityname.dirtybomb>Dirty Bomb</entityname.dirtybomb>
+<entitydescription.dirtybomb>An explosive compound mixed with highly radioactive material. Though the explosive payload is low, the ensuing fallout will catastrophically irradiate the area.</entitydescription.dirtybomb>
+<entityname.dirtybomb_showofstrength>Modified Dirty Bomb</entityname.dirtybomb_showofstrength>
+<entitydescription.dirtybomb_showofstrength>An especially dirty bomb built for nefarious purposes.</entitydescription.dirtybomb_showofstrength>
+<entityname.fulguriumfuelrodvolatile>Volatile Fulgurium Fuel Rod</entityname.fulguriumfuelrodvolatile>
+<entitydescription.fulguriumfuelrodvolatile>A Fulgurium fuel rod that has been further refined to supply power for much longer than normal. However, its radiation shielding can only partially limit the emitted ambient radiation, so the rod must be handled with care.</entitydescription.fulguriumfuelrodvolatile>
+<entityname.nucleargun>Rapid Fissile Accelerator</entityname.nucleargun>
+<entitydescription.nucleargun>A prototype energy weapon built using the unique alien materials on Europa. The weapon induces a type of fission reaction at the end of the barrel, and releases it in a powerful beam once it is too violent to contain.</entitydescription.nucleargun>
+<entityname.cargoscooter>Cargo Scooter</entityname.cargoscooter>
+<entitydescription.cargoscooter>An underwater scooter special-made to transport material underwater. While the scooter is too large to be stored in one's inventory, its inherent buoyancy means the scooter will stay where you leave it.</entitydescription.cargoscooter>
+<entityname.clowndivingmask>Clown Diving Mask</entityname.clowndivingmask>
+<entitydescription.clowndivingmask>A clown mask combined with a diving mask, allowing the user to both clown around and breathe underwater.</entitydescription.clowndivingmask>
+<entityname.safetyharness>Safety Harness</entityname.safetyharness>
+<entitydescription.safetyharness>A special harness made to reduce workplace related injuries incurred on Europan submarines. The harness also dampens the effects of rushing water, stabilizing the user in the event of a hull breach.</entitydescription.safetyharness>
+<entityname.pucs>PUCS</entityname.pucs>
+
+<entityname.cigar>Cigar</entityname.cigar>
+<entitydescription.cigar>A submariner's life is mentally taxing, but perhaps this exquisitely crafted cigar can help you soothe your nerves a bit.</entitydescription.cigar>
+<entityname.stungundartfulgurium>Fulgurium Stun Gun Dart</entityname.stungundartfulgurium>
+<entitydescription.stungundartfulgurium>A highly potent stun gun dart that will drop any would-be creep like a sack of potatoes.</entitydescription.stungundartfulgurium>
+<entityname.fixfoamgrenade>Fixfoam Grenade</entityname.fixfoamgrenade>
+<entitydescription.fixfoamgrenade>Emits a cloud of chemical sealant that quickly seals off leaks.</entitydescription.fixfoamgrenade>
+<entityname.portablepump>Portable Pump</entityname.portablepump>
+<entitydescription.portablepump>A small battery-powered pump that can be installed on walls. Pumps out water very fast, but consumes a lot of power.</entitydescription.portablepump>
+<entityname.combatstimulantsyringe>Combat Stimulant</entityname.combatstimulantsyringe>
+<entitydescription.combatstimulantsyringe>A highly advanced stimulant that makes the user rapidly recover from physical injuries and bloodloss.</entitydescription.combatstimulantsyringe>
+<entityname.explosiveslug>Explosive Slug</entityname.explosiveslug>
+<entitydescription.explosiveslug>Explosive ammunition for a shotgun.</entitydescription.explosiveslug>
+<entityname.wrenchdementonite>Dementonite Wrench</entityname.wrenchdementonite>
+<entityname.screwdriverdementonite>Dementonite Screwdriver</entityname.screwdriverdementonite>
+<entityname.crowbardementonite>Dementonite Crowbar</entityname.crowbardementonite>
+<entityname.divingknifedementonite>Dementonite Diving Knife</entityname.divingknifedementonite>
+<entitydescription.dementonitetool>Fabricated from the poorly understood alien material dementonite. Holding it evokes a strange sense of unease.</entitydescription.dementonitetool>
+<entityname.taintedgeneticmaterial>Tainted [geneticmaterialname]</entityname.taintedgeneticmaterial>
+<entityname.geneticmaterial>Genetic Material ([type])</entityname.geneticmaterial>
+<entityname.unidentifiedgeneticmaterial>Unidentified Genetic Material</entityname.unidentifiedgeneticmaterial>
+<entitydescription.unidentifiedgeneticmaterial>A mass of alien genetic material. Use a research station to identify the material and to process it into something that can be inserted into a gene splicer.</entitydescription.unidentifiedgeneticmaterial>
+<entitydescription.geneticmaterialcrawler>Increases swimming speed by [value]%.</entitydescription.geneticmaterialcrawler>
+<entitydescription.geneticmaterialmoloch>Increases resistance to physical damage by [value]%</entitydescription.geneticmaterialmoloch>
+<entitydescription.geneticmaterialthresher>Decreases the subject's oxygen consumption by [value]%.</entitydescription.geneticmaterialthresher>
+<entitydescription.geneticmaterialmantis>Increases movement speed on land by [value]%.</entitydescription.geneticmaterialmantis>
+<entitydescription.geneticmaterialhammerhead>Allows the subject to to do [value]% more damage with melee weapons.</entitydescription.geneticmaterialhammerhead>
+<entitydescription.geneticmaterialhammerheadmatriarch>Makes the subject's physical injuries heal at a rate of [value]% per minute.</entitydescription.geneticmaterialhammerheadmatriarch>
+<character.mollusc>Mollusc</character.mollusc>
+<entitydescription.geneticmaterialmollusc>Receiving physical damage makes the subject gain [value]% vigor.</entitydescription.geneticmaterialmollusc>
+<character.skitter>Skitter</character.skitter>
+<entitydescription.geneticmaterialskitter>Receiving physical damage makes the subject gain [value]% hyperactivity.</entitydescription.geneticmaterialskitter>
+<character.hunter>Hunter</character.hunter>
+<entitydescription.geneticmaterialhunter>Receiving physical damage makes the subject gain a [value]% boost to melee weapon damage.</entitydescription.geneticmaterialhunter>
+<entityname.genesplicer>Gene Splicer</entityname.genesplicer>
+<entityname.advancedgenesplicer>Advanced Gene Splicer</entityname.advancedgenesplicer>
+<entitydescription.advancedgenesplicer>A more advanced form of the gene splicer, capable of activating two types of genetic materials at the same time.</entitydescription.advancedgenesplicer>
+<entityname.energydrink>Energy Drink</entityname.energydrink>
+<entitydescription.energydrink>Mantis Energy keeps you skittering from dawn till dusk!</entitydescription.energydrink>
+<entityname.proteinbar>Protein Bar</entityname.proteinbar>
+<entitydescription.proteinbar>May contain traces of galena.</entitydescription.proteinbar>
+<entityname.chaingunammoboxshredder>Shredder Chaingun Ammunition Box</entityname.chaingunammoboxshredder>
+<entitydescription.chaingunammoboxshredder>A heavy box of ammunition for the chaingun. Designed to shred through flesh and armor of any enemy.</entitydescription.chaingunammoboxshredder>
+<entityname.shotgunshellblunt>Shotgun Rubber Shell</entityname.shotgunshellblunt>
+<entitydescription.shotgunshellblunt>Ammunition for a shotgun. Less lethal.</entitydescription.shotgunshellblunt>
+<entityname.respawndivingsuit>Disposable Diving Suit</entityname.respawndivingsuit>
+<entitydescription.respawndivingsuit>A disposable diving suit capable of withstanding the immense pressure under Europa's crust.</entitydescription.respawndivingsuit>
+
+<!-- Electrical -->
+<entityname.junctionbox>Junction Box</entityname.junctionbox>
+<entitydescription.junctionbox>Serves as a hub for power distribution and relaying signals between devices.</entitydescription.junctionbox>
+<entityname.battery>Battery</entityname.battery>
+<entitydescription.battery>Generally used for storing backup power in case of a reactor failure.</entitydescription.battery>
+<entityname.shuttlebattery>Shuttle Battery</entityname.shuttlebattery>
+<entitydescription.shuttlebattery>Generally used for storing backup power in case of a reactor failure.</entitydescription.shuttlebattery>
+<entityname.supercapacitor>Supercapacitor</entityname.supercapacitor>
+<entitydescription.supercapacitor>Can output huge surges of power, but has a much lower capacity than batteries. Recharging the capacitors also takes much more power than batteries.</entitydescription.supercapacitor>
+<entityname.chargingdock>Charging Dock</entityname.chargingdock>
+<entitydescription.chargingdock>A wall-mounted battery cell charging dock.</entitydescription.chargingdock>
+<entityname.fpgacircuit>FPGA Circuit</entityname.fpgacircuit>
+<entitydescription.fpgacircuit>Field-programmable gate array—a multipurpose circuit that can be reconfigured for use in a large variety of electrical devices.</entitydescription.fpgacircuit>
+<entityname.andcomponent>And Component</entityname.andcomponent>
+<entitydescription.andcomponent>Sends a signal when both inputs receive a signal within a set period of each other.</entitydescription.andcomponent>
+<entityname.addercomponent>Adder Component</entityname.addercomponent>
+<entitydescription.addercomponent>Outputs the sum of the received signals.</entitydescription.addercomponent>
+<entityname.orcomponent>Or Component</entityname.orcomponent>
+<entitydescription.orcomponent>Sends a signal if either of the inputs receives a signal.</entitydescription.orcomponent>
+<entityname.notcomponent>Not Component</entityname.notcomponent>
+<entitydescription.notcomponent>Sends a signal when the input is NOT receiving a signal.</entitydescription.notcomponent>
+<entityname.relaycomponent>Relay Component</entityname.relaycomponent>
+<entitydescription.relaycomponent>When switched on, forwards all received signals from the input connections to the outputs.</entitydescription.relaycomponent>
+<entityname.delaycomponent>Delay Component</entityname.delaycomponent>
+<entitydescription.delaycomponent>Delays all received signals for a specific amount of time.</entitydescription.delaycomponent>
+<entityname.equalscomponent>Equals Component</entityname.equalscomponent>
+<entitydescription.equalscomponent>Sends a signal when both inputs receive the same signal.</entitydescription.equalscomponent>
+<entityname.greatercomponent>Greater Component</entityname.greatercomponent>
+<entitydescription.greatercomponent>Sends a signal if the value the signal_in1 input is larger than the signal_in2 input.</entitydescription.greatercomponent>
+<entityname.colorcomponent>Color Component</entityname.colorcomponent>
+<entitydescription.colorcomponent>Outputs a combined color signal for light control.</entitydescription.colorcomponent>
+<entityname.subtractcomponent>Subtract Component</entityname.subtractcomponent>
+<entitydescription.subtractcomponent>Outputs the subtracted value of the received signals.</entitydescription.subtractcomponent>
+<entityname.multiplycomponent>Multiply Component</entityname.multiplycomponent>
+<entitydescription.multiplycomponent>Outputs the product of the received signals.</entitydescription.multiplycomponent>
+<entityname.dividecomponent>Divide Component</entityname.dividecomponent>
+<entitydescription.dividecomponent>Outputs the divided value of the received signals.</entitydescription.dividecomponent>
+<entityname.xorcomponent>Xor Component</entityname.xorcomponent>
+<entitydescription.xorcomponent>Sends a signal if either of the inputs, but not both, receives a signal.</entitydescription.xorcomponent>
+<entityname.memorycomponent>Memory Component</entityname.memorycomponent>
+<entitydescription.memorycomponent>Outputs a stored value that can be updated from other sources. Use the signal_in connection to set the stored value, and the signal_store input to toggle whether the received signals should be stored.</entitydescription.memorycomponent>
+<entityname.oxygendetector>Oxygen Detector</entityname.oxygendetector>
+<entitydescription.oxygendetector>Sends out a value between 0-100 depending on the quality of the surrounding air.</entitydescription.oxygendetector>
+<entityname.waterdetector>Water Detector</entityname.waterdetector>
+<entitydescription.waterdetector>Sends out a signal when the detector is submerged.</entitydescription.waterdetector>
+<entityname.smokedetector>Smoke Detector</entityname.smokedetector>
+<entitydescription.smokedetector>Sends out a signal when it senses smoke.</entitydescription.smokedetector>
+<entityname.motiondetector>Motion Detector</entityname.motiondetector>
+<entitydescription.motiondetector>Sends out a signal when it detects movement.</entitydescription.motiondetector>
+<entityname.signalcheckcomponent>Signal Check Component</entityname.signalcheckcomponent>
+<entitydescription.signalcheckcomponent>Sends a signal when a signal matching a specific value is received.</entitydescription.signalcheckcomponent>
+<entityname.regexcomponent>RegEx Find Component</entityname.regexcomponent>
+<entitydescription.regexcomponent>Sends a signal if the received signal matches a specific regular expression pattern.</entitydescription.regexcomponent>
+<entityname.oscillator>Oscillator Component</entityname.oscillator>
+<entitydescription.oscillator>Sends out a periodic, oscillating signal.</entitydescription.oscillator>
+<entityname.wificomponent>Wifi Component</entityname.wificomponent>
+<entitydescription.wificomponent>Allows remote communication between other wifi components that are using the same channel.</entitydescription.wificomponent>
+<entityname.camera>Camera</entityname.camera>
+<entitydescription.camera>Typically used in photonics masts to provide the crew with a high-resolution view of the area outside the sub.</entitydescription.camera>
+<entityname.button>Button</entityname.button>
+<entitydescription.button>Produces a signal that can be used to toggle the state of equipment and doors.</entitydescription.button>
+<entityname.switch>Switch</entityname.switch>
+<entitydescription.switch>Produces a constant signal that can be used to change the state of equipment and doors.</entitydescription.switch>
+<entityname.lamp>Lamp</entityname.lamp>
+<entitydescription.lamp>Wall-mounted lighting.</entitydescription.lamp>
+<entityname.emergencylight>Emergency Light</entityname.emergencylight>
+<entitydescription.emergencylight>Wall-mounted lighting. Requires no electrical input.</entitydescription.emergencylight>
+<entityname.wire>Wire</entityname.wire>
+<entitydescription.wire>Connects an output from one piece of equipment to an input on another.</entitydescription.wire>
+<entityname.redwire>Red Wire</entityname.redwire>
+<entitydescription.redwire>Connects an output from one piece of equipment to an input on another.</entitydescription.redwire>
+<entityname.bluewire>Blue Wire</entityname.bluewire>
+<entitydescription.bluewire>Connects an output from one piece of equipment to an input on another.</entitydescription.bluewire>
+<entityname.orangewire>Orange Wire</entityname.orangewire>
+<entitydescription.orangewire>Connects an output from one piece of equipment to an input on another.</entitydescription.orangewire>
+<entityname.greenwire>Green Wire</entityname.greenwire>
+<entitydescription.greenwire>Connects an output from one piece of equipment to an input on another.</entitydescription.greenwire>
+<entityname.blackwire>Black Wire</entityname.blackwire>
+<entitydescription.blackwire>Connects an output from one piece of equipment to an input on another.</entitydescription.blackwire>
+<entityname.brownwire>Brown Wire</entityname.brownwire>
+<entitydescription.brownwire>Connects an output from one piece of equipment to an input on another.</entitydescription.brownwire>
+<entityname.lightcomponent>Light Component</entityname.lightcomponent>
+<entitydescription.lightcomponent>General purpose lighting. Requires no electrical input.</entitydescription.lightcomponent>
+<entityname.emergencysiren>Emergency Siren</entityname.emergencysiren>
+<entitydescription.emergencysiren>Can be triggered to make a terrible noise.</entitydescription.emergencysiren>
+<entityname.alarmbuzzer>Alarm Buzzer</entityname.alarmbuzzer>
+<entitydescription.alarmbuzzer>Can be triggered to make a terrible noise.</entitydescription.alarmbuzzer>
+<entityname.beacon>Beacon</entityname.beacon>
+<entitydescription.beacon>When deployed and activated in the correct location, it will signal colonists to come and set up an outpost.</entitydescription.beacon>
+<entityname.sincomponent>Sin Component</entityname.sincomponent>
+<entitydescription.sincomponent>Outputs the sine of the input.</entitydescription.sincomponent>
+<entityname.coscomponent>Cos Component</entityname.coscomponent>
+<entitydescription.coscomponent>Outputs the cosine of the input.</entitydescription.coscomponent>
+<entityname.tancomponent>Tan Component</entityname.tancomponent>
+<entitydescription.tancomponent>Outputs the tangent of the input.</entitydescription.tancomponent>
+<entityname.asincomponent>Asin Component</entityname.asincomponent>
+<entitydescription.asincomponent>Outputs the angle whose sine is equal to the input.</entitydescription.asincomponent>
+<entityname.acoscomponent>Acos Component</entityname.acoscomponent>
+<entitydescription.acoscomponent>Outputs the angle whose cosine is equal to the input.</entitydescription.acoscomponent>
+<entityname.atancomponent>Atan Component</entityname.atancomponent>
+<entitydescription.atancomponent>Outputs the angle whose tangent is equal to the input. If the "signal_in_x" and "signal_in_y" connections are used, the input is interpreted as a vector and the angle calculated using Atan2.</entitydescription.atancomponent>
+<entityname.modulocomponent>Modulo Component</entityname.modulocomponent>
+<entitydescription.modulocomponent>Outputs the remainder when the input is divided by a specific number.</entitydescription.modulocomponent>
+<entityname.roundcomponent>Round Component</entityname.roundcomponent>
+<entitydescription.roundcomponent>Rounds a numerical input to the nearest integer value.</entitydescription.roundcomponent>
+<entityname.ceilcomponent>Ceil Component</entityname.ceilcomponent>
+<entitydescription.ceilcomponent>Outputs the smallest integer value that is bigger than or equal to the input.</entitydescription.ceilcomponent>
+<entityname.floorcomponent>Floor Component</entityname.floorcomponent>
+<entitydescription.floorcomponent>Outputs the greatest integer value that is less than or equal to the input.</entitydescription.floorcomponent>
+<entityname.factorialcomponent>Factorial Component</entityname.factorialcomponent>
+<entitydescription.factorialcomponent>Outputs the factorial of the input.</entitydescription.factorialcomponent>
+<entityname.squarerootcomponent>Square Root Component</entityname.squarerootcomponent>
+<entitydescription.squarerootcomponent>Outputs the square root of the input.</entitydescription.squarerootcomponent>
+<entityname.abscomponent>Abs Component</entityname.abscomponent>
+<entitydescription.abscomponent>Outputs the absolute value of the input.</entitydescription.abscomponent>
+<entityname.powcomponent>Exponentiation Component</entityname.powcomponent>
+<entitydescription.powcomponent>Outputs the input raised to a given power.</entitydescription.powcomponent>
+<entityname.terminal>Terminal</entityname.terminal>
+<entitydescription.terminal>Outputs a user-submitted string.</entitydescription.terminal>
+<entityname.lever>Lever</entityname.lever>
+<entitydescription.lever>Produces a constant signal that can be used to change the state of equipment and doors.</entitydescription.lever>
+<entityname.concatcomponent>Concatenation Component</entityname.concatcomponent>
+<entitydescription.concatcomponent>Joins the inputs together and outputs the joined value (for example, the inputs "mud" and "raptor" would output "mudraptor").</entitydescription.concatcomponent>
+<entityname.circuitbox>Circuit Box</entityname.circuitbox>
+<entitydescription.circuitbox>Allows creating complex circuits in a compact and portable container.</entitydescription.circuitbox>
+<circuitboxnode.addercomponent>Adder</circuitboxnode.addercomponent>
+<circuitboxnode.andcomponent>And</circuitboxnode.andcomponent>
+<circuitboxnode.orcomponent>Or</circuitboxnode.orcomponent>
+<circuitboxnode.notcomponent>Not</circuitboxnode.notcomponent>
+<circuitboxnode.relaycomponent>Relay</circuitboxnode.relaycomponent>
+<circuitboxnode.delaycomponent>Delay</circuitboxnode.delaycomponent>
+<circuitboxnode.equalscomponent>Equals</circuitboxnode.equalscomponent>
+<circuitboxnode.greatercomponent>Greater</circuitboxnode.greatercomponent>
+<circuitboxnode.colorcomponent>Color</circuitboxnode.colorcomponent>
+<circuitboxnode.subtractcomponent>Subtract</circuitboxnode.subtractcomponent>
+<circuitboxnode.multiplycomponent>Multiply</circuitboxnode.multiplycomponent>
+<circuitboxnode.dividecomponent>Divide</circuitboxnode.dividecomponent>
+<circuitboxnode.xorcomponent>Xor</circuitboxnode.xorcomponent>
+<circuitboxnode.memorycomponent>Memory</circuitboxnode.memorycomponent>
+<circuitboxnode.signalcheckcomponent>Signal Check</circuitboxnode.signalcheckcomponent>
+<circuitboxnode.regexcomponent>RegEx</circuitboxnode.regexcomponent>
+<circuitboxnode.oscillator>Oscillator</circuitboxnode.oscillator>
+<circuitboxnode.wificomponent>WiFi</circuitboxnode.wificomponent>
+<circuitboxnode.sincomponent>Sin</circuitboxnode.sincomponent>
+<circuitboxnode.coscomponent>Cos</circuitboxnode.coscomponent>
+<circuitboxnode.tancomponent>Tan</circuitboxnode.tancomponent>
+<circuitboxnode.asincomponent>Asin</circuitboxnode.asincomponent>
+<circuitboxnode.acoscomponent>Acos</circuitboxnode.acoscomponent>
+<circuitboxnode.atancomponent>Atan</circuitboxnode.atancomponent>
+<circuitboxnode.modulocomponent>Modulo</circuitboxnode.modulocomponent>
+<circuitboxnode.roundcomponent>Round</circuitboxnode.roundcomponent>
+<circuitboxnode.ceilcomponent>Ceiling</circuitboxnode.ceilcomponent>
+<circuitboxnode.floorcomponent>Floor</circuitboxnode.floorcomponent>
+<circuitboxnode.factorialcomponent>Factorial</circuitboxnode.factorialcomponent>
+<circuitboxnode.squarerootcomponent>Square Root</circuitboxnode.squarerootcomponent>
+<circuitboxnode.abscomponent>Absolute</circuitboxnode.abscomponent>
+<circuitboxnode.powcomponent>Exponentiation</circuitboxnode.powcomponent>
+<circuitboxnode.concatcomponent>Concatenation</circuitboxnode.concatcomponent>
+<circuitboxuicomponentnotavailable>You need to have ‖color:gui.orange‖[item]‖end‖ or ‖color:gui.orange‖FPGA Circuit‖end‖ in your inventory to place this component.</circuitboxuicomponentnotavailable>
+<circuitboxsetting.resetview>Reset view</circuitboxsetting.resetview>
+<circuitboxsetting.find>Find...</circuitboxsetting.find>
+<circuitboxsettingdescription.resetview>Returns the camera to the center.</circuitboxsettingdescription.resetview>
+<circuitboxsetting.focusinput>Inputs</circuitboxsetting.focusinput>
+<circuitboxsettingdescription.focusinput>Teleports the camera to the circuit box inputs node.</circuitboxsettingdescription.focusinput>
+<circuitboxsetting.focusoutput>Outputs</circuitboxsetting.focusoutput>
+<circuitboxsettingdescription.focusoutput>Teleports the camera to the circuit box output node.</circuitboxsettingdescription.focusoutput>
+<circuitboxsetting.focuscircuits>Circuits</circuitboxsetting.focuscircuits>
+<circuitboxsettingdescription.focuscircuits>Teleports the camera to the nearest component node.</circuitboxsettingdescription.focuscircuits>
+
+<!-- Material -->
+<entityname.alienblood>Alien Blood</entityname.alienblood>
+<entitydescription.alienblood>Blood extracted from a Europan lifeform. Can be further processed into a blood substitute for the treatment of blood loss.</entitydescription.alienblood>
+<entityname.huskeggs>Calyx Extract</entityname.huskeggs>
+<entitydescription.huskeggs>The Velonaceps calyx or "husk parasite" likes to bind itself to calcium, regardless of whether it's inside human bones or neatly packed inside a syringe.</entitydescription.huskeggs>
+<entityname.molochbone>Moloch Bone</entityname.molochbone>
+<entitydescription.molochbone>Piece of a Moloch bone. Considered an expensive luxury item by colony dwellers; can be sold at a high price.</entitydescription.molochbone>
+<entityname.huskeggsbasic>Velonaceps calyx Eggs</entityname.huskeggsbasic>
+<entitydescription.huskeggsbasic>Dormant eggs of the Europan lifeform colloquially referred to as "husk parasite."</entitydescription.huskeggsbasic>
+<entityname.aliencircuitry>Alien Circuitry</entityname.aliencircuitry>
+<entitydescription.aliencircuitry>Advanced looking circuitry, typically found within the inorganic guardians of the alien ruins.</entitydescription.aliencircuitry>
+<entityname.diversremains>Diver's Remains</entityname.diversremains>
+<entitydescription.diversremains>The less easily digested remains of the poor soul that met their untimely demise.</entitydescription.diversremains>
+<entityname.hammerheadribs>Hammerhead Ribs</entityname.hammerheadribs>
+<entitydescription.hammerheadribs>The ribs and fleshy remains of a Hammerhead. Can fetch a decent price in colonies.</entitydescription.hammerheadribs>
+<entityname.endwormshell>Endworm Shell Fragment</entityname.endwormshell>
+<entitydescription.endwormshell>A sturdy piece of an endworm's shell.</entitydescription.endwormshell>
+<entityname.watchershell>Watcher Shell Fragment</entityname.watchershell>
+<entitydescription.watchershell>A sturdy piece of a watcher's shell.</entitydescription.watchershell>
+
+
+
+
+<entityname.carbon>Carbon</entityname.carbon>
+<entitydescription.carbon>Most commonly used in the manufacture of steel and plastic.</entitydescription.carbon>
+<entityname.iron>Iron</entityname.iron>
+<entitydescription.iron>Can be used in the manufacture of simple tools, or refined into steel by mixing it with carbon.</entitydescription.iron>
+<entityname.tin>Tin</entityname.tin>
+<entitydescription.tin>Most commonly used in the manufacture of various electrical components.</entitydescription.tin>
+<entityname.lead>Lead</entityname.lead>
+<entitydescription.lead>Most commonly used in the manufacture of various types of ammunition.</entitydescription.lead>
+<entityname.phosphorus>Phosphorus</entityname.phosphorus>
+<entitydescription.phosphorus>Used in the manufacture of lamps, explosives and some medical compounds.</entitydescription.phosphorus>
+<entityname.copper>Copper</entityname.copper>
+<entitydescription.copper>Most commonly used in the manufacture of electrical wiring.</entitydescription.copper>
+<entityname.zinc>Zinc</entityname.zinc>
+<entitydescription.zinc>Most commonly used in the manufacture of batteries and tonic liquid.</entitydescription.zinc>
+<entityname.sodium>Sodium</entityname.sodium>
+<entitydescription.sodium>Medical fabricators can combine sodium and chloride to create a saline solution, which can be used as a treatment for blood loss or as an ingredient for more complex medicine. Reacts violently when coming into contact with water.</entitydescription.sodium>
+<entityname.silicon>Silicon</entityname.silicon>
+<entitydescription.silicon>Used as an ingredient in aluminum alloys, plastic and various electrical components.</entitydescription.silicon>
+<entityname.uranium>Uranium</entityname.uranium>
+<entitydescription.uranium>Can be refined in a fabricator to create fuel rods for a nuclear reactor, or used in the manufacture of nuclear weapons.</entitydescription.uranium>
+<entityname.potassium>Potassium</entityname.potassium>
+<entitydescription.potassium>Used in the manufacture of explosives and medical compounds. Reacts violently when in contact with water.</entitydescription.potassium>
+<entityname.magnesium>Magnesium</entityname.magnesium>
+<entitydescription.magnesium>Used in the manufacture of explosives and medical compounds.</entitydescription.magnesium>
+<entityname.lithium>Lithium</entityname.lithium>
+<entitydescription.lithium>Most commonly used in the manufacture of batteries and antipsychotic drugs. Reacts violently when in contact with water.</entitydescription.lithium>
+<entityname.chlorine>Chlorine</entityname.chlorine>
+<entitydescription.chlorine>Most commonly used in saline, a common treatment for blood loss, and chloral hydrate, a powerful sedative.</entitydescription.chlorine>
+<entityname.slimebacteria>Slime Bacteria</entityname.slimebacteria>
+<entitydescription.slimebacteria>A colony of myxobacteria. Can be processed into antibiotics.</entitydescription.slimebacteria>
+<entityname.titanite>Titanite</entityname.titanite>
+<entitydescription.titanite>A mineral containing titanium and iron.</entitydescription.titanite>
+<entityname.brockite>Brockite</entityname.brockite>
+<entitydescription.brockite>A mineral containing thorium and phosphorus.</entitydescription.brockite>
+<entityname.thorianite>Thorianite</entityname.thorianite>
+<entitydescription.thorianite>A rare mineral containing thorium.</entitydescription.thorianite>
+<entityname.amblygonite>Amblygonite</entityname.amblygonite>
+<entitydescription.amblygonite>A mineral composed of lithium, aluminum and sodium.</entitydescription.amblygonite>
+<entityname.sphalerite>Sphalerite</entityname.sphalerite>
+<entitydescription.sphalerite>A mineral consisting largely of zinc in crystalline form.</entitydescription.sphalerite>
+<entityname.pyromorphite>Pyromorphite</entityname.pyromorphite>
+<entitydescription.pyromorphite>A mineral composed of chlorine.</entitydescription.pyromorphite>
+<entityname.quartz>Quartz</entityname.quartz>
+<entitydescription.quartz>A crystalline mineral composed of silicon.</entitydescription.quartz>
+<entityname.diamond>Diamond</entityname.diamond>
+<entitydescription.diamond>A crystal composed of solid carbon.</entitydescription.diamond>
+<entityname.hydroxyapatite>Hydroxyapatite</entityname.hydroxyapatite>
+<entitydescription.hydroxyapatite>A mineral composed of calcium and phosphorus.</entitydescription.hydroxyapatite>
+<entityname.uraniumore>Uranium Ore</entityname.uraniumore>
+<entitydescription.uraniumore>A mineral containing large concentrations of uranium.</entitydescription.uraniumore>
+<entityname.ilmenite>Ilmenite</entityname.ilmenite>
+<entitydescription.ilmenite>A mineral containing titanium.</entitydescription.ilmenite>
+<entityname.stannite>Stannite</entityname.stannite>
+<entitydescription.stannite>A mineral composed of copper, iron and tin.</entitydescription.stannite>
+<entityname.chalcopyrite>Chalcopyrite</entityname.chalcopyrite>
+<entitydescription.chalcopyrite>A mineral containing copper.</entitydescription.chalcopyrite>
+<entityname.esperite>Esperite</entityname.esperite>
+<entitydescription.esperite>A mineral composed of zinc and lead.</entitydescription.esperite>
+<entityname.galena>Galena</entityname.galena>
+<entitydescription.galena>A mineral mostly consisting of lead.</entitydescription.galena>
+<entityname.triphylite>Triphylite</entityname.triphylite>
+<entitydescription.triphylite>A mineral containing lithium.</entitydescription.triphylite>
+<entityname.langbeinite>Langbeinite</entityname.langbeinite>
+<entitydescription.langbeinite>A mineral consisting of potassium and magnesium.</entitydescription.langbeinite>
+<entityname.chamosite>Chamosite</entityname.chamosite>
+<entitydescription.chamosite>A mineral consisting of iron and aluminum.</entitydescription.chamosite>
+<entityname.ironore>Iron Ore</entityname.ironore>
+<entitydescription.ironore>A mineral containing large amounts of iron.</entitydescription.ironore>
+<entityname.polyhalite>Polyhalite</entityname.polyhalite>
+<entitydescription.polyhalite>A mineral consisting of potassium and calcium.</entitydescription.polyhalite>
+<entityname.graphite>Graphite</entityname.graphite>
+<entitydescription.graphite>Carbon in crystalline form.</entitydescription.graphite>
+<entityname.sylvite>Sylvite</entityname.sylvite>
+<entitydescription.sylvite>A mineral containing potassium and sodium.</entitydescription.sylvite>
+<entityname.lazulite>Lazulite</entityname.lazulite>
+<entitydescription.lazulite>A mineral containing phosphorus and iron.</entitydescription.lazulite>
+<entityname.bornite>Bornite</entityname.bornite>
+<entitydescription.bornite>A mineral containing copper.</entitydescription.bornite>
+<entityname.cassiterite>Cassiterite</entityname.cassiterite>
+<entitydescription.cassiterite>A mineral consisting of tin.</entitydescription.cassiterite>
+<entityname.cryolite>Cryolite</entityname.cryolite>
+<entitydescription.cryolite>A mineral containing sodium.</entitydescription.cryolite>
+<entityname.aragonite>Aragonite</entityname.aragonite>
+<entitydescription.aragonite>A mineral containing calcium.</entitydescription.aragonite>
+<entityname.chrysoprase>Chrysoprase</entityname.chrysoprase>
+<entitydescription.chrysoprase>A mineral containing silicon.</entitydescription.chrysoprase>
+<entityname.opium>Opium</entityname.opium>
+<entitydescription.opium>A relatively mild opioid obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl.</entitydescription.opium>
+<entityname.antibiotics>Broad-spectrum Antibiotics</entityname.antibiotics>
+
+<entityname.stabilozine>Stabilozine</entityname.stabilozine>
+<entitydescription.stabilozine>Used as an ingredient in the manufacture of various medicines. On its own, can be used to slow down the effects of most toxins.</entitydescription.stabilozine>
+<entityname.ethanol>Ethanol</entityname.ethanol>
+
+<entityname.sulphuricacid>Sulphuric Acid</entityname.sulphuricacid>
+<entitydescription.sulphuricacid>A strong acid that causes burns when in contact with skin. Used as an ingredient in several poisons.</entitydescription.sulphuricacid>
+<entityname.antidama1>Morphine</entityname.antidama1>
+<entitydescription.antidama1>A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse.</entitydescription.antidama1>
+<entityname.antidama2>Fentanyl</entityname.antidama2>
+<entitydescription.antidama2>A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse.</entitydescription.antidama2>
+<entityname.antibloodloss1>Saline</entityname.antibloodloss1>
+<entityname.antibloodloss2>Blood Pack</entityname.antibloodloss2>
+<entitydescription.antibloodloss2>A pack of blood substitute for the treatment of blood loss.</entitydescription.antibloodloss2>
+<entityname.deusizine>Deusizine</entityname.deusizine>
+<entityname.calyxanide>Calyxanide</entityname.calyxanide>
+<entitydescription.calyxanide>An antiparasitic drug used in the treatment of husk parasite infections. Might require higher dosage to cure the infection at later stages.</entitydescription.calyxanide>
+<entityname.antipsychosis>Haloperidol</entityname.antipsychosis>
+<entitydescription.antipsychosis>A strong antipsychotic drug.</entitydescription.antipsychosis>
+<entityname.antinarc>Naloxone</entityname.antinarc>
+<entitydescription.antinarc>An opioid antagonist for the treatment of opiate-based withdrawal and overdose.</entitydescription.antinarc>
+<entityname.morbusineantidote>Morbusine Antidote</entityname.morbusineantidote>
+<entitydescription.morbusineantidote>An antidote for acute morbusine poisoning.</entitydescription.morbusineantidote>
+<entityname.cyanideantidote>Cyanide Antidote</entityname.cyanideantidote>
+<entitydescription.cyanideantidote>An antidote for acute cyanide poisoning.</entitydescription.cyanideantidote>
+<entityname.sufforinantidote>Sufforin Antidote</entityname.sufforinantidote>
+<entitydescription.sufforinantidote>An antidote for acute sufforin poisoning.</entitydescription.sufforinantidote>
+<entityname.deliriumineantidote>Deliriumine Antidote</entityname.deliriumineantidote>
+<entitydescription.deliriumineantidote>An antidote for acute deliriumine poisoning.</entitydescription.deliriumineantidote>
+<entityname.antirad>Antirad</entityname.antirad>
+<entitydescription.antirad>Slows down cellular degradation caused by radiation.</entitydescription.antirad>
+<entityname.liquidoxygenite>Liquid Oxygenite</entityname.liquidoxygenite>
+<entitydescription.liquidoxygenite>A mildly toxic solution that slowly releases oxygen into the bloodstream when injected. Avoid dropping.</entitydescription.liquidoxygenite>
+<entityname.tonicliquid>Tonic Liquid</entityname.tonicliquid>
+<entityname.meth>Methamphetamine</entityname.meth>
+<entitydescription.meth>A potent nervous system stimulant.</entitydescription.meth>
+<entityname.steroids>Anabolic Steroids</entityname.steroids>
+<entitydescription.steroids>Temporarily increases muscular strength and physical performance.</entitydescription.steroids>
+<entityname.hyperzine>Hyperzine</entityname.hyperzine>
+<entitydescription.hyperzine>An extremely potent muscle stimulant for those moments when you gotta go fast.</entitydescription.hyperzine>
+<entityname.morbusine>Morbusine</entityname.morbusine>
+<entitydescription.morbusine>A highly potent neurotoxin that causes an eventual shutdown of lungs and muscles, greatly hindering movement.</entitydescription.morbusine>
+<entityname.chloralhydrate>Chloral Hydrate</entityname.chloralhydrate>
+<entitydescription.chloralhydrate>A sedative that can be used to knock someone out for a short period of time.</entitydescription.chloralhydrate>
+<entityname.cyanide>Cyanide</entityname.cyanide>
+<entityname.radiotoxin>Radiotoxin</entityname.radiotoxin>
+<entitydescription.radiotoxin>A highly radioactive substance that causes radiation sickness and eventual liquefaction of inner organs.</entitydescription.radiotoxin>
+<entityname.sufforin>Sufforin</entityname.sufforin>
+<entityname.deliriumine>Deliriumine</entityname.deliriumine>
+<entitydescription.deliriumine>A psychosis-inducing toxin.</entitydescription.deliriumine>
+<entityname.nitroglycerin>Nitroglycerin</entityname.nitroglycerin>
+<entitydescription.nitroglycerin>A highly unstable liquid that may explode when subjected to heat or physical shock.</entitydescription.nitroglycerin>
+<entityname.calcium>Calcium</entityname.calcium>
+<entitydescription.calcium>A silvery-white powder. Used to fabricate Tonic Liquid.</entitydescription.calcium>
+<entityname.aluminium>Aluminum</entityname.aluminium>
+<entitydescription.aluminium>A soft, lightweight metal. Used in the manufacture of diving equipment and some military applications.</entitydescription.aluminium>
+<entityname.titanium>Titanium</entityname.titanium>
+<entitydescription.titanium>A hard and strong metal. Used for creating the durable Titanium-Aluminium alloy, as well as military applications.</entitydescription.titanium>
+<entityname.thorium>Thorium</entityname.thorium>
+<entitydescription.thorium>A weakly radioactive, silvery metal. Can be refined to create longer lasting fuel rods.</entitydescription.thorium>
+<entityname.steel>Steel Bar</entityname.steel>
+<entitydescription.steel>A strong metal alloy of iron and carbon. Used in fuel rod manufacturing, as well as many military applications.</entitydescription.steel>
+<entityname.titaniumaluminiumalloy>Titanium-Aluminum Alloy</entityname.titaniumaluminiumalloy>
+<entitydescription.titaniumaluminiumalloy>A very tough metal alloy. Used in durable diving gear and advanced weaponry.</entitydescription.titaniumaluminiumalloy>
+<entityname.plastic>Plastic</entityname.plastic>
+<entitydescription.plastic>An easily shaped, synthetic material. Contains Silicon and Carbon. Used in circuitry and various equipment.</entitydescription.plastic>
+<entityname.ballisticfiber>Ballistic Fiber</entityname.ballisticfiber>
+<entitydescription.ballisticfiber>Strong fiber strung from plastic and titanium. Used in the manufacture of armor.</entitydescription.ballisticfiber>
+<entityname.organicfiber>Organic Fiber</entityname.organicfiber>
+<entitydescription.organicfiber>Fiber created from plants. Used in the manufacture of clothing and bandages.</entitydescription.organicfiber>
+<entityname.rubber>Rubber</entityname.rubber>
+<entitydescription.rubber>A tough and elastic substance. Used in the manufacture of diving gear and other equipment.</entitydescription.rubber>
+<entityname.flashpowder>Flash Powder</entityname.flashpowder>
+<entitydescription.flashpowder>A quick burning powder, composed of magnesium and potassium. Used in flares and explosives.</entitydescription.flashpowder>
+<entityname.fiberplant>Fiber Plant</entityname.fiberplant>
+<entitydescription.fiberplant>This plant has the texture of a coconut and its fibers move on their own under your fingers unnervingly. Can be processed into organic fiber.</entitydescription.fiberplant>
+<entityname.elastinplant>Elastin Plant</entityname.elastinplant>
+<entitydescription.elastinplant>The foliage of this plant cannot be torn, only stretched. Can be processed into elastin.</entitydescription.elastinplant>
+<entityname.aquaticpoppy>Aquatic Poppy</entityname.aquaticpoppy>
+<entitydescription.aquaticpoppy>It's warm to the touch. Can be processed into opium.</entitydescription.aquaticpoppy>
+<entityname.yeastshroom>Sea Yeast Shroom</entityname.yeastshroom>
+<entitydescription.yeastshroom>The smell is beyond belief, like rotting meat on a hot day. Can be processed into ethanol.</entitydescription.yeastshroom>
+<entityname.elastin>Elastin</entityname.elastin>
+<entitydescription.elastin>A highly elastic, naturally occurring protein. Can be used to stem bleeding or heal burns once processed to medical items.</entitydescription.elastin>
+<entityname.adrenaline>Adrenaline</entityname.adrenaline>
+
+<entityname.paralyxis>Paralyxis</entityname.paralyxis>
+<entitydescription.paralyxis>A strange substance that numbs when touched. Used to create a powerful paralyzing agent.</entitydescription.paralyxis>
+<entityname.paralyzant>Paralyzant</entityname.paralyzant>
+<entitydescription.paralyzant>Causes paralysis.</entitydescription.paralyzant>
+<entityname.antiparalysis>Anaparalyzant</entityname.antiparalysis>
+<entitydescription.antiparalysis>A cure for paralysis. Beware: Excessive use may cause psychosis.</entitydescription.antiparalysis>
+<entityname.mucusball>Mucus Ball</entityname.mucusball>
+<entitydescription.mucusball>A sticky ball of mucus.</entitydescription.mucusball>
+<entityname.chitin>Chitin Chunk</entityname.chitin>
+<entitydescription.chitin>A tough piece of chitin.</entitydescription.chitin>
+<entityname.hallucinogenicbufotoxin>Hallucinogenic Bufotoxin</entityname.hallucinogenicbufotoxin>
+<entitydescription.hallucinogenicbufotoxin>Hallucinogenic toxin secreted by some Europan species. Serves as an antiparalysant in a pinch.</entitydescription.hallucinogenicbufotoxin>
+<fabricationdescription.munition_propulsion>Munition propulsion materials.</fabricationdescription.munition_propulsion>
+<fabricationdescription.munition_core>Core munition material. High-density metals.</fabricationdescription.munition_core>
+<fabricationdescription.munition_jacket>Munition jacket material. Softer metals.</fabricationdescription.munition_jacket>
+<fabricationdescription.advmunition_tip>Advanced bullet tip material. Hardened metals.</fabricationdescription.advmunition_tip>
+<fabricationdescription.advmunition_core>Advanced core munition material. High-density metals.</fabricationdescription.advmunition_core>
+<fabricationdescription.advmunition_jacket>Advanced munition jacket material. Softer metals.</fabricationdescription.advmunition_jacket>
+
+<!-- Pets -->
+<entityname.petnametag>Pet Name Tag</entityname.petnametag>
+<entitydescription.petnametag>Allows the naming of pets.</entitydescription.petnametag>
+<entityname.poop>Poop</entityname.poop>
+<entitydescription.poop>A pile of poop.</entitydescription.poop>
+<entityname.petegg>Strange Egg</entityname.petegg>
+<entitydescription.petegg>A strange egg. Try injecting it with saline.</entitydescription.petegg>
+<entityname.food>Pet Food</entityname.food>
+<entitydescription.food>The best food for your slimy friend.</entitydescription.food>
+<entityname.defensebotspawner>Defense Bot</entityname.defensebotspawner>
+<entitydescription.defensebotspawner>Build a deadly machine to look after you.</entitydescription.defensebotspawner>
+<entityname.defensebotammobox>Defense Bot Ammunition Rounds</entityname.defensebotammobox>
+<entitydescription.defensebotammobox>Ammunition rounds for Defense Bot</entitydescription.defensebotammobox>
+<entityname.petraptoregg>Petraptor egg</entityname.petraptoregg>
+<entitydescription.petraptoregg>A slimy, pulsating mudraptor egg. Hard to believe that this one is friendly. Drop it on the floor and feed it with saline, maybe?</entitydescription.petraptoregg>
+
+<!-- Misc -->
+<entityname.swimbladder>Swim Bladder</entityname.swimbladder>
+<entitydescription.swimbladder>Many Europan lifeforms have a swim bladder containing tissue fluids that can be easily processed into stabilozine and saline.</entitydescription.swimbladder>
+<entityname.adrenalinegland>Adrenaline Gland</entityname.adrenalinegland>
+<entityname.guitar>Guitar</entityname.guitar>
+<entitydescription.guitar>An old acoustic guitar.</entitydescription.guitar>
+<entityname.harmonica>Harmonica</entityname.harmonica>
+<entitydescription.harmonica>An old handmade harmonica.</entitydescription.harmonica>
+<entityname.bgrock1>Background Rock 1</entityname.bgrock1>
+<entityname.bgrock2>Background Rock 2</entityname.bgrock2>
+<entityname.bgrock3>Background Rock 3</entityname.bgrock3>
+<entityname.bgrock4>Background Rock 4</entityname.bgrock4>
+<entityname.suppliescabinet>Supplies Cabinet</entityname.suppliescabinet>
+<entitydescription.suppliescabinet>Storage for small- and medium-sized items.</entitydescription.suppliescabinet>
+<entityname.mediumsteelcabinet>Medium Steel Cabinet</entityname.mediumsteelcabinet>
+<entitydescription.mediumsteelcabinet>Storage for small- and medium-sized items.</entitydescription.mediumsteelcabinet>
+<entityname.mediumwindowedsteelcabinet>Medium Windowed Steel Cabinet</entityname.mediumwindowedsteelcabinet>
+<entitydescription.mediumwindowedsteelcabinet>Storage for small- and medium-sized items.</entitydescription.mediumwindowedsteelcabinet>
+<entityname.steelcabinet>Large Steel Cabinet</entityname.steelcabinet>
+<entitydescription.steelcabinet>Storage for small- and medium-sized items.</entitydescription.steelcabinet>
+<entityname.securesteelcabinet>Secure Steel Cabinet</entityname.securesteelcabinet>
+<entitydescription.securesteelcabinet>Lockable storage for small- and medium-sized items.</entitydescription.securesteelcabinet>
+<entityname.railgunshellrack>Railgun Shell Rack</entityname.railgunshellrack>
+<entitydescription.railgunshellrack>A way to neatly stow railgun shells.</entitydescription.railgunshellrack>
+<entityname.medcabinet>Medicine Cabinet</entityname.medcabinet>
+<entitydescription.medcabinet>Stow meds here.</entitydescription.medcabinet>
+<entityname.toxcabinet>Toxin Cabinet</entityname.toxcabinet>
+<entitydescription.toxcabinet>Stow poisons here.</entitydescription.toxcabinet>
+<entityname.divingsuitlocker>Diving Suit Locker</entityname.divingsuitlocker>
+<entitydescription.divingsuitlocker>A diving suit locker with one dive-ready suit.</entitydescription.divingsuitlocker>
+<entityname.divingsuitlocker2>Large Diving Suit Locker</entityname.divingsuitlocker2>
+<entitydescription.divingsuitlocker2>Neatly stores multiple diving suits.</entitydescription.divingsuitlocker2>
+<entityname.oxygentankshelf>Oxygen Tank Shelf</entityname.oxygentankshelf>
+<entitydescription.oxygentankshelf>Neatly stores multiple oxygen tanks.</entitydescription.oxygentankshelf>
+<entityname.metalcrate>Metal Crate</entityname.metalcrate>
+<entitydescription.metalcrate>A vessel in which items may be stored.</entitydescription.metalcrate>
+<entityname.securemetalcrate>Secure Metal Crate</entityname.securemetalcrate>
+<entitydescription.securemetalcrate>A secure vessel in which items may be stored.</entitydescription.securemetalcrate>
+<entityname.magneticsuspensioncrate>Magnetic Suspension Crate</entityname.magneticsuspensioncrate>
+<entityname.chemicalcratedamaged>Leaking Chemical Crate</entityname.chemicalcratedamaged>
+<entitydescription.chemicalcratedamaged>A vessel in which chemicals may be stored. It is supposed to be waterproof, but it's in poor condition.</entitydescription.chemicalcratedamaged>
+<entityname.volatilenitroglycerin>Volatile Nitroglycerin</entityname.volatilenitroglycerin>
+<entitydescription.volatilenitroglycerin>A highly, highly unstable liquid that will very much explode when subjected to small amounts of heat or physical shock.</entitydescription.volatilenitroglycerin>
+<entityname.explosivecrate>Explosive Crate</entityname.explosivecrate>
+<entitydescription.explosivecrate>A vessel in which explosives may be stored.</entitydescription.explosivecrate>
+<entityname.chemicalcrate>Chemical Crate</entityname.chemicalcrate>
+<entitydescription.chemicalcrate>A vessel in which chemicals may be stored.</entitydescription.chemicalcrate>
+<entityname.extinguisherbracket>Fire Extinguisher Bracket</entityname.extinguisherbracket>
+<entitydescription.extinguisherbracket>Holds a fire extinguisher to the wall.</entitydescription.extinguisherbracket>
+<entityname.weaponholder>Weapon Holder</entityname.weaponholder>
+<entitydescription.weaponholder>A place to stow your weapons neatly.</entitydescription.weaponholder>
+<entityname.dockingport>Docking Port</entityname.dockingport>
+<entitydescription.dockingport>A vertically aligned docking interface. Locks to another docking port to form a watertight seal and allow passage between subs, shuttles and locations.</entitydescription.dockingport>
+<entityname.dockinghatch>Docking Hatch</entityname.dockinghatch>
+<entitydescription.dockinghatch>A horizontally aligned docking interface. Locks to another docking hatch to form a watertight seal and allow passage between subs, shuttles and locations.</entitydescription.dockinghatch>
+<entityname.ductblock>Duct Block</entityname.ductblock>
+<entitydescription.ductblock>A mechanically operated vent that may be opened or closed to allow the passage of water.</entitydescription.ductblock>
+<entityname.label>Label</entityname.label>
+<entitydescription.label>Decorative text label.</entitydescription.label>
+<entityname.textdisplay>Text Display</entityname.textdisplay>
+<entitydescription.textdisplay>A scrolling text display.</entitydescription.textdisplay>
+<entityname.ladder>Ladder</entityname.ladder>
+<entitydescription.ladder>Allows for vertical locomotion.</entitydescription.ladder>
+<entityname.fuelrod>Fuel Rod</entityname.fuelrod>
+<entitydescription.fuelrod>A bar of enriched uranium, for use within a reactor.</entitydescription.fuelrod>
+<entityname.fulguriumfuelrod>Fulgurium Fuel Rod</entityname.fulguriumfuelrod>
+<entitydescription.fulguriumfuelrod>A bar of enriched fulgurium, for use within a reactor. Generates significantly more heat and lasts longer than uranium fuel rods.</entitydescription.fulguriumfuelrod>
+<entityname.thoriumfuelrod>Thorium Fuel Rod</entityname.thoriumfuelrod>
+<entitydescription.thoriumfuelrod>A thorium bar, for use within a reactor. Generates slightly more heat and lasts longer than uranium fuel rods.</entitydescription.thoriumfuelrod>
+<entityname.coilgunbolt>Coilgun Bolt</entityname.coilgunbolt>
+<entitydescription.coilgunbolt>For firing from a coilgun.</entitydescription.coilgunbolt>
+<entityname.depthchargeshell>Depth Charge Shell</entityname.depthchargeshell>
+<entitydescription.depthchargeshell>A barrel of explosives. Will sink and then explode.</entitydescription.depthchargeshell>
+<entityname.nucleardepthcharge>Nuclear Depth Charge</entityname.nucleardepthcharge>
+<entitydescription.nucleardepthcharge>A barrel of really big explosives. Will sink and then explode.</entitydescription.nucleardepthcharge>
+<entityname.depthdecoyshell>Depth Decoy Shell</entityname.depthdecoyshell>
+<entitydescription.depthdecoyshell>A decoy that can be deployed via the depth charge launcher. Will sink while producing a loud acoustic signal to attract attention away from the sub.</entitydescription.depthdecoyshell>
+<entityname.nucleardepthdecoy>Nuclear Depth Decoy</entityname.nucleardepthdecoy>
+<entitydescription.nucleardepthdecoy>A decoy that can be deployed via the depth charge launcher. Will sink while producing a loud acoustic signal to attract attention away from the sub.</entitydescription.nucleardepthdecoy>
+<entityname.railgunshell>Railgun Shell</entityname.railgunshell>
+<entityname.mudraptoregg>Mudraptor Egg</entityname.mudraptoregg>
+<entitydescription.mudraptoregg>A slimy, pulsating mudraptor egg. The gaping maw on top of the egg seems to be grasping for something to eat.</entitydescription.mudraptoregg>
+<entityname.loosevent>Loose Vent</entityname.loosevent>
+<entitydescription.loosevent>A place to stash things of dubious nature.</entitydescription.loosevent>
+<entityname.loosepanel>Loose Panel</entityname.loosepanel>
+<entitydescription.loosepanel>A place to stash things of dubious nature.</entitydescription.loosepanel>
+<entityname.thalamusbrain1>Thalamus Brain</entityname.thalamusbrain1>
+<entityname.fleshgun1>Fleshgun</entityname.fleshgun1>
+<entityname.fleshgunloader1>Fleshgun Ammo Sack</entityname.fleshgunloader1>
+<entityname.fleshguntendon1>Fleshgun Tendon</entityname.fleshguntendon1>
+<entityname.fleshspike1>Flesh Spike</entityname.fleshspike1>
+<entityname.cellspawnorgan1>Cell Spawn Organ</entityname.cellspawnorgan1>
+<entityname.thalamuswire>Thalamus Vein</entityname.thalamuswire>
+<entityname.thalamus_wall_vertical_decorative_1>Thalamus Decorative Vertical Wall 1</entityname.thalamus_wall_vertical_decorative_1>
+<entityname.thalamus_wall_horizontal_decorative_1>Thalamus Decorative Horizontal Wall 1</entityname.thalamus_wall_horizontal_decorative_1>
+<entityname.thalamus_wall_vertical_1>Thalamus Vertical Wall 1</entityname.thalamus_wall_vertical_1>
+<entityname.thalamus_wall_horizontal_1>Thalamus Horizontal Wall 1</entityname.thalamus_wall_horizontal_1>
+<entityname.thalamus_background_1>Thalamus Background 1</entityname.thalamus_background_1>
+<entityname.storageorgan1>Organ</entityname.storageorgan1>
+<entityname.handheldterminal>Logbook</entityname.handheldterminal>
+<entitydescription.handheldterminal>A handheld device used for storing messages.</entitydescription.handheldterminal>
+<entityname.idcardwreck>Shipwreck ID Card</entityname.idcardwreck>
+<entitydescription.idcardwreck>This ID card allows access to most of the wreck, provided the door isn't rusted shut.</entitydescription.idcardwreck>
+<entityname.crateshelf>Crate Shelf</entityname.crateshelf>
+<entityname.op_lighttower>Light Tower</entityname.op_lighttower>
+<entityname.op_lightbox1>Lightbox</entityname.op_lightbox1>
+<entityname.op_hologramdisplay1>Hologram Display</entityname.op_hologramdisplay1>
+<entityname.opdeco_container>Shop Display</entityname.opdeco_container>
+<entityname.opdeco_shopsuit1>Diving Suit Display</entityname.opdeco_shopsuit1>
+<entityname.op_researchcontainmenttank1>Research Containment Tank</entityname.op_researchcontainmenttank1>
+<entityname.op_researchtable>Research Table</entityname.op_researchtable>
+<entityname.op_vendingmachine1>Vending Machine</entityname.op_vendingmachine1>
+<entityname.op_workbenchlamp>Workbench Lamp</entityname.op_workbenchlamp>
+<entityname.opdeco_heater>Heater</entityname.opdeco_heater>
+<entityname.opdeco_bunkbeds>Military Bunk</entityname.opdeco_bunkbeds>
+<entityname.opbg_tunnel3>Outpost Tunnel Background 3</entityname.opbg_tunnel3>
+<entityname.opdeco_officechair>Office Chair</entityname.opdeco_officechair>
+<entityname.medicalmonitor>Medical Monitor</entityname.medicalmonitor>
+<entityname.medicalcompartment>Medical Compartment</entityname.medicalcompartment>
+<entityname.opdeco_surgicallights>Surgical Lights</entityname.opdeco_surgicallights>
+<entityname.opdeco_xrayscreen>X-Ray Screen</entityname.opdeco_xrayscreen>
+<entityname.op_researchterminal>Research Station</entityname.op_researchterminal>
+<entityname.opdeco_medcurtain>Medical Curtain</entityname.opdeco_medcurtain>
+<entityname.outpostterminal>Outpost Terminal</entityname.outpostterminal>
+<entitydescription.outpostterminal>Allows access to the outpost's digital services.</entitydescription.outpostterminal>
+<entityname.sealedsupplycrate>Sealed Supply Crate</entityname.sealedsupplycrate>
+<entitydescription.sealedsupplycrate>A box of various in-demand supplies. Fetches a high price at outposts.</entitydescription.sealedsupplycrate>
+<entityname.redpaint>Red Paint</entityname.redpaint>
+<entityname.greenpaint>Green Paint</entityname.greenpaint>
+<entityname.bluepaint>Blue Paint</entityname.bluepaint>
+<entityname.lightredpaint>Light Red Paint</entityname.lightredpaint>
+<entityname.lightgreenpaint>Light Green Paint</entityname.lightgreenpaint>
+<entityname.lightbluepaint>Light Blue Paint</entityname.lightbluepaint>
+<entityname.darkredpaint>Dark Red Paint</entityname.darkredpaint>
+<entityname.darkgreenpaint>Dark Green Paint</entityname.darkgreenpaint>
+<entityname.darkbluepaint>Dark Blue Paint</entityname.darkbluepaint>
+<entityname.blackpaint>Black Paint</entityname.blackpaint>
+<entityname.whitepaint>White Paint</entityname.whitepaint>
+<entityname.opdeco_trashcan>Trash Can</entityname.opdeco_trashcan>
+<entityname.opdeco_cabinetsdorm>Cabinets</entityname.opdeco_cabinetsdorm>
+<entityname.opdeco_screen>Monitor Screen</entityname.opdeco_screen>
+<entityname.minemineral>Mineral Deposit</entityname.minemineral>
+<entityname.icedebris>Ice Debris</entityname.icedebris>
+<entityname.supportbeamhorizontal>Support Beam Horizontal</entityname.supportbeamhorizontal>
+<entityname.supportbeamvertical>Support Beam Vertical</entityname.supportbeamvertical>
+<entityname.scrap>Scrap</entityname.scrap>
+<entitydescription.scrap>A pile of possibly useful material.</entitydescription.scrap>
+<entityname.spinelingspike>Spineling's Spike</entityname.spinelingspike>
+<entitydescription.spinelingspike>A detached bone spike that once belonged to a Spineling.</entitydescription.spinelingspike>
+<entityname.toothspike>Latcher's tooth</entityname.toothspike>
+<entityname.tonguetendon>Latcher's tongue</entityname.tonguetendon>
+<entityname.piezocrystal>Piezo Crystal</entityname.piezocrystal>
+<entityname.crawleregg>Crawler Egg</entityname.crawleregg>
+<entityname.mediccrate>Medic Crate</entityname.mediccrate>
+<entitydescription.mediccrate>A box for medical items and ingredients.</entitydescription.mediccrate>
+<entityname.rustdecal>Rust Decal</entityname.rustdecal>
+<entitydescription.rustdecal>Decorative decal for walls and machines</entitydescription.rustdecal>
+<entityname.monsterscums>Monster Scum</entityname.monsterscums>
+<entityname.humanitems>Bandit Prop</entityname.humanitems>
+<entityname.stairsrightshort>Stairs Right Short</entityname.stairsrightshort>
+<entityname.stairsleftshort>Stairs Left Short</entityname.stairsleftshort>
+<entityname.stairsrightlong>Stairs Right Long</entityname.stairsrightlong>
+<entityname.stairsleftlong>Stairs Left Long</entityname.stairsleftlong>
+<entityname.banditoutfit>Bandit Outfit</entityname.banditoutfit>
+<entityname.metalwalls>Metal Wall</entityname.metalwalls>
+<entityname.metalbox>Metal Box</entityname.metalbox>
+<entityname.ff_wall_airlock1>Airlock</entityname.ff_wall_airlock1>
+<entityname.unitloaddevice>Unit Load Device</entityname.unitloaddevice>
+<entitydescription.unitloaddevice>A container that can hold a large quantity of crates.</entitydescription.unitloaddevice>
+<entityname.streetlight>Street Light</entityname.streetlight>
+<entityname.neonlighta>Neon Light A</entityname.neonlighta>
+<entityname.neonlightb>Neon Light B</entityname.neonlightb>
+<entityname.neonlightc>Neon Light C</entityname.neonlightc>
+<entityname.neonlightd>Neon Light D</entityname.neonlightd>
+<entityname.neonlighte>Neon Light E</entityname.neonlighte>
+<entityname.neonlightf>Neon Light F</entityname.neonlightf>
+<entityname.neonlightg>Neon Light G</entityname.neonlightg>
+<entityname.neonlighth>Neon Light H</entityname.neonlighth>
+<entityname.neonlighti>Neon Light I</entityname.neonlighti>
+<entityname.neonlightj>Neon Light J</entityname.neonlightj>
+<entityname.neonlightk>Neon Light K</entityname.neonlightk>
+<entityname.neonlightl>Neon Light L</entityname.neonlightl>
+<entityname.neonlightm>Neon Light M</entityname.neonlightm>
+<entityname.neonlightn>Neon Light N</entityname.neonlightn>
+<entityname.neonlighto>Neon Light O</entityname.neonlighto>
+<entityname.neonlightp>Neon Light P</entityname.neonlightp>
+<entityname.neonlightq>Neon Light Q</entityname.neonlightq>
+<entityname.neonlightr>Neon Light R</entityname.neonlightr>
+<entityname.neonlights>Neon Light S</entityname.neonlights>
+<entityname.neonlightt>Neon Light T</entityname.neonlightt>
+<entityname.neonlightu>Neon Light U</entityname.neonlightu>
+<entityname.neonlightv>Neon Light V</entityname.neonlightv>
+<entityname.neonlightw>Neon Light W</entityname.neonlightw>
+<entityname.neonlightx>Neon Light X</entityname.neonlightx>
+<entityname.neonlighty>Neon Light Y</entityname.neonlighty>
+<entityname.neonlightz>Neon Light Z</entityname.neonlightz>
+<entityname.neonlight0>Neon Light 0</entityname.neonlight0>
+<entityname.neonlight1>Neon Light 1</entityname.neonlight1>
+<entityname.neonlight2>Neon Light 2</entityname.neonlight2>
+<entityname.neonlight3>Neon Light 3</entityname.neonlight3>
+<entityname.neonlight4>Neon Light 4</entityname.neonlight4>
+<entityname.neonlight5>Neon Light 5</entityname.neonlight5>
+<entityname.neonlight6>Neon Light 6</entityname.neonlight6>
+<entityname.neonlight7>Neon Light 7</entityname.neonlight7>
+<entityname.neonlight8>Neon Light 8</entityname.neonlight8>
+<entityname.neonlight9>Neon Light 9</entityname.neonlight9>
+<entityname.neonlightplanet>Neon Light Planet</entityname.neonlightplanet>
+<entityname.neonlightkiss>Neon Light Kiss</entityname.neonlightkiss>
+<entityname.neonlightarrow>Neon Light Arrow</entityname.neonlightarrow>
+<entityname.neonlightgarden>Neon Light Garden</entityname.neonlightgarden>
+<entityname.neonlightgear>Neon Light Gear</entityname.neonlightgear>
+<entityname.neonlightsubmarine>Neon Light Submarine</entityname.neonlightsubmarine>
+<entityname.neonlightfood>Neon Light Food</entityname.neonlightfood>
+<entityname.neonlightframe>Neon Light Frame</entityname.neonlightframe>
+<entityname.neonlightwire1>Neon Light Wire 1</entityname.neonlightwire1>
+<entityname.neonlightwire2>Neon Light Wire 2</entityname.neonlightwire2>
+<entityname.neonlightwire3>Neon Light Wire 3</entityname.neonlightwire3>
+<entityname.neonlightwire4>Neon Light Wire 4</entityname.neonlightwire4>
+<entityname.deepdiverduck>Deepdiver Duck</entityname.deepdiverduck>
+<entitydescription.deepdiverduck>Subverting expectations.</entitydescription.deepdiverduck>
+<entityname.huskfigurine>Husk Figurine</entityname.huskfigurine>
+<entitydescription.huskfigurine>A somewhat pleasant depiction of the Velonaceps calyx, made of aluminum.</entitydescription.huskfigurine>
+<entityname.huskcaller>Husk Caller</entityname.huskcaller>
+<entitydescription.huskcaller>An item of dubious origin that attracts a large swarm of husks when used.</entitydescription.huskcaller>
+<entityname.traitortimebomb>Ticking Time Bomb</entityname.traitortimebomb>
+<entitydescription.traitortimebomb>It looks like a nuke with a text display and some wires strapped to it.</entitydescription.traitortimebomb>
+<entityname.traitortimebomb2>Ticking Time Bomb (Exposed)</entityname.traitortimebomb2>
+<entitydescription.traitortimebomb2>It looks like a nuke with a text display and some wires strapped to it. Any water would probably trigger an explosion due to the exposed wires.</entitydescription.traitortimebomb2>
+<entityname.traitortimebomb3>Ticking Time Bomb (Powered)</entityname.traitortimebomb3>
+<entitydescription.traitortimebomb3>It looks like a nuke with a text display and some wires strapped to it. It is powered by a battery, which should be kept from running out.</entitydescription.traitortimebomb3>
+<entityname.partybanner>Party Banner</entityname.partybanner>
+<entityname.murderweapon>Murder Weapon</entityname.murderweapon>
+<entityname.bloodsamplevial>Blood Sample Vial</entityname.bloodsamplevial>
+<entitydescription.bloodsamplevial>Proper equipment for taking blood samples isn't something you usually find on subs, but it will work as long as the patient is bleeding. Getting the patient to bleed, however, is left as an exercise for the reader.</entitydescription.bloodsamplevial>
+<entityname.safeandsoundsecurity101>Officer Pérez's Safe and Sound Security 101</entityname.safeandsoundsecurity101>
+<entitydescription.safeandsoundsecurity101>An official set of guidelines for dealing with traitorous crewmates.</entitydescription.safeandsoundsecurity101>
+<securityofficer.traitor.guidelines>Officer Pérez's Safe and Sound Security 101\n\nHostile factions and individuals are known to offer submariners bribes or other compensation for committing unlawful acts. This is unfortunately so common that throwing every traitorous submariner out the airlock would be detrimental to the submarine fleets and the Europan labor force as a whole. The Code of Fair Disciplinary Actions provides guidelines for dealing with traitors or other troublesome crewmates in a just manner.\n\nLevel 1 Offenses:\nDescription: mostly harmless misdemeanors, "pranks," neglect of assigned duties. Acts that at most cause minor inconvenience to the rest of the crew.\nSuggested disciplinary actions: Notify the person of their misconduct and command them back to their duties. A baton or some other non-lethal tool may be used to accentuate the verbal commands. More severe disciplinary actions can be considered if the misconduct continues.\n\nLevel 2 Offenses:\nDescription: acts that may endanger the health of the crew or submarine, such as intentional mishandling of devices or substances.\nSuggested disciplinary actions: Similar to level 1 offenses, a simple disciplining can suffice, but depending on the misconduct security can deem it necessary to instead handcuff or detain the individual by other means\n\nLevel 3 Offenses:\nDescription: clearly hostile acts with the intention to cause severe injuries or the death of one or more crewmates.\nSuggested disciplinary actions: Disposing of the traitor as soon as possible is advised. The disposal should preferably be carried out in a humane way, but it is understandable if such means are not available or feasible for one reason or another.</securityofficer.traitor.guidelines>
+<entityname.idcardfakesootman>ID Card</entityname.idcardfakesootman>
+<entitydescription.idcardfakesootman>This belongs to Sootman, the notorious masked vigilante.</entitydescription.idcardfakesootman>
+<radiojammer.transmit>Transmit</radiojammer.transmit>
+<entityname.radiojammer>Radio Jammer</entityname.radiojammer>
+<entitydescription.radiojammer>A portable, battery-powered device that temporarily blocks radio communications.</entitydescription.radiojammer>
+<radiojammedwarning>Radio jammed</radiojammedwarning>
+
+<!-- Alien -->
+<entityname.skyholderartifact>Sky Alien Artifact</entityname.skyholderartifact>
+<entitydescription.skyholderartifact>Artifact found in alien ruins.</entitydescription.skyholderartifact>
+<entityname.thermalartifact>Thermal Alien Artifact</entityname.thermalartifact>
+<entitydescription.thermalartifact>Artifact found in alien ruins.</entitydescription.thermalartifact>
+<entityname.faradayartifact>Faraday Alien Artifact</entityname.faradayartifact>
+<entitydescription.faradayartifact>Artifact found in alien ruins.</entitydescription.faradayartifact>
+<entityname.nasonovartifact>Nasonov Alien Artifact</entityname.nasonovartifact>
+<entitydescription.nasonovartifact>Artifact found in alien ruins.</entitydescription.nasonovartifact>
+<entityname.psychosisartifact>Psychosis Alien Artifact</entityname.psychosisartifact>
+<entitydescription.psychosisartifact>Artifact found in alien ruins.</entitydescription.psychosisartifact>
+<entityname.alientrinket1>Alien Trinket</entityname.alientrinket1>
+<entitydescription.alientrinket1>Minor artifact found in alien ruins.</entitydescription.alientrinket1>
+<entityname.alientrinket2>Alien Curio</entityname.alientrinket2>
+<entitydescription.alientrinket2>Minor artifact found in alien ruins.</entitydescription.alientrinket2>
+<entityname.alientrinket3>Alien Ornament</entityname.alientrinket3>
+<entitydescription.alientrinket3>Minor artifact found in alien ruins.</entitydescription.alientrinket3>
+<entityname.oxygeniteshard>Oxygenite Shard</entityname.oxygeniteshard>
+<entitydescription.oxygeniteshard>An alien mineral.</entitydescription.oxygeniteshard>
+<entityname.sulphuriteshard>Sulphurite Shard</entityname.sulphuriteshard>
+<entitydescription.sulphuriteshard>An alien mineral.</entitydescription.sulphuriteshard>
+<entityname.ancientweapon>Ancient Weapon</entityname.ancientweapon>
+<entitydescription.ancientweapon>A weapon with powerful capabilities.</entitydescription.ancientweapon>
+<entityname.alienhatch>Alien Hatch</entityname.alienhatch>
+<entitydescription.alienhatch>A horizontal hatch for alien ruins.</entitydescription.alienhatch>
+<entityname.aliendoor>Alien Door</entityname.aliendoor>
+<entitydescription.aliendoor>A vertical door for alien ruins.</entitydescription.aliendoor>
+<entityname.alienmotionsensor>Alien Motion Sensor</entityname.alienmotionsensor>
+<entitydescription.alienmotionsensor>A motion detector used by aliens.</entitydescription.alienmotionsensor>
+<entityname.artifactholder>Artifact Holder</entityname.artifactholder>
+<entitydescription.artifactholder>For holding major artifacts.</entitydescription.artifactholder>
+<entityname.aliengenerator>Alien Generator</entityname.aliengenerator>
+<entityname.alienpowercell>Alien Power Cell</entityname.alienpowercell>
+<entitydescription.alienpowercell>An alien power source.</entitydescription.alienpowercell>
+<entityname.alienpump>Alien Pump</entityname.alienpump>
+<entitydescription.alienpump>Used to pump water in and out of ruins.</entitydescription.alienpump>
+<entityname.alienbutton>Alien Button</entityname.alienbutton>
+<entitydescription.alienbutton>Sends a signal to alien mechanisms.</entitydescription.alienbutton>
+<entityname.alienturret>Alien Turret</entityname.alienturret>
+<entitydescription.alienturret>A stationary turret found in alien ruins.</entitydescription.alienturret>
+<entityname.alienturretammo>Alien Projectile</entityname.alienturretammo>
+<entitydescription.alienturretammo>Fired from alien turrets.</entitydescription.alienturretammo>
+<entityname.aliencoil>Alien Coil</entityname.aliencoil>
+<entitydescription.aliencoil>Discharges electricity; used in alien ruins.</entitydescription.aliencoil>
+<entityname.alienvent>Alien Vent</entityname.alienvent>
+<entitydescription.alienvent>Emits gases in alien ruins.</entitydescription.alienvent>
+<entityname.alienitemcontainersmall>Small Alien Chest</entityname.alienitemcontainersmall>
+<entitydescription.alienitemcontainersmall>Small alien item container.</entitydescription.alienitemcontainersmall>
+<entityname.alienitemcontainerlarge>Large Alien Chest</entityname.alienitemcontainerlarge>
+<entitydescription.alienitemcontainerlarge>Large alien item container.</entitydescription.alienitemcontainerlarge>
+<entityname.alienlightcomponent>Alien Light Component</entityname.alienlightcomponent>
+<entitydescription.alienlightcomponent>Emits light; used in alien ruins.</entitydescription.alienlightcomponent>
+<entityname.alienterminal>Alien Terminal</entityname.alienterminal>
+<entityname.artifacttransportcase>Artifact Transport Case</entityname.artifacttransportcase>
+<entitydescription.artifacttransportcase>A case to ease the transportation of alien artifacts.</entitydescription.artifacttransportcase>
+<entityname.aliendoorwbuttons>Alien Door with Buttons</entityname.aliendoorwbuttons>
+<entityname.alienhatchwbuttons>Alien Hatch with Buttons</entityname.alienhatchwbuttons>
+<entityname.ruindecal1>Ruin Decal</entityname.ruindecal1>
+<entityname.incubationbubble>Incubation Bubble</entityname.incubationbubble>
+<entitydescription.incubationbubble>Container for alien genetic material.</entitydescription.incubationbubble>
+<entityname.gravitysphere>Gravity Sphere</entityname.gravitysphere>
+<entitydescription.gravitysphere>Generates a strong, artificial gravity field.</entitydescription.gravitysphere>
+<entityname.ruinwallcorner1>Ruin Wall Corner Piece</entityname.ruinwallcorner1>
+<entitydescription.ruinwallcorner1>A basic wall with collision for alien ruins.</entitydescription.ruinwallcorner1>
+<entityname.guardianpod>Guardian Pod</entityname.guardianpod>
+<entitydescription.guardianpod>Protective pod for Fractal Guardians.</entitydescription.guardianpod>
+<entityname.ruinscanner>Ruin Scanner</entityname.ruinscanner>
+<entitydescription.ruinscanner>A device that uses sonar waves to map ruins.</entitydescription.ruinscanner>
+<entityname.ruinvent>Ruin Vent</entityname.ruinvent>
+<entitydescription.ruinvent>A vent that might emit harmful spores or gas.</entitydescription.ruinvent>
+<entityname.guardiancutter>Guardian Cutter</entityname.guardiancutter>
+<entitydescription.guardiancutter>Fractal Guardian Weaponry</entitydescription.guardiancutter>
+<entityname.guardiansteamcannon>Guardian Steam Cannon</entityname.guardiansteamcannon>
+<entityname.guardianpacifier>Guardian Pacifier</entityname.guardianpacifier>
+<entityname.guardianhookcannon>Guardian Hook Cannon</entityname.guardianhookcannon>
+<entityname.guardianspear>Guardian Spear</entityname.guardianspear>
+<entityname.guardianinjector>Guardian Injector</entityname.guardianinjector>
+<character.swarmfeeder>Swarm Feeder</character.swarmfeeder>
+<entityname.ruincolumn>Ruin Column</entityname.ruincolumn>
+<entitydescription.ruincolumn>Ruin decoration.</entitydescription.ruincolumn>
+<entityname.ruincolumntop>Ruin Column Top</entityname.ruincolumntop>
+<entityname.ruincolumnbottom>Ruin Column Bottom</entityname.ruincolumnbottom>
+<entityname.ruinlight>Ruin Light</entityname.ruinlight>
+<entityname.alienmachine>Alien Machine</entityname.alienmachine>
+<entityname.incendium>Incendium Crystal</entityname.incendium>
+<entitydescription.incendium>A rare alien crystal capable of emitting extreme amounts of heat. Used in incendiary weapons.</entitydescription.incendium>
+<entityname.fulgurium>Fulgurium Chunk</entityname.fulgurium>
+<entitydescription.fulgurium>A rare metallic alien material, capable of storing massive amounts of energy. Used in high capacity batteries.</entitydescription.fulgurium>
+<entityname.physicorium>Physicorium Bar</entityname.physicorium>
+<entitydescription.physicorium>An incredibly hard and durable alien material. Used in highly advanced weaponry and ammunition.</entitydescription.physicorium>
+<entityname.dementonite>Dementonite Cluster</entityname.dementonite>
+
+<!-- Gardening -->
+<entityname.smallplanter>Small Planter Box</entityname.smallplanter>
+<entitydescription.smallplanter>Suitable for most Europan plantlife while small enough to be transported around by hand.</entitydescription.smallplanter>
+<entityname.fertilizer>Fertilizer</entityname.fertilizer>
+<entitydescription.fertilizer>Carefully tended Europan soil guaranteed to give your plant the best living conditions.</entitydescription.fertilizer>
+<entityname.seedbag>Seed Bag</entityname.seedbag>
+<entitydescription.seedbag>Can store a wide variety of seeds.</entitydescription.seedbag>
+<entityname.wateringcan>Watering Can</entityname.wateringcan>
+<entitydescription.wateringcan>Keeps your plants happy and alive.</entitydescription.wateringcan>
+<entityname.creepingorange>Pomegrenade</entityname.creepingorange>
+<entitydescription.creepingorange>A tasty fruit. Its processed juice has minor healing properties.</entitydescription.creepingorange>
+<entityname.tobaccobud>Tobacco Bud</entityname.tobaccobud>
+<entitydescription.tobaccobud>Damp and strongly fragrant. Can be refined into serviceable pipe tobacco.</entitydescription.tobaccobud>
+<entityname.badraptorbane>Mutated Raptor Bane</entityname.badraptorbane>
+<entityname.saltbulb>Salt Bulb</entityname.saltbulb>
+<entitydescription.saltbulb>Salty. Avoid moisture.</entitydescription.saltbulb>
+<entityname.raptorbane>Raptor Bane</entityname.raptorbane>
+<entitydescription.raptorbane>It looks delicious, but should not be ingested under any circumstances. Not good for mudraptors.</entitydescription.raptorbane>
+<entityname.badcreepingorange>Mutated Pomegrenade</entityname.badcreepingorange>
+<entityname.creepingorangevineseed>Pomegrenade Seed</entityname.creepingorangevineseed>
+<entityname.tobaccovineseed>Tobacco Vine Seed</entityname.tobaccovineseed>
+<entityname.saltvineseed>Salt Vine Seed</entityname.saltvineseed>
+<entityname.raptorbaneseed>Raptor Bane Seed</entityname.raptorbaneseed>
+<entityname.raptorbaneextract>Raptor Bane Extract</entityname.raptorbaneextract>
+<entitydescription.raptorbaneextract>Concentrated raptorbane juice. Mildly toxic for humans, catastrophically toxic for mudraptors.</entitydescription.raptorbaneextract>
+<entityname.pomegrenadeextract>Pomegrenade Extract</entityname.pomegrenadeextract>
+<entitydescription.pomegrenadeextract>Concentrated pomegrenade juice. It offers minor healing properties.</entitydescription.pomegrenadeextract>
+<entityname.pipetobacco>Pipe Tobacco</entityname.pipetobacco>
+<entitydescription.pipetobacco>Put it in your pipe and smoke it.</entitydescription.pipetobacco>
+
+
+
+
+</infotexts>

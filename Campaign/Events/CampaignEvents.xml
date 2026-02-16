@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+
+
+
+  <EventPrefabs>
+    <!-- ****************************************************************************************************************************************************** -->
+    <!-- Core gameplay events, without which the game wouldn't progress/function as normal, such as unlocking paths -->
+    <!-- ****************************************************************************************************************************************************** -->
+
+    <!--"Unlock Path"-->
+    <ScriptedEvent identifier="unlockpathgeneric" commonness="0" unlockpathevent="true">
+      <SpawnAction npcsetidentifier="station_npcs" npcidentifier="watchman" targettag="unlockpathnpc" spawnlocation="ucf_quarantine" spawnpointtag="unlockpath" spawnpointtype="human" />
+
+      <Label name="retry" />
+      <ConversationAction text="EventText.unlockpathgeneric.start" speakertag="unlockpathnpc" invokertag="player" dialogtype="Regular" eventsprite="captain" />
+
+      <CheckReputationAction targettype="faction" identifier="mobileinfantry" condition="gte 30">
+        <Success>
+          <ConversationAction text="EventText.unlockpathgeneric.c1" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain" />
+          <UnlockPathAction />
+        </Success>
+        <Failure>
+          <ConversationAction text="EventText.unlockpathgeneric.c2" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain">
+            <Option text="EventText.unlockpathgeneric.o1">
+              <CheckMoneyAction amount="2000">
+                <Success>
+                  <MoneyAction amount="-2000" />
+                  <UnlockPathAction />
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathgeneric.o1.c1" eventsprite="captain" />
+                </Success>
+                <Failure>
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathgeneric.nomoney" eventsprite="captain" />
+                  <GoTo name="retry" />
+                </Failure>
+              </CheckMoneyAction>
+            </Option>
+            <Option text="EventText.unlockpathgeneric.o2">
+              <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathgeneric.o2.c1" eventsprite="captain" />
+              <GoTo name="retry" />
+            </Option>
+          </ConversationAction>
+        </Failure>
+      </CheckReputationAction>
+    </ScriptedEvent>
+
+    <ScriptedEvent identifier="unlockpath_spacialregions" commonness="1" unlockpathevent="true" unlockpathtooltip="lockedpathtooltipcoalitionreputation" unlockpathreputation="30" faction="mobileinfantry" biome="spacialregions">
+      <SpawnAction npcsetidentifier="station_npcs" npcidentifier="watchman" targettag="unlockpathnpc" spawnlocation="ucf_quarantine" spawnpointtag="unlockpath" spawnpointtype="human" />
+
+      <Label name="retry" />
+      <ConversationAction text="EventText.unlockpathgeneric.start" speakertag="unlockpathnpc" invokertag="player" dialogtype="Regular" eventsprite="captain" />
+
+      <CheckReputationAction targettype="faction" identifier="mobileinfantry" condition="gte 30">
+        <Success>
+          <ConversationAction text="EventText.unlockpathcoldcaverns.c1" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain"/>
+          <UnlockPathAction />
+        </Success>
+        <Failure>
+          <ConversationAction text="EventText.unlockpathcoldcaverns.c2" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain">
+            <Option text="EventText.unlockpathcoldcaverns.o1">
+              <CheckMoneyAction amount="2000">
+                <Success>
+                  <MoneyAction amount="-2000" />
+                  <UnlockPathAction />
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o1.c1" eventsprite="captain" />
+                </Success>
+                <Failure>
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o1.nomoney" eventsprite="captain" />
+                  <GoTo name="retry" />
+                </Failure>
+              </CheckMoneyAction>
+            </Option>
+            <Option text="EventText.unlockpath.refusebribe">
+              <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o2.c1" eventsprite="captain" />
+              <GoTo name="retry" />
+            </Option>
+          </ConversationAction>
+        </Failure>
+      </CheckReputationAction>
+    </ScriptedEvent>
+
+<ScriptedEvent identifier="unlockpath_grandiosenebula" commonness="1" unlockpathevent="true" unlockpathtooltip="lockedpathtooltipcoalitionreputation" unlockpathreputation="30" faction="mobileinfantry" biome="grandiosenebula">
+      <SpawnAction npcsetidentifier="station_npcs" npcidentifier="watchman" targettag="unlockpathnpc" spawnlocation="ucf_quarantine" spawnpointtag="unlockpath" spawnpointtype="human" />
+
+      <Label name="retry" />
+      <ConversationAction text="EventText.unlockpathgeneric.start" speakertag="unlockpathnpc" invokertag="player" dialogtype="Regular" eventsprite="captain" />
+
+      <CheckReputationAction targettype="faction" identifier="mobileinfantry" condition="gte 30">
+        <Success>
+          <ConversationAction text="EventText.unlockpathcoldcaverns.c1" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain"/>
+          <UnlockPathAction />
+        </Success>
+        <Failure>
+          <ConversationAction text="EventText.unlockpathcoldcaverns.c2" speakertag="unlockpathnpc" targettag="player" waitforinteraction="false" dialogtype="Regular" eventsprite="captain">
+            <Option text="EventText.unlockpathcoldcaverns.o1">
+              <CheckMoneyAction amount="2000">
+                <Success>
+                  <MoneyAction amount="-2000" />
+                  <UnlockPathAction />
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o1.c1" eventsprite="captain" />
+                </Success>
+                <Failure>
+                  <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o1.nomoney" eventsprite="captain" />
+                  <GoTo name="retry" />
+                </Failure>
+              </CheckMoneyAction>
+            </Option>
+            <Option text="EventText.unlockpath.refusebribe">
+              <ConversationAction speakertag="unlockpathnpc" waitforinteraction="false" targettag="player" text="EventText.unlockpathcoldcaverns.o2.c1" eventsprite="captain" />
+              <GoTo name="retry" />
+            </Option>
+          </ConversationAction>
+        </Failure>
+      </CheckReputationAction>
+    </ScriptedEvent>
+  </EventPrefabs>
+
+
+</Randomevents>

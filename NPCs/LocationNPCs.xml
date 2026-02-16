@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                             Federation NPCs                               -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <npcset identifier="federation_npcs">
+    <npc identifier="federation_outpostmanager" job="outpostmanager" tags="ucf_missionnpc" spawnpointtags="admin" behavior="StayInHull" preferredoutpostmoduletypes="admin,adminmodule">
+      <ItemSet commonness="1">
+        <Item identifier="administratorclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="federation_hrmanager" job="watchman" spawnpointtags="hr" healthmultiplier="1.1" campaigninteractiontype="Crew" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="quartermasterclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="weldingtool" equip="false">
+          <Item identifier="weldingfueltank" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="federation_subupgrade" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="Upgrade" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="weldingfueltank"/>
+          <Item identifier="aluminium"/>
+          <Item identifier="weldingtool">
+            <Item identifier="weldingfueltank" />
+          </Item>
+        </Item>
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="headset" equip="true" />
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="federation_subsales" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="PurchaseSub" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="weldingfueltank"/>
+          <Item identifier="aluminium"/>
+          <Item identifier="weldingtool">
+            <Item identifier="weldingfueltank" />
+          </Item>
+        </Item>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="bluejumpsuit1" equip="true" />
+        <Item identifier="headset" equip="true" />
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="federation_merchantoutpost" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="federation_watchman" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+
+
+
+
+
+
+    <npc identifier="prisonercoalition" tags="hostage,prisoner" job="assistant" moduleflags="none" faction="coalition" behavior="Passive" AllowDraggingIndefinitely="true">
+      <ItemSet>
+        <Item identifier="prisonerclothes" equip="true" />
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+
+
+
+    <npc identifier="innie_prisoner" tags="hostage,prisoner" job="prisoner" ModuleFlags="ResearchModule" preferredoutpostmoduletypes="researchmodule,crewmodule" faction="coalition" behavior="Passive" AllowDraggingIndefinitely="true">
+      <ItemSet commonness="1">
+        <Item identifier="prisonerclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+
+  </npcset>
+
+
+
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                              Arachnid NPCs                                -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <npcset identifier="arachnid_npcs">
+    <npc identifier="Arachnidwarrior" commonness="1" spawnpointtags="arachnid" behavior="Passive" preferredoutpostmoduletypes="admin,adminmodule">
+    </npc>
+
+  </npcset>
+
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                               Skinny NPCs                                 -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <npcset identifier="skinny_npcs">
+    <npc identifier="skinny" commonness="1" spawnpointtags="skinny" behavior="Passive" preferredoutpostmoduletypes="admin,adminmodule">
+    </npc>
+
+  </npcset>
+
+
+
+
+
+
+
+
+
+
+
+</npcsets>

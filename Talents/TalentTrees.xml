@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+
+
+<!-- Skills to YOURSELF -->
+- veteran (+5 to all skills and +10% repair speed) **EDIT THIS
+  - egghead (+100% skill gain)
+ - grounded (+10 electrical and 20% less burn dama)
+- militaryapplications (+10 weapons skill and useless crafts -.-)
+ - bootcamp (+50% exp until 5 talent unlocks?)
+
+
+
+<!-- Skills to OTHERS -->
+ - inspirationalleader (more skill gain for crew!!)
+ - leadingbyexample (as long as you're alive, lots of skill buffs for crew members) **EDIT THIS
+- sailorwithnoname (+20 medical skill)
+ - prodigy (personal skill gain +50%)
+- family (on unlock, all characters get 1 extra talent point)
+  - trickledown (if this character gets a talent point, the rest do too)
+
+
+
+
+
+<!-- Buffs to YOURSELF -->
+- lonewolf (if no crew members are nearby, fun buffs) **EDIT THIS [make it so anyone NOT near other players take 3x damage or smth + go crazy lol. ofc this would be forced upon people, and wouldnt be a talent]
+- skedaddle (move 10% faster, and when attacked, move 30% faster for 5s)
+  - tastytarget (enemies attack you sooner rather than someone else)
+- nonthreatening (when ragdolling for +2s, enemies dont see you!!)
+- unseen (my own talent, enemies shouldnt be able to see you PERIOD!)
+ - pyromaniac (more flame damage)
+- unstoppablecuriosity (crowbars stuff much faster and hits harder w/ them)
+  - thewaitinglist (die slower when in 2nd health bar)
+ - betterthannew (fixed electrical stuff deteriorates 30% slower)
+  - ballastdenizen (hold breath 50% longer)
+- multifunctional (hits harder with wrenches and crowbars)
+- hullfixer (fixes hull faster)
+- quickfixer (2x repair speed, then +20% faster walk speed for 10s)
+- tinkerer (repair 40% past norm)
+- iamthatguy (+20% blunt force, and 20 weapon skill)
+ - heavylifting (move faster when carrying stuff)
+- mudraptorwrestler (more damage dealt when attacking mudraptors, and +10% phys dama resistance)
+ - berserker (when below 50% health, +20% melee damage dealt)
+ - foolhardy (when below 50% health, +20% phys dama resistance)
+   - exampleofhealth (+20% max health)
+  - laresistance (+50 chem and opiate resistance)
+ - selfcare (meds are +20% more potent when applied to YOU)
+ - stayinalive (o2 low is not as bad when people are doing cpr)
+ - firemanscarry (carrying fast lol)
+   - medicalexpertise (+30 med skill, and bandages are more powerful!)
+  - dontdieonme (cpr is MUCH more powerful)
+ - supersoldiers (buffs YOU apply last +25% longer)
+  - commando (crouching means that you have less spread and do more damage)
+ - gunrunner (walk 20% faster while aiming)
+   - crustyseaman (less bleed dama)
+- rifleman (+10% more rifle damage)
+  - firstaidtraining (+15 meds skill AND meds are more potent when applied to YOU!)
+ - buff (+50% buff duration and opiate addiction resistance)
+ - swole (+10% max health and +20% melee power!)
+- inordinateexsanguination (+100% MORE bleed damage onto target)
+- warlord (max +50% gunshotwound damage per enemy nearby)
+   - beatcop (50% more stun)
+ - physicalconditioning (10% faster and takes less o2)
+- stonewall (less damage overall!)
+- extrapowder (more explosion damage + radius!)
+- beatcop (50% more stun)
+ - daringdolphin (+25% swim speed)
+ - easyturtle (20% less damage from attacks when in water)
+- impregnable (literally stays alive longer)
+
+
+
+
+
+<!-- Buffs to OTHERS -->
+ - crewlayabout (debuffs YOU to buff others!)
+- revengesquad (when you die, EVERYONE gets 30$ physical dama res for 2m) **NEEDS EDITING
+  - indenturedservitude (other people of YOUR job get more exp) **NEEDS EDITING
+ - miracleworker (nearby crewmates cant die (when unconscious) unless they give in)
+  - drsubmarine (meds are +25% more potent when YOU apply them to others)
+
+
+
+
+
+<!-- Officers -->
+- steadytune (play harmonica for psychosis res) **EDIT THIS
+
+
+
+
+<!-- Weaponry stuff -->
+ - quickdraw (awesome pistol skill, makes attack +25% more damage)
+ - bigguns (extra monster attack damage!)
+
+
+
+
+<!-- Misc stuff -->
+- drunkensailor (literally useless but FUNNY - stun resistance while drunk lol)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <TalentTree jobidentifier="fleet_captain">
+    <SubTree identifier="melee_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="firstaidtraining"/>
+        <TalentOption identifier="tastytarget"/>
+        <TalentOption identifier="selfcare"/>
+        <TalentOption identifier="laresistance"/>
+        <TalentOption identifier="heavylifting"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="iamthatguy"/>
+        <TalentOption identifier="beatcop"/>
+        <TalentOption identifier="supersoldiers"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fishy_swim" type="specialization" requires="melee_primary" blocks="punch_punch_xeno">
+      <TalentOptions>
+        <TalentOption identifier="ballastdenizen"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="physicalconditioning"/>
+        <TalentOption identifier="easyturtle"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="daringdolphin"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="punch_punch_xeno" type="specialization" requires="melee_primary" blocks="fishy_swim">
+      <TalentOptions>
+        <TalentOption identifier="mudraptorwrestler"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="buff"/>
+        <TalentOption identifier="swole"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="foolhardy"/>
+        <TalentOption identifier="berserker"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+
+
+  <TalentTree jobidentifier="st_trooper">
+    <SubTree identifier="light_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="sailorwithnoname"/>
+        <TalentOption identifier="crustyseaman"/>
+        <TalentOption identifier="militaryapplications"/>
+        <TalentOption identifier="physicalconditioning"/>
+        <TalentOption identifier="dontdieonme"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="egghead"/>
+        <TalentOption identifier="thewaitinglist"/>
+        <TalentOption identifier="laresistance"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="run_n_gun" type="specialization" requires="light_primary" blocks="me_first">
+      <TalentOptions>
+        <TalentOption identifier="gunrunner"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="bigguns"/>
+        <TalentOption identifier="commando"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlord"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="me_first" type="specialization" requires="light_primary" blocks="run_n_gun">
+      <TalentOptions>
+        <TalentOption identifier="selfcare"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="medicalexpertise"/>
+        <TalentOption identifier="firstaidtraining"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="nonthreatening"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+  <TalentTree jobidentifier="heavy">
+    <SubTree identifier="heavy_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="iamthatguy"/>
+        <TalentOption identifier="rifleman"/>
+        <TalentOption identifier="medicalexpertise"/>
+        <TalentOption identifier="heavylifting"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="commando"/>
+        <TalentOption identifier="laresistance"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bulwark" type="specialization" requires="heavy_primary">
+      <TalentOptions>
+        <TalentOption identifier="stonewall"/>
+        <TalentOption identifier="exampleofhealth"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="swole"/>
+        <TalentOption identifier="buff"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacable"/>
+        <TalentOption identifier="miracleworker"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+  <TalentTree jobidentifier="abnormal">
+    <SubTree identifier="abnormal_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="thewaitinglist"/>
+        <TalentOption identifier="prodigy"/>
+        <TalentOption identifier="stayinalive"/>
+        <TalentOption identifier="beatcop"/>
+        <TalentOption identifier="firstaidtraining"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="militaryapplications"/>
+        <TalentOption identifier="exampleofhealth"/>
+        <TalentOption identifier="drunkensailor"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="apprentice" type="specialization" requires="abnormal_primary" blocks="swim_time,mini_medic">
+      <TalentOptions>
+        <ShowCaseTalent identifier="apprenticeship">
+          <TalentOption identifier="apprenticeship_melee"/>
+          <TalentOption identifier="apprenticeship_light"/>
+          <TalentOption identifier="apprenticeship_heavy"/>
+          <TalentOption identifier="apprenticeship_abnormal"/>
+          <TalentOption identifier="apprenticeship_support"/>
+          <TalentOption identifier="apprenticeship_officer"/>
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="journeyman"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="graduationceremony"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="swim_time" type="specialization" requires="abnormal_primary"  blocks="apprentice,mini_medic">
+      <TalentOptions>
+        <TalentOption identifier="physicalconditioning"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="daringdolphin"/>
+        <TalentOption identifier="easyturtle"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="ballastdenizen"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="mini_medic" type="specialization" requires="abnormal_primary"  blocks="apprentice,swim_time">
+      <TalentOptions>
+        <TalentOption identifier="drsubmarine"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="medicalexpertise"/>
+        <TalentOption identifier="dontdieonme"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="miracleworker"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+  <TalentTree jobidentifier="support">
+    <SubTree identifier="support_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="gunrunner"/>
+        <TalentOption identifier="firemanscarry"/>
+        <TalentOption identifier="militaryapplications"/>
+        <TalentOption identifier="egghead"/>
+        <TalentOption identifier="laresistance"/>
+        <TalentOption identifier="skedaddle"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="rifleman"/>
+        <TalentOption identifier="lonewolf"/>
+        <TalentOption identifier="commando"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="not_so_melee" type="specialization" requires="support_primary" blocks="medic,engineer">
+      <TalentOptions>
+        <TalentOption identifier="multifunctional"/>
+        <TalentOption identifier="unstoppablecuriosity"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="iamthatguy"/>
+        <TalentOption identifier="mudraptorwrestler"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker"/>
+        <TalentOption identifier="foolhardy"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inordinateexsanguination"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="engineer" type="specialization" requires="support_primary" blocks="medic,not_so_melee">
+      <TalentOptions>
+        <TalentOption identifier="heavylifting"/>
+        <TalentOption identifier="betterthannew"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="tinkerer"/>
+        <TalentOption identifier="quickfixer"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="pyromaniac"/>
+        <TalentOption identifier="extrapowder"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="grounded"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="medic" type="specialization" requires="support_primary" blocks="engineer,not_so_melee">
+      <TalentOptions>
+        <TalentOption identifier="drsubmarine"/>
+        <TalentOption identifier="firstaidtraining"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="dontdieonme"/>
+        <TalentOption identifier="nonthreatening"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="supersoldiers"/>
+        <TalentOption identifier="medicalexpertise"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="miracleworker"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+  <TalentTree jobidentifier="officer">
+    <SubTree identifier="officer_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="commando"/>
+        <TalentOption identifier="firstaidtraining"/>
+        <TalentOption identifier="inordinateexsanguination"/>
+        <TalentOption identifier="selfcare"/>
+        <TalentOption identifier="physicalconditioning"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="thewaitinglist"/>
+        <TalentOption identifier="bigguns"/>
+        <TalentOption identifier="quickdraw"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="true_leader" type="specialization" requires="officer_primary" blocks="scaredy_cat,last_stand">
+      <TalentOptions>
+        <TalentOption identifier="leadingbyexample"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="trickledown"/>
+        <TalentOption identifier="inspirationalleader"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="family"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="last_stand" type="specialization" requires="officer_primary" blocks="true_leader,scaredy_cat">
+      <TalentOptions>
+        <TalentOption identifier="stonewall"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="buff"/>
+        <TalentOption identifier="swole"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="scaredy_cat" type="specialization" requires="officer_primary" blocks="true_leader,last_stand">
+      <TalentOptions>
+        <TalentOption identifier="exampleofhealth"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="nonthreatening"/>
+        <TalentOption identifier="skedaddle"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stayinalive"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+
+  <TalentTree jobidentifier="cultist">
+    <SubTree identifier="cultist_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="3">
+        <TalentOption identifier="selfcare"/>
+        <TalentOption identifier="laresistance"/>
+        <TalentOption identifier="multifunctional"/>
+        <TalentOption identifier="unstoppablecuriosity"/>
+        <TalentOption identifier="mudraptorwrestler"/>
+        <TalentOption identifier="thewaitinglist"/>
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="medicalexpertise"/>
+        <TalentOption identifier="iamthatguy"/>
+        <TalentOption identifier="firstaidtraining"/>
+        <TalentOption identifier="crustyseaman"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="fly_like_a_butterfly" type="specialization" requires="cultist_primary" blocks="sting_like_a_bee">
+      <TalentOptions>
+        <TalentOption identifier="easyturtle"/>
+        <TalentOption identifier="daringdolphin"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="skedaddle"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="gunrunner"/>
+        <TalentOption identifier="heavylifting"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="physicalconditioning"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="sting_like_a_bee" type="specialization" requires="cultist_primary" blocks="fly_like_a_butterfly">
+      <TalentOptions>
+        <TalentOption identifier="beatcop"/>
+        <TalentOption identifier="extrapowder"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="commando"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="swole"/>
+        <TalentOption identifier="buff"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="berserker"/>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+
+</TalentTrees>
