@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Randomevents>
-  
-  <!--EVENT SETS-->
-  <EventSet identifier="outpostevents" leveltype="outpost" locationtype="outpost,city,research,military,mine" allowatstart="true" minleveldifficulty="0" maxleveldifficulty="80" chooserandom="false" ignorecooldown="true">
-    <EventSet identifier="outpostevents.separatists.triggeralways" allowatstart="true" eventcount="1" faction="separatists">
-      <ScriptedEvent identifier="tormsdalereport_complete" commonness="100" />
+
+
+  <!--Spacial Regions-->
+
+  <EventSet identifier="ucf_spacialregions" leveltype="outpost" allowatstart="true" minleveldifficulty="0" maxleveldifficulty="30" setcount="3" chooserandom="false" exhaustible="true" ignorecooldown="true">
+      <EventSet identifier="spacialregions.ucf_normalevents.easy" chooserandom="false" allowatstart="true">
+        <ScriptedEvent identifier="ucf_mission_cargo_any" />
+        <ScriptedEvent identifier="ucf_mission_mining_any" commonness="100" faction="unitedcitizenfederation" />
+      </EventSet>
+      <EventSet identifier="spacialregions.ucf_friendlyevents.easy" chooserandom="false" allowatstart="true" locationtype="ucf_ship,ucf_station,ucf_city,ucf_manufactory,ucf_shipyard">
+        <ScriptedEvent identifier="ucf_mission_arachnidnest_any" />
+        <ScriptedEvent identifier="ucf_mission_killarachnid_any" />
+      </EventSet>
+      <EventSet identifier="spacialregions.ucf_attackevents.easy" chooserandom="false" allowatstart="true" locationtype="ucf_abandonedship,ucf_abandonedplanet">
+        <ScriptedEvent identifier="ucf_mission_arachnidplanettakeover_any" />
+        <ScriptedEvent identifier="ucf_mission_arachnidoutposttakeover_any" />
+      </EventSet>
     </EventSet>
-  </EventSet>
+
+
+
 
 </Randomevents>

@@ -13,6 +13,37 @@
 
 <!-- UCF -->
   <OutpostConfig
+    identifier="ucf_ship"
+    totalmodulecount="1" 
+    minhallwaylength="0"
+    replaceinradiation="ucf_abandonedship"
+    outposttag="ucf_ship"
+    allowedlocationtypes="ucf_ship">
+    <npcs>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantship"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
+    identifier="ucf_planet_1"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="2" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="0"
+    allowedlocationtypes="ucf_planet_1">
+    <modulecount flag="AbandonedAirlock" count="1"/>
+    <modulecount flag="AbandonedEngineeringModule" count="1"/>
+
+    <npcs>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantplanet"/>
+    </npcs>
+  </OutpostConfig>
+
+  <OutpostConfig
     identifier="ucf_station"
     replaceinradiation="abandonedoutpost"
     totalmodulecount="3" 
@@ -23,9 +54,9 @@
     <modulecount flag="UCF_Station_Stage2" count="2"/>
 
     <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantoutpost"/>
     </npcs>
   </OutpostConfig>
 
@@ -41,9 +72,9 @@
     <modulecount flag="UCF_Station_Security" count="1"/>
 
     <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantcity"/>
     </npcs>
   </OutpostConfig>
 
@@ -58,26 +89,26 @@
     <modulecount flag="UCF_Station_Stage2" count="2"/>
 
     <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantrefinery"/>
     </npcs>
   </OutpostConfig>
 
   <OutpostConfig
-    identifier="ucf_manufactorium"
+    identifier="ucf_manufactory"
     replaceinradiation="abandonedoutpost"
     totalmodulecount="2" 
     appendtoreachtotalmodulecount="false"
     minhallwaylength="0"
-    allowedlocationtypes="ucf_manufactorium">
+    allowedlocationtypes="ucf_manufactory">
     <modulecount flag="UCF_Manu_Stage1" count="1"/>
     <modulecount flag="UCF_Manu_Stage2" count="1"/>
 
     <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantmanufactory"/>
     </npcs>
   </OutpostConfig>
 
@@ -92,31 +123,13 @@
     <modulecount flag="UCF_Station_Stage2" count="2"/>
 
     <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_subupgrade"/>
-      <npc from="federation_npcs" identifier="federation_subsales"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
+      <npc from="ucf_npcs" identifier="ucf_outpostmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_hrmanager"/>
+      <npc from="ucf_npcs" identifier="ucf_subupgrade"/>
+      <npc from="ucf_npcs" identifier="ucf_subsales"/>
+      <npc from="ucf_npcs" identifier="ucf_merchantshipyard"/>
     </npcs>
   </OutpostConfig>
-
-  <OutpostConfig
-    identifier="ucf_quarantine"
-    replaceinradiation="abandonedoutpost"
-    totalmodulecount="3" 
-    appendtoreachtotalmodulecount="false"
-    minhallwaylength="0"
-    allowedlocationtypes="ucf_quarantine">
-    <modulecount flag="UCF_Station_Stage1" count="1"/>
-    <modulecount flag="UCF_Station_Stage2" count="2"/>
-
-    <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_hrmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
-    </npcs>
-  </OutpostConfig>
-
 
 
 <!-- Arachnids -->
@@ -133,34 +146,12 @@
   </OutpostConfig>
 
 
-<!-- Ships -->
-  <OutpostConfig
-    identifier="ucf_ship"
-    totalmodulecount="1" 
-    minhallwaylength="0"
-    replaceinradiation="ucf_ship_abandoned"
-    outposttag="ucf_ship"
-    allowedlocationtypes="ucf_ship_location">
-    <npcs>
-      <npc from="federation_npcs" identifier="federation_outpostmanager"/>
-      <npc from="federation_npcs" identifier="federation_merchantoutpost"/>
-    </npcs>
-  </OutpostConfig>
-
-  <OutpostConfig
-    identifier="ucf_ship_abandoned"
-    totalmodulecount="1" 
-    minhallwaylength="0"
-    replaceinradiation="abandonedoutpost"
-    outposttag="ucf_ship_abandoned"
-    allowedlocationtypes="ucf_abandonedship_location">
-  </OutpostConfig>
-
 
 <!-- Asteroids -->
   <OutpostConfig
     identifier="asteroid_1"
-    totalmodulecount="7" minhallwaylength="0"
+    totalmodulecount="7" 
+    minhallwaylength="0"
     allowedlocationtypes="asteroid_1"
     spawncrewinsideoutpost="false"
     alwaysdestructible="false"
@@ -175,51 +166,25 @@
 <!-- Innie -->
   <OutpostConfig
     identifier="innie_outpost"
-    totalmodulecount="6" minhallwaylength="0"
-    allowedlocationtypes="innie_station"
-    spawncrewinsideoutpost="false"
-    alwaysdestructible="true"
-    alwaysrewireable="true"
-    allowstealing="true">
+    totalmodulecount="2" 
+    minhallwaylength="0"
+    allowedlocationtypes="innie_station">
     <modulecount flag="AbandonedAirlock" count="1"/>
     <modulecount flag="AbandonedEngineeringModule" count="1"/>
-    <modulecount flag="AbandonedAdminModule" count="1"/>
-    <modulecount flag="AbandonedCrewModule" count="1"/>
-    <modulecount flag="AbandonedResearchModule" count="1"/>
-    <modulecount flag="AbandonedSecurityModule" count="1"/>
-  </OutpostConfig>
-
-
-<!-- Skinny -->
-  <OutpostConfig
-    identifier="skinny_outpost"
-    totalmodulecount="6" minhallwaylength="0"
-    allowedlocationtypes="skinny_planet"
-    spawncrewinsideoutpost="false"
-    alwaysdestructible="true"
-    alwaysrewireable="true"
-    allowstealing="true">
-    <modulecount flag="AbandonedAirlock" count="1"/>
-    <modulecount flag="AbandonedEngineeringModule" count="1"/>
-    <modulecount flag="AbandonedAdminModule" count="1"/>
-    <modulecount flag="AbandonedCrewModule" count="1"/>
-    <modulecount flag="AbandonedResearchModule" count="1"/>
-    <modulecount flag="AbandonedSecurityModule" count="1"/>
   </OutpostConfig>
 
 
 
-
-
-
+<!-- Abandoned Locations -->
   <OutpostConfig
     identifier="abandonedoutpost"
-    totalmodulecount="6" minhallwaylength="0"
-    allowedlocationtypes="Abandoned"
+    totalmodulecount="6" 
+    minhallwaylength="0"
     spawncrewinsideoutpost="false"
     alwaysdestructible="true"
     alwaysrewireable="true"
-    allowstealing="true">
+    allowstealing="true"
+    allowedlocationtypes="Abandoned">
     <modulecount flag="AbandonedAirlock" count="1"/>
     <modulecount flag="AbandonedEngineeringModule" count="1"/>
     <modulecount flag="AbandonedAdminModule" count="1"/>
@@ -228,6 +193,35 @@
     <modulecount flag="AbandonedSecurityModule" count="1"/>
   </OutpostConfig>
 
+  <OutpostConfig
+    identifier="ucf_abandonedship"
+    totalmodulecount="1" 
+    minhallwaylength="0"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true"
+    outposttag="ucf_abandonedship"
+    allowedlocationtypes="ucf_abandonedship">
+  </OutpostConfig>
+
+
+  <OutpostConfig
+    identifier="ucf_abandonedplanet"
+    totalmodulecount="2" 
+    minhallwaylength="0"
+    spawncrewinsideoutpost="false"
+    alwaysdestructible="true"
+    alwaysrewireable="true"
+    allowstealing="true"
+    allowedlocationtypes="ucf_abandonedplanet">
+    <modulecount flag="AbandonedAirlock" count="1"/>
+    <modulecount flag="AbandonedEngineeringModule" count="1"/>
+  </OutpostConfig>
+
+
+
+<!-- Fallback -->
   <OutpostConfig
     identifier="Outpost"
     totalmodulecount="6" minhallwaylength="0"
@@ -252,7 +246,6 @@
       <npc from="outpostnpcs1" identifier="securitynpccoalition"/>
     </npcs>
   </OutpostConfig>
-
 
 
 

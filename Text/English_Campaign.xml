@@ -2390,17 +2390,17 @@
   <locationnameformat.ucf_manufactorium>[name] Manufactorium</locationnameformat.ucf_manufactorium>
 <locationname.ucf_shipyard>UCF Shipyard</locationname.ucf_shipyard>
   <locationnameformat.ucf_shipyard>[name] Shipyard</locationnameformat.ucf_shipyard>
-<locationname.ucf_quarantine>UCF Quarantine</locationname.ucf_quarantine>
-  <locationnameformat.ucf_quarantine>[name] Quarantine</locationnameformat.ucf_quarantine>
+<locationname.ucf_planet_1>UCF Planet</locationname.ucf_planet_1>
+  <locationnameformat.ucf_planet_1>[name]</locationnameformat.ucf_planet_1>
+
+
+
+
+
 
 
 <locationname.innie_station>Innie Station</locationname.innie_station>
   <locationnameformat.innie_station>[name] Station</locationnameformat.innie_station>
-
-
-<locationname.skinny_planet>Skinny Planet</locationname.skinny_planet>
-  <locationnameformat.skinny_planet>[name]</locationnameformat.skinny_planet>
-
 
 
 
@@ -4495,9 +4495,6 @@
 <voterejectedpleasewait>Your previous vote was rejected. You need to wait at least [time] seconds before you can vote again.</voterejectedpleasewait>
 
 <!-- Factions -->
-<faction.mobileinfantry>Mobile Infantry</faction.mobileinfantry>
-<faction.mobileinfantry.description>The Mobile Infantry is the ground military component of the United Citizen Federation. The primary military arm of the Federal Armed Services, it is comprised of volunteers from all Federal worlds, eliminating the nationalistic tendencies caused by sovereign territories that provoked the Disorders and instilling personal sense of duty in the future Citizen franchise.</faction.mobileinfantry.description>
-<faction.mobileinfantry.shortdescription>The Mobile Infantry is the ground military component of the United Citizen Federation. The primary military arm of the Federal Armed Services.</faction.mobileinfantry.shortdescription>
 <faction.unitedcitizenfederation>United Citizen Federation</faction.unitedcitizenfederation>
 <faction.unitedcitizenfederation.description>The Federation is the unified government of Earth, all inhabited Sol System planets as well as its associated colonies, territories and outposts. The Federation is a veteran-led, republic-style system of government based in Geneva, Switzerland and is ruled by the Sky Marshal.</faction.unitedcitizenfederation.description>
 <faction.unitedcitizenfederation.shortdescription>The Federation is the unified government of Earth, all inhabited Sol System planets as well as its associated colonies, territories and outposts.</faction.unitedcitizenfederation.shortdescription>
@@ -4521,8 +4518,10 @@
 
 <!-- Campaign meta texts -->
 <campaignstart>Fight for the Federation, the Arachnids, or the Skinnies.</campaignstart>
-<campaignstart1>In the 22nd century, humanity encountered two alien species—the Arachnids and the Skinnies. Diplomatic missions were deployed, only to be met with hostility and unprovoked aggression. \n\nThis is the 23rd century. The United Citizen Federation (the Federation or UCF) controls almost the entirety of humanity. With the backing of the Federation Armed Services, humans have expanded across the stars, establishing new colonies on distant worlds. </campaignstart1><campaignstart2>It was soon discovered that both species shared a singular goal: the total annihilation of other races. The Arachnid Quarantine Zone (AQZ) and Skinny Quarantine Zone (SQZ) were then established after contact was made and the threat was understood. \n\nThirty years later, without provocation, the Arachnids sent a meteor to the city of Buenos Aires, causing 21.2 million casualties. The Federation declared war. Your duty is to forge ahead. Defend human colonies and bring about the Federation's glory.</campaignstart2>
-<campaignstart3>Your [submarine] ship is newly-built and docked at [location], specifically for your crew. Choose whether you'd like to assist Humanity, the Bugs, or the Skinnies. Forge your own path forward. \n\nThe stars open before you—explore, help expand colonies, contain the Human, Bug, or Skinny menaces, and make of this place what you will.</campaignstart3><campaignending1>SAMPLETEXT</campaignending1>
+<campaignstart1>In the 22nd century, humanity encountered two alien species—the Arachnids and the Skinnies. Diplomatic missions were deployed, only to be met with hostility and unprovoked aggression. \n\nThis is the 23rd century. The United Citizen Federation (the Federation or UCF) controls almost the entirety of humanity. With the backing of the Federation Armed Services, humans have expanded across the stars, establishing new colonies on distant worlds. </campaignstart1>
+<campaignstart2>It was soon discovered that both species shared a singular goal: the total annihilation of other races. The Arachnid Quarantine Zone (AQZ) and Skinny Quarantine Zone (SQZ) were then established after contact was made and the threat was understood. \n\nThirty years later, without provocation, the Arachnids sent a meteor to the city of Buenos Aires, causing 21.2 million casualties. The Federation declared war. Your duty is to forge ahead. Defend human colonies and bring about the Federation's glory.</campaignstart2>
+<campaignstart3>Your [submarine] ship is newly-built and docked at [location], specifically for your crew. Choose whether you'd like to assist Humanity, the Bugs, or the Skinnies. Forge your own path forward. \n\nThe stars open before you—make of this place what you will.</campaignstart3>
+<campaignending1>SAMPLETEXT</campaignending1>
 <campaignending2>SAMPLETEXT</campaignending2>
 <campaignending3>SAMPLETEXT</campaignending3>
 <campaignend1>Hints of what are to come flash before your eyes: a crystalline space, something coiled within itself slumbering fitfully. But you are not yet ready to fully experience this. Your fate is still being woven by the Undertow.</campaignend1>

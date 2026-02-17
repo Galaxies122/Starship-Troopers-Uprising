@@ -4,8 +4,8 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                             Federation NPCs                               -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <npcset identifier="federation_npcs">
-    <npc identifier="federation_outpostmanager" job="outpostmanager" tags="ucf_missionnpc" spawnpointtags="admin" behavior="StayInHull" preferredoutpostmoduletypes="admin,adminmodule">
+  <npcset identifier="ucf_npcs">
+    <npc identifier="ucf_outpostmanager" job="outpostmanager" tags="ucf_missionnpc" spawnpointtags="admin" behavior="StayInHull" preferredoutpostmoduletypes="admin,adminmodule">
       <ItemSet commonness="1">
         <Item identifier="administratorclothes" equip="true"/>
         <Item identifier="idcard" equip="true"/>
@@ -18,7 +18,7 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="federation_hrmanager" job="watchman" spawnpointtags="hr" healthmultiplier="1.1" campaigninteractiontype="Crew" behavior="StayInHull">
+    <npc identifier="ucf_hrmanager" job="watchman" spawnpointtags="hr" healthmultiplier="1.1" campaigninteractiontype="Crew" behavior="StayInHull">
       <ItemSet commonness="1">
         <Item identifier="quartermasterclothes" equip="true"/>
         <Item identifier="idcard" equip="true"/>
@@ -36,7 +36,7 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="federation_subupgrade" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="Upgrade" behavior="StayInHull">
+    <npc identifier="ucf_subupgrade" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="Upgrade" behavior="StayInHull">
       <ItemSet commonness="1">
         <Item identifier="toolbelt" equip="true">
           <Item identifier="weldingfueltank"/>
@@ -59,7 +59,7 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="federation_subsales" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="PurchaseSub" behavior="StayInHull">
+    <npc identifier="ucf_subsales" job="mechanic" commonness="1" spawnpointtags="engineering" healthmultiplier="1.1" campaigninteractiontype="PurchaseSub" behavior="StayInHull">
       <ItemSet commonness="1">
         <Item identifier="toolbelt" equip="true">
           <Item identifier="weldingfueltank"/>
@@ -79,7 +79,7 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="federation_merchantoutpost" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+    <npc identifier="ucf_merchantship" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
       <ItemSet commonness="1">
         <Item identifier="baseballcap" equip="true"/>
         <Item identifier="crewchiefclothes" equip="true"/>
@@ -95,7 +95,87 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="federation_watchman" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+    <npc identifier="ucf_merchantplanet" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="ucf_merchantoutpost" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="ucf_merchantcity" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="ucf_merchantmanufactory" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="ucf_merchantrefinery" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
+      <ItemSet commonness="1">
+        <Item identifier="baseballcap" equip="true"/>
+        <Item identifier="crewchiefclothes" equip="true"/>
+        <Item identifier="idcard" equip="true"/>
+        <Item identifier="wrench" equip="true"/>
+        <Item identifier="screwdriver" equip="true"/>
+        <Item identifier="revolver">
+          <Item identifier="revolverround" amount="6"/>
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="ucf_merchantshipyard" job="watchman" spawnpointtags="shop" healthmultiplier="1.1" campaigninteractiontype="Store" behavior="StayInHull">
       <ItemSet commonness="1">
         <Item identifier="baseballcap" equip="true"/>
         <Item identifier="crewchiefclothes" equip="true"/>

@@ -4,67 +4,37 @@
   <EventPrefabs>
 
     <!--Federation Missions-->
-    <ScriptedEvent identifier="ucf_cargo_mechanical" commonness="100" requiredDestinationTypes="ucf_station">
-      <ConversationAction text="EventText.cargo_mechanical" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_station" />
+    <ScriptedEvent identifier="ucf_mission_cargo_any" commonness="100">
+      <ConversationAction text="EventText.ucf_cargo_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+      <MissionAction missiontag="ucf_cargo" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_cargo_electrical" commonness="100" requiredDestinationTypes="ucf_station">
-      <ConversationAction text="EventText.ucf_cargo_electrical" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_station" />
+    <ScriptedEvent identifier="ucf_mission_mining_any" commonness="100">
+      <ConversationAction text="EventText.ucf_mining_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+      <MissionAction missiontag="ucf_mining" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_cargo_emergencymeds" commonness="100" requiredDestinationTypes="ucf_station">
-      <ConversationAction text="EventText.ucf_cargo_emergencymeds" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_station" />
+    <ScriptedEvent identifier="ucf_mission_arachnidnest_any" commonness="100">
+      <ConversationAction text="EventText.ucf_arachnidnest_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+      <MissionAction missiontag="ucf_arachnidnest" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_mining_pyromorphite" commonness="100" requiredDestinationTypes="ucf_station">
-      <ConversationAction text="EventText.ucf_mining_pyromorphite" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_station" />
+    <ScriptedEvent identifier="ucf_mission_killarachnid_any" commonness="100">
+      <ConversationAction text="EventText.ucf_killarachnid_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+      <MissionAction missiontag="ucf_killarachnid" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_arachnidplanettakeover_1" commonness="100" requiredDestinationTypes="bug_planet_1">
-      <ConversationAction text="EventText.ucf_planettakeover" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+    <ScriptedEvent identifier="ucf_mission_arachnidplanettakeover_any" commonness="100">
+      <ConversationAction text="EventText.ucf_arachnidplanettakeover_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
       <MissionAction missiontag="ucf_arachnidplanettakeover" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_arachnidoutposttakeover_1" commonness="100" requiredDestinationTypes="ucf_abandonedship">
-      <ConversationAction text="EventText.outposttakeover" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
+    <ScriptedEvent identifier="ucf_mission_arachnidoutposttakeover_any" commonness="100">
+      <ConversationAction text="EventText.ucf_arachnidoutposttakeover_any" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
       <MissionAction missiontag="ucf_arachnidoutposttakeover" />
     </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_killarachnid_1" commonness="100">
-      <ConversationAction text="EventText.ucf_killmonster" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_killmonster_1" />
-    </ScriptedEvent>
 
-    <ScriptedEvent identifier="ucf_salvagewreck_1" commonness="100">
-      <ConversationAction text="EventText.ucf_salvagewreck" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_salvagewreck_1" />
-    </ScriptedEvent>
-
-    <ScriptedEvent identifier="ucf_salvagecargo_1" commonness="100">
-      <ConversationAction text="EventText.ucf_salvagecargo" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_salvagecargo_1" />
-    </ScriptedEvent>
-
-    <ScriptedEvent identifier="ucf_arachnidnest_1" commonness="100">
-      <ConversationAction text="EventText.ucf_arachnidnest" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-      <MissionAction missiontag="ucf_arachnidnest_1" />
-    </ScriptedEvent>
-
-    <ScriptedEvent identifier="ucf_escort_1" commonness="60" requiredDestinationTypes="anyoutpost">
-      <CheckReputationAction targettype="faction" identifier="unitedcitizenfederation" condition="gte 30">
-        <Success>
-          <ConversationAction text="EventText.ucf_escort_1" speakertag="ucf_missionnpc" endeventifinterrupted="false" dialogtype="Small" />
-          <MissionAction missiontag="ucf_escort_1" />
-        </Success>
-        <Failure>
-          <!-- do nothing -->
-        </Failure>
-      </CheckReputationAction>
-    </ScriptedEvent>
 
   </EventPrefabs>
 

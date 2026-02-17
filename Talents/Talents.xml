@@ -38,7 +38,7 @@
     </Description>
     <AbilityGroupInterval interval="1.0">
       <Abilities>
-        <CharacterAbilityGiveAffliction affliction="mindsense" strength="1.0" setvalue="true" />
+        <CharacterAbilityGiveAffliction affliction="psychicintuition" strength="1.0" setvalue="true" />
         <CharacterAbilityReduceAffliction afflictionId="bleeding" amount="1" />
       </Abilities>
     </AbilityGroupInterval>

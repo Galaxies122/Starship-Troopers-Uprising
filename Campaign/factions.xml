@@ -1,28 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
-  <Faction identifier="mobileinfantry" initialreputation="45" minreputation="-100" maxreputation="100" menuorder="0" controlledoutpostpercentage="5" opposingfaction="arachnids">
+  <!--
+  <Faction identifier="mobileinfantry" initialreputation="45" minreputation="-100" maxreputation="100" menuorder="4" controlledoutpostpercentage="5" opposingfaction="arachnids">
     <Icon name="MIIcon" texture="%ModDir%/UI/mi_logo_large.png" sourcerect="0,0,350,350" color="209,171,21,255" />
     <IconSmall name="MIIconSmall" texture="%ModDir%/UI/mi_logo_small.png" sourcerect="10,27,105,83" />
     <Portrait name="MIPortrait" texture="%ModDir%/UI/faction_canvas_mi.png" sourcerect="0,0,1605,534" color="255,255,255,255" />
     <AutomaticMission leveltype="LocationConnection" missiontag="arachnidattack" minreputation="-100" maxreputation="-50" MaxDistanceFromFactionOutpost="3" DisallowBetweenOtherFactionOutposts="true" minprobability="0.2" maxprobability="0.01" />
-  </Faction>
-  <Faction identifier="unitedcitizenfederation" initialreputation="15" minreputation="-100" maxreputation="100" menuorder="1" controlledoutpostpercentage="20" opposingfaction="skinnies">
+  </Faction> 
+  -->
+  <Faction identifier="unitedcitizenfederation" initialreputation="15" minreputation="-100" maxreputation="100" menuorder="0" controlledoutpostpercentage="20" opposingfaction="skinnies">
     <Icon name="UCFIcon" texture="%ModDir%/UI/ucf_logos.png" sourcerect="8,63,280,285" color="105,173,95,255" origin="0.5,0.5" />
     <IconSmall name="UCFSmall" texture="%ModDir%/UI/ucf_logos.png" sourcerect="273,4,68,63" />
     <Portrait name="UCFPortrait" texture="Content/UI/Server/PlaystyleCasual.png" sourcerect="0,120,360,360" color="255,255,255,255" />
     <AutomaticMission leveltype="LocationConnection" missiontag="arachnidattack" minreputation="-100" maxreputation="-50" MaxDistanceFromFactionOutpost="3" DisallowBetweenOtherFactionOutposts="true" minprobability="0.2" maxprobability="0.01" />
   </Faction>
-  <Faction identifier="arachnids" initialreputation="-100" minreputation="-100" maxreputation="100" menuorder="2" controlledoutpostpercentage="75" startoutpost="false" opposingfaction="mobileinfantry">
+  <Faction identifier="arachnids" initialreputation="-100" minreputation="-100" maxreputation="100" menuorder="1" controlledoutpostpercentage="75" startoutpost="false" opposingfaction="mobileinfantry">
     <Icon name="ArachnidIcon" texture="%ModDir%/UI/arachnid_logos.png" sourcerect="0,0,360,360" color="217,115,115,255" />
     <Portrait name="ArachnidPortrait" texture="Content/UI/Server/PlaystyleSerious.png" sourcerect="0,120,360,360" />
   </Faction>
-  <Faction identifier="skinnies" initialreputation="-55" minreputation="-100" maxreputation="100" menuorder="3" secondarycontrolledoutpostpercentage="10" opposingfaction="unitedcitizenfederation">
+  <Faction identifier="skinnies" initialreputation="-55" minreputation="-100" maxreputation="100" menuorder="2" secondarycontrolledoutpostpercentage="10" opposingfaction="unitedcitizenfederation">
     <Icon name="SkinniesIcon" texture="%ModDir%/UI/skinny_logo.png" sourcerect="0,0,200,200" color="23,90,138,255" />
     <Portrait name="SkinniesPortrait" texture="Content/UI/Server/ClownFaction.png" sourcerect="0,120,360,360" color="255,255,255,255" />
     <AutomaticMission leveltype="LocationConnection" missiontag="arachnidattack" minreputation="-100" maxreputation="-50" MaxDistanceFromFactionOutpost="3" DisallowBetweenOtherFactionOutposts="true" minprobability="0.2" maxprobability="0.01" />
     <Hireable npcsetidentifier="skinny_npc" npcidentifier="hireableclownveteran" minreputation="50" />
   </Faction>
-  <Faction identifier="insurrectionist" initialreputation="-75" minreputation="-100" maxreputation="100" menuorder="4" secondarycontrolledoutpostpercentage="10" opposingfaction="unitedcitizenfederation">
+  <Faction identifier="insurrectionist" initialreputation="-75" minreputation="-100" maxreputation="100" menuorder="3" secondarycontrolledoutpostpercentage="10" opposingfaction="unitedcitizenfederation">
     <Icon name="InsurrectionistIcon" texture="%ModDir%/UI/insurrectionist_logo.png" sourcerect="24,5,537,501" color="188,107,214,255" origin="0.5,0.5" />
     <IconSmall name="InsurrectionistIconSmall" texture="%ModDir%/UI/insurrectionist_logo.png" sourcerect="798,10,94,128" />
     <Portrait name="InsurrectionistPortrait" texture="%ModDir%/UI/faction_canvas_insurrectionist.png" sourcerect="0,0,1792,421" color="255,255,255,255" />

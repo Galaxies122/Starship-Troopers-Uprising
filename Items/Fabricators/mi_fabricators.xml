@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="Ammunition Fabricator" identifier="st_ammofabricator" tags="ammofabricator,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Ammunition Fabricator" identifier="ammofabricator" tags="ammofabricator,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Upgrade gameversion="0.10.4.0">
       <Repairable Msg="ItemMsgRepairWrench" />
     </Upgrade>
@@ -42,7 +42,7 @@
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="" allowuioverlap="true" />
     <ItemContainer capacity="1" canbeselected="true" hideitems="true" slotsperrow="1" uilabel="" allowuioverlap="true" />
   </Item>
-  <Item name="E-Pulse Charger" identifier="st_epulsecharger" tags="chargingdock,batterycellrecharger" category="Machine" subcategory="Fabricators" scale="0.5" description="">
+  <Item name="E-Pulse Charger" identifier="epulsecharger" tags="chargingdock,batterycellrecharger" category="Machine" subcategory="Fabricators" scale="0.5" description="">
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="64,961,32,22" origin="0.5,0.45" />
     <Sprite name="ammofabnormal" texture="%ModDir%/Items/Fabricators/mi_fabricators.png" sourcerect="6,11,124,264" depth="0.8" origin="0.5,0.5" />
     <BrokenSprite name="ammofabdamage1" texture="%ModDir%/Items/Fabricators/mi_fabricators.png" sourcerect="145,12,129,265" depth="0.8" maxcondition="80" fadein="true" origin="0.5,0.5" />
@@ -81,7 +81,7 @@
       <Containable items="st_epulse_cell_rifle,st_epulse_cell_pistol" />
     </ItemContainer>
   </Item>
-  <Item name="Manufactory" identifier="st_manufactory" tags="manufactory,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="1.2" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Manufactory" identifier="manufactory" tags="manufactory,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="1.2" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Upgrade gameversion="0.10.4.0">
       <Repairable Msg="ItemMsgRepairWrench" />
     </Upgrade>
@@ -123,7 +123,7 @@
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="" allowuioverlap="true" />
     <ItemContainer capacity="1" canbeselected="true" hideitems="true" slotsperrow="1" uilabel="" allowuioverlap="true" />
   </Item>
-  <Item name="Refinery" identifier="st_refinery" tags="refinery,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="1.0" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Refinery" identifier="refinery" tags="refinery,donttakeitems" category="Machine" subcategory="Fabricators" linkable="true" allowedlinks="deconstructor,locker" description="" scale="1.0" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Upgrade gameversion="0.10.4.0">
       <Repairable Msg="ItemMsgRepairWrench" />
     </Upgrade>

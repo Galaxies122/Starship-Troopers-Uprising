@@ -2,24 +2,15 @@
 <Afflictions>
 
   <Affliction
-    identifier="notsotastytarget"
-    type="talentbuff"
+    name="Psychic Intuition"
+    identifier="psychicintuition"
+    type="visionbuff"
     isbuff="true"
     limbspecific="false"
-    maxstrength="1"
-    treatmentthreshold="1000"
-    hideiconafterdelay="true"
-    duration="1"
-    iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
-    <Effect minstrength="0" maxstrength="1"
-            resistancefor="damage"
-            minresistance="0.15"
-            maxresistance="0.15"
-            tag="provocative">
-      <StatValue stattype="SoundRangeMultiplier" value="0.5" />
-      <StatValue stattype="SightRangeMultiplier" value="0.7" />
-    </Effect>
-    <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="3,0" sheetelementsize="128,128" origin="0,0"/>
+    maxstrength="600"
+    MedicalSkillGain="0.01">
+    <Effect minstrength="0" maxstrength="600" strengthchange="-1" ThermalOverlayRange="1500" ThermalOverlayColor="239,222,205,75" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0"/>
   </Affliction>
 
 

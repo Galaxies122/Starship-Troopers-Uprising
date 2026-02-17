@@ -35,21 +35,21 @@
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
     <PreferredContainer secondary="secarmcab" />
     <PreferredContainer secondary="respawncontainer_kingofthehull" amount="8" spawnprobability="1" notcampaign="true"/>
-    <Price baseprice="100" displaynonempty="true" minleveldifficulty="15">
-      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" sold="false" />
-      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="4" />
-      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
-      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="4" />
+    <Price baseprice="9999" displaynonempty="true" minleveldifficulty="15">
+      <Price storeidentifier="ucf_merchantship" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantplanet" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantoutpost" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantcity" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantmanufactory" multiplier="1.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantshipyard" multiplier="1.5" minavailable="1" />
     </Price>
     <Fabricate suitablefabricators="ammofabricator" requiredtime="25" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="25" />
-      <RequiredItem tag="testi" amount="2" description="fabricationdescription.steel" />
+      <RequiredItem identifier="steel" />
     </Fabricate>
     <Fabricate suitablefabricators="ammofabricator" requiredtime="15" requiresrecipe="true" displayname="recycleitem">
       <RequiredSkill identifier="weapons" level="25" />
-      <RequiredItem tag="testi" description="fabricationdescription.lead" />
+      <RequiredItem identifier="steel" />
       <RequiredItem identifier="st_morita1_magazine" mincondition="0.0" maxcondition="0.1" usecondition="false" />
     </Fabricate>
     <Deconstruct time="10">
@@ -74,13 +74,13 @@
     <PreferredContainer secondary="outpostsecarmcab" amount="1" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab,piratesecarmcab" amount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="armcab,weaponholder" />
-    <Price baseprice="390" minleveldifficulty="30">
-      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="1" sold="false" />
-      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="2" />
-      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
-      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="2" />
+    <Price baseprice="9999" minleveldifficulty="30">
+      <Price storeidentifier="ucf_merchantship" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantplanet" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantoutpost" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantcity" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantmanufactory" multiplier="1.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantshipyard" multiplier="1.5" minavailable="1" />
     </Price>
     <Fabricate suitablefabricators="manufactory" requiredtime="35" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="55" />
@@ -110,10 +110,8 @@
       </StatusEffect>
       <RequiredItems items="st_morita1_magazine" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="50" />
-
       <StatusEffect type="InWater" target="This" Condition="0.0" setvalue="true" />
       <StatusEffect type="NotInWater" target="This" Condition="100.0" setvalue="true" />
-
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" containedstateindicatorslot="0" containedstateindicatorstyle="bullet" containedspritedepth="0.56">
       <Containable items="st_morita1_magazine" hide="false" itempos="-40,-10" rotation="-30" />
@@ -153,13 +151,13 @@
       </Attack>
       <StatusEffect type="OnImpact" target="UseTarget">
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
-        <Explosion range="650.0" structuredamage="15" ballastfloradamage="240" itemdamage="25" force="20" severlimbsprobability="0.5" decal="explosion" decalsize="150">
+        <Explosion range="350.0" structuredamage="15" ballastfloradamage="240" itemdamage="50" force="20" severlimbsprobability="0.5" decal="explosionfire" decalsize="350">
           <Affliction identifier="bleeding" strength="300" />
           <Affliction identifier="lacerations" strength="75" />
           <Affliction identifier="explosiondamage" strength="250" />
           <Affliction identifier="stun" strength="3" />
         </Explosion>
-        <Explosion range="1600.0" structuredamage="0" ballastfloradamage="100" itemdamage="25" force="5" interactthroughwalls="false">
+        <Explosion range="1000.0" structuredamage="0" ballastfloradamage="100" itemdamage="100" force="5" interactthroughwalls="false" decal="explosiondebris" decalsize="1000">
           <Affliction identifier="bleeding" strength="35" />
           <Affliction identifier="lacerations" strength="65" />
           <Affliction identifier="lacerations" strength="40" probability="0.25" />
@@ -173,20 +171,21 @@
   <Item name="Morita Tonshi Magazine" identifier="st_moritatonshi_mag" maxstacksize="8" maxstacksizecharacterinventory="2" scale="0.5" category="Weapon" subcategory="Mobile Infantry" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultrifleammo,handheldammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="assaultrifle" minamount="1" maxamount="1" spawnprobability="1" />
     <PreferredContainer primary="armcab" secondary="secarmcab" />
-    <Price baseprice="300" sold="false" minleveldifficulty="60" displaynonempty="true">
-      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    <Price baseprice="9999" sold="false" minleveldifficulty="60" displaynonempty="true">
+      <Price storeidentifier="ucf_merchantship" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantplanet" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantoutpost" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantcity" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantmanufactory" multiplier="1.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantshipyard" multiplier="1.5" minavailable="1" />
     </Price>
     <Fabricate suitablefabricators="ammofabricator" requiredtime="35" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem tag="testi" amount="2" description="fabricationdescription.steel" />
+      <RequiredItem identifier="steel" />
     </Fabricate>
     <Fabricate suitablefabricators="ammofabricator" requiredtime="35" displayname="recycleitem" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem tag="testi" amount="2" description="fabricationdescription.steel" />
+      <RequiredItem identifier="steel" />
       <RequiredItem identifier="st_moritatonshi_mag" mincondition="0.0" maxcondition="0.1" usecondition="false" />
     </Fabricate>
     <Deconstruct time="15">
@@ -205,12 +204,13 @@
   </Item>
   <Item name="Morita 2 (Tonshi)" identifier="st_moritatonshi" category="Weapon" subcategory="Mobile Infantry" cargocontaineridentifier="metalcrate" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon,provocativetohumanai" Scale="0.4" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder" />
-    <Price baseprice="5500" sold="false">
-      <Price storeidentifier="merchantoutpost" multiplier="1.5" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    <Price baseprice="9999" sold="false">
+      <Price storeidentifier="ucf_merchantship" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantplanet" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantoutpost" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantcity" multiplier="2.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantmanufactory" multiplier="1.0" minavailable="1" />
+      <Price storeidentifier="ucf_merchantshipyard" multiplier="1.5" minavailable="1" />
     </Price>
     <Fabricate suitablefabricators="manufactory" requiredtime="330" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="95" />
@@ -261,5 +261,7 @@
     </Quality>
     <SkillRequirementHint identifier="weapons" level="100" />
   </Item>
+
+
 
 </Items>

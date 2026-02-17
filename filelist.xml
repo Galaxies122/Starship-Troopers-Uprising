@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Starship Troopers Uprising (Alpha)" modversion="1.0.29" corepackage="True" steamworkshopid="3411427079" gameversion="1.11.5.0">
+<contentpackage name="Starship Troopers - Uprising (Alpha)" modversion="1.0.29" corepackage="True" steamworkshopid="3411427079" gameversion="1.11.5.0">
   <Item file="%ModDir%/Items/Weapons/Moritas.xml" />
   <Item file="%ModDir%/Items/Weapons/E-Pulse.xml" />
   <Item file="%ModDir%/Items/CampaignItems/campaignitems.xml" />
@@ -8,6 +8,7 @@
   <Item file="%ModDir%/Items/Outfits/mi_helmets.xml" />
   <Item file="%ModDir%/Items/Turrets/arachnidTurrets.xml" />
   <Item file="%ModDir%/Items/JobGear/JobSpawn.xml" />
+  <Item file="%ModDir%/Items/Materials/materials.xml" />
   <Jobs file="%ModDir%/Jobs/jobs.xml" />
   <Jobs file="%ModDir%/Jobs/jobsoverride.xml" />
   <Talents file="Content/Talents/Assistant/TalentsAssistant.xml" />
@@ -46,6 +47,8 @@
   <RandomEvents file="Content/Events/PvPEvents.xml" />
   <Factions file="%ModDir%/Campaign/factions.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
+  <Particles file="Content/Particles/ParticlePrefabs.xml" />
+  <Decals file="Content/Particles/DecalPrefabs.xml" />
   <Afflictions file="%ModDir%/Talents/TalentAfflictions.xml" />
   <NPCSets file="%ModDir%/NPCs/LocationNPCs.xml" />
   <NPCSets file="Content/NPCPrefabs/CombatMissionNpcs.xml" />
@@ -320,8 +323,6 @@
   <WreckAIConfig file="Content/Map/Thalamus/ThalamusAI.xml" />
   <BackgroundCreaturePrefabs file="Content/BackgroundCreatures/BackgroundCreaturePrefabs.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/Common/CommonLevelObjects.xml" />
-  <Particles file="Content/Particles/ParticlePrefabs.xml" />
-  <Decals file="Content/Particles/DecalPrefabs.xml" />
   <EventManagerSettings file="Content/EventManagerSettings.xml" />
   <Item file="Content/Map/Outposts/AbandonedOutpost/AbandonedOutpostDecals.xml" />
   <NPCPersonalityTraits file="Content/Characters/Human/PersonalityTraits.xml" />
@@ -505,6 +506,9 @@
   <ItemAssembly file="Content/Items/Assemblies/WiredSurveillanceSystem.xml" />
   <StartItems file="Content/Items/StartItems.xml" />
   <Tutorials file="Content/Tutorials/Tutorials.xml" />
+  <Outpost file="%ModDir%/Campaign/Map/Outposts/UCF Leblanc.sub" />
+  <Outpost file="%ModDir%/Campaign/Map/Outposts/UCF Mago.sub" />
+  <Outpost file="%ModDir%/Campaign/Map/Outposts/UCF S-22.sub" />
   <Outpost file="Content/Tutorials/BasicsTutorial.sub" />
   <Outpost file="Content/Tutorials/TutorialOutpost.sub" />
   <Outpost file="Content/Tutorials/CampaignStartOutpost.sub" />
